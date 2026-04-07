@@ -1,12 +1,89 @@
 # Awesome AI Tools 🔥
 
 > A curated list of awesome AI tools, frameworks, libraries, and resources to supercharge your workflow.
+> 精心整理的 AI 工具列表，助你效率飞升！
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Stars](https://img.shields.io/github/stars/jingjing737/awesome-ai-tools?style=flat)](https://github.com/jingjing737/awesome-ai-tools/stargazers)
 [![License](https://img.shields.io/github/license/jingjing737/awesome-ai-tools)](LICENSE)
 
-## Contents
+---
+
+# ⭐ Featured Project | 明星项目
+
+## 🔥 DevTools Hub - 开发者工具箱
+
+> **115 个实用命令 · macOS/Linux/Windows 全平台支持**
+
+```
+pip install devtools-hub
+# 或者
+brew install devtools-hub
+```
+
+**[GitHub](https://github.com/jingjing737/devtools-hub) · [PyPI](https://pypi.org/project/devtools-hub/) · [文档](https://github.com/jingjing737/devtools-hub#readme)**
+
+---
+
+### 功能一览 | Features at a Glance
+
+| 分类 | 命令示例 | 说明 |
+|------|----------|------|
+| 🚀 **系统监控** | `devtools cpu` `devtools mem` `devtools disk` | 实时监控 CPU、内存、磁盘 |
+| 🌐 **网络工具** | `devtools net` `devtools ports` `devtools ip` | 网络速度、端口扫描、IP 查询 |
+| ⚡ **性能测试** | `devtools bench` | 一键性能基准测试 |
+| 📊 **进程管理** | `devtools top` `devtools ps` | 查看高占用进程 |
+| 🛠️ **开发辅助** | `devtools ping` `devtools dns` `devtools curl` | 开发者常用网络工具 |
+| 🐳 **Docker** | `devtools docker ps` `devtools docker images` | Docker 容器管理 |
+| 📁 **文件工具** | `devtools find` `devtools du` `devtools size` | 文件查找和大小分析 |
+| 🔧 **系统工具** | `devtools uptime` `devtools who` `devtools battery` | 系统信息和电池状态 |
+
+### 使用示例 | Quick Examples
+
+```bash
+# 系统状态一览
+$ devtools status
+┌─────────────────────────────────────┐
+│  🖥️ MacBook-Air | Darwin 24.6.0   │
+│  CPU: 45% (8核) | 内存: 62%        │
+│  磁盘: 35% | 网络: ↑2.1 ↓5.8 MB/s │
+└─────────────────────────────────────┘
+
+# 性能基准测试
+$ devtools bench
+{
+  "cpu_score": 245.3,
+  "memory_score": 189.2,
+  "disk_score": 312.8,
+  "total_score": 747.3
+}
+
+# 端口扫描
+$ devtools ports 80 443 22 3306
+🔍 Scanning 4 ports...
+  ✅ 80 (HTTP) - open
+  ✅ 443 (HTTPS) - open
+  ❌ 22 (SSH) - filtered
+  ❌ 3306 (MySQL) - closed
+
+# 自更新到最新版本
+$ dev selfupdate
+📦 正在检查更新...
+✅ 已更新到 v3.0.0
+```
+
+### 为什么选择 DevTools Hub？
+
+- ✅ **115+ 命令** - 涵盖开发日常所需
+- ✅ **零配置** - 安装即用，无需复杂设置
+- ✅ **跨平台** - macOS / Linux / Windows
+- ✅ **自更新** - 一条命令升级到最新版本
+- ✅ **开源免费** - MIT 许可证
+- ✅ **持续更新** - 活跃开发中
+
+---
+
+## 📚 Table of Contents | 目录
 
 - [Large Language Models](#large-language-models)
 - [Image Generation](#image-generation)
@@ -14,6 +91,7 @@
 - [Video Generation](#video-generation)
 - [Code Assistant](#code-assistant)
 - [AI Agents & Automation](#ai-agents--automation)
+- [Developer Tools](#developer-tools)
 - [Productivity](#productivity)
 - [Data & Analytics](#data--analytics)
 - [Writing & Content](#writing--content)
@@ -30,9 +108,9 @@
 
 ---
 
-## Large Language Models
+## Large Language Models | 大语言模型
 
-### Cloud APIs
+### Cloud APIs | 云端 API
 - [OpenAI GPT-4](https://platform.openai.com/) - Most capable GPT model
 - [Claude](https://claude.ai/) - Anthropic's AI assistant
 - [Gemini](https://gemini.google.com/) - Google's multimodal AI
@@ -40,14 +118,14 @@
 - [Cohere](https://cohere.com/) - Enterprise AI platform
 - [Anthropic Claude API](https://www.anthropic.com/) - Claude API access
 
-### Local Models
+### Local Models | 本地模型
 - [Ollama](https://ollama.ai/) - Run LLMs locally
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++
 - [LM Studio](https://lmstudio.ai/) - Discover, download, and run LLMs
 - [text-generation-webui](https://github.com/oobabooga/text-generation-webui) - Web UI for LLMs
 - [KoboldCpp](https://github.com/LostRuins/koboldcpp) - GGML LLM inference
 
-### Chinese LLMs
+### Chinese LLMs | 中文大模型
 - [通义千问 Qwen](https://tongyi.aliyun.com/) - Alibaba's LLM
 - [文心一言](https://yiyan.baidu.com/) - Baidu's LLM
 - [智谱清言](https://chatglm.cn/) - Zhipu's LLM
@@ -55,7 +133,7 @@
 
 ---
 
-## Image Generation
+## Image Generation | 图像生成
 
 - [Midjourney](https://www.midjourney.com/) - AI image generation
 - [DALL-E](https://openai.com/dall-e-3) - OpenAI's image model
@@ -68,7 +146,7 @@
 - [Runway](https://runwayml.com/) - AI creative tools
 - [Civitai](https://civitai.com/) - AI model sharing
 
-### Image Editing
+### Image Editing | 图像编辑
 - [Remove.bg](https://remove.bg/) - AI background removal
 - [cleanup.pictures](https://cleanup.pictures/) - AI object removal
 - [Let's Enhance](https://letsenhance.io/) - AI image upscaling
@@ -76,7 +154,7 @@
 
 ---
 
-## Audio & Speech
+## Audio & Speech | 音频与语音
 
 - [ElevenLabs](https://elevenlabs.io/) - AI voice cloning
 - [Whisper](https://openai.com/research/whisper) - Speech recognition
@@ -89,2596 +167,330 @@
 - [WellSaid Labs](https://wellsaidlabs.com/) - AI voice synthesis
 - [Respeecher](https://respeecher.com/) - AI voice conversion
 
-### Audio Editing
+### Audio Editing | 音频编辑
 - [Adobe Podcast](https://podcast.adobe.com/) - AI audio editing
 - [Krisp](https://krisp.ai/) - AI noise removal
 - [LALAL.AI](https://lalal.ai/) - AI stem separation
 
 ---
 
-## Video Generation
+## Video Generation | 视频生成
 
-- [Sora](https://openai.com/sora) - Video generation from text
-- [Runway](https://runwayml.com/) - AI creative tools
-- [Pika](https://pika.art/) - Text to video
-- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - AI video generation
-- [Kaiber](https://kaiber.ai/) - AI video creation
+- [Sora](https://openai.com/sora) - OpenAI's video generation
+- [Runway](https://runwayml.com/) - AI video editing and generation
+- [Pika](https://pika.art/) - Text to video AI
+- [Kaiber](https://kaiber.ai/) - AI video generation
 - [Synthesia](https://synthesia.io/) - AI video avatars
-- [HeyGen](https://heygen.com/) - AI avatar video
-- [Runway Gen-2](https://runwayml.com/) - Video generation
-- [Opus Clip](https://opus.ai/) - AI video clipping
-- [CapCut](https://capcut.com/) - AI video editing
+- [HeyGen](https://heygen.com/) - AI video generation
+- [InVideo](https://invideo.io/) - AI video creation
+- [Veed.io](https://veed.io/) - Online video editor with AI
+
+### Video Editing | 视频编辑
+- [CapCut](https://capcut.com/) - AI video editor
+- [Descript](https://descript.com/) - Video editing with AI
+- [Runway](https://runwayml.com/) - Advanced video editing
 
 ---
 
-## Code Assistant
+## Code Assistant | 代码助手
 
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer
 - [Cursor](https://cursor.sh/) - AI-first code editor
-- [Windsurf](https://codeium.com/windsurf) - AI flow state
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - Amazon's AI coding
+- [Claude](https://claude.ai/) - Code understanding and generation
+- [Codeium](https://codeium.com/) - Free AI code acceleration
 - [Tabnine](https://tabnine.com/) - AI code completion
-- [Replit AI](https://replit.com/) - AI coding assistant
-- [Codeium](https://codeium.com/) - AI code acceleration
-- [Mutable AI](https://mutable.ai/) - AI code completion
-- [Blackbox AI](https://blackbox.ai/) - AI code assistant
-- [AskCodi](https://askcodi.com/) - AI code assistant
+- [Replit](https://replit.com/) - AI coding platform
+- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - Amazon's code generator
+- [CodeGeex](https://codegeex.cn/) - Chinese AI code assistant
+- [Mintlify](https://mintlify.com/) - AI documentation writer
+
+### IDE Plugins | IDE 插件
+- [IntelliJ AI Assistant](https://www.jetbrains.com/ai/) - JetBrains AI
+- [VS Code AI Toolkit](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai-toolkit) - Microsoft AI
 
 ---
 
-## AI Agents & Automation
+## AI Agents & Automation | AI 代理与自动化
 
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous AI agent
-- [AgentGPT](https://agentgpt.reworkd.ai/) - Web-based AI agents
-- [BabyAGI](https://github.com/yoheinakajima/babyagi) - AI agent framework
-- [LangChain](https://langchain.com/) - LLM application framework
-- [LangGraph](https://langchain-ai.github.io/langgraph/) - Agent orchestration
-- [AutoGen](https://microsoft.github.io/autogen/) - Microsoft's multi-agent framework
-- [CrewAI](https://crewai.com/) - Multi-agent framework
-- [Phidata](https://phidata.com/) - Build AI agents
-- [Botpress](https://botpress.com/) - Conversational AI platform
-- [Voiceflow](https://voiceflow.com/) - Voice AI platform
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous AI agents
+- [LangChain](https://www.langchain.com/) - Build LLM applications
+- [CrewAI](https://crewai.com/) - Multi-agent AI frameworks
+- [AutoGen](https://microsoft.github.io/autogen/) - Microsoft multi-agent framework
+- [n8n](https://n8n.io/) - Workflow automation with AI
+- [Zapier](https://zapier.com/) - Connect AI to 5000+ apps
+- [Make](https://make.com/) - Scenario automation
 
-### Workflow Automation
-- [Zapier](https://zapier.com/) - Workflow automation
-- [Make (Integromat)](https://make.com/) - Visual automation
-- [Microsoft Copilot](https://copilot.microsoft.com/) - Microsoft's AI assistant
+### Agent Platforms | 代理平台
+- [OpenAI Assistants](https://platform.openai.com/docs/assistants) - OpenAI agents
+- [Claude Agents](https://docs.anthropic.com/claude/docs) - Anthropic's agent capabilities
+- [AgentGPT](https://agentgpt.reworkd.ai/) - Autonomous AI agents
+- [Godmode](https://godmode.space/) - AI agent playground
 
 ---
 
-## Productivity
+## Developer Tools | 开发者工具
 
-- [Notion AI](https://www.notion.so/product/ai) - AI writing assistant
-- [Raycast AI](https://www.raycast.com/ai) - AI commands for Mac
-- [Perplexity](https://www.perplexity.ai/) - AI search engine
+> ⭐ **推荐**: [DevTools Hub](https://github.com/jingjing737/devtools-hub) - 115 个开发命令，一个工具全搞定！
+
+### CLI Tools | 命令行工具
+- [DevTools Hub](https://github.com/jingjing737/devtools-hub) - **115 commands** for system monitoring, network, docker, files
+- [httpie](https://httpie.io/) - User-friendly CLI HTTP client
+- [bat](https://github.com/sharkdp/bat) - Cat clone with syntax highlighting
+- [fd](https://github.com/sharkdp/fd) - Fast alternative to find
+- [exa](https://github.com/ogham/exa) - Modern ls replacement
+- [ripgrep](https://rg) - Ultra-fast grep alternative
+- [fzf](https://github.com/junegunn/fzf) - Fuzzy finder
+- [jq](https://stedolan.github.io/jq/) - JSON processor
+- [tldr](https://tldr.sh/) - Simplified man pages
+- [gh](https://cli.github.com/) - GitHub CLI
+
+### API Development | API 开发
+- [Postman](https://www.postman.com/) - API platform
+- [Insomnia](https://insomnia.rest/) - API client
+- [Bruno](https://www.usebruno.com/) - Open source API client
+- [Apifox](https://apifox.com/) - API management (Chinese)
+- [Apipost](https://www.apipost.cn/) - API collaboration (Chinese)
+- [Swagger](https://swagger.io/) - API documentation
+- [Hoppscotch](https://hoppscotch.io/) - API request builder
+
+### Database Tools | 数据库工具
+- [DBeaver](https://dbeaver.io/) - Universal database tool
+- [TablePlus](https://tableplus.com/) - Database GUI
+- [Redis Insight](https://redis.com/) - Redis GUI
+- [MongoDB Compass](https://www.mongodb.com/) - MongoDB GUI
+- [Adminer](https://www.adminer.org/) - Database management
+
+### DevOps | 运维工具
+- [Docker](https://docker.com/) - Container platform
+- [Kubernetes](https://kubernetes.io/) - Container orchestration
+- [Prometheus](https://prometheus.io/) - Monitoring system
+- [Grafana](https://grafana.com/) - Observability platform
+- [Ansible](https://ansible.com/) - Automation platform
+- [Terraform](https://terraform.io/) - Infrastructure as code
+
+---
+
+## Productivity | 效率工具
+
+- [Notion](https://notion.so/) - All-in-one workspace
+- [Obsidian](https://obsidian.md/) - Markdown-based knowledge base
+- [Raycast](https://raycast.com/) - Productivity launcher (macOS)
+- [Alfred](https://www.alfredapp.com/) - Productivity tool (macOS)
+- [Todoist](https://todoist.com/) - Task management
+- [Linear](https://linear.app/) - Issue tracking
+- [ClickUp](https://clickup.com/) - All-in-one workspace
+- [Anytype](https://anytype.io/) - Local-first workspace
+
+### AI Productivity | AI 效率
+- [Otter.ai](https://otter.ai/) - AI meeting assistant
+- [Fireflies.ai](https://fireflies.ai/) - AI meeting notes
 - [Mem](https://mem.ai/) - AI-powered notes
-- [Obsidian AI](https://obsidian.md/) - AI plugin for Obsidian
-- [Craft](https://craft.do/) - AI documents
-- [Reader](https://readwise.io/reader) - AI reading assistant
-- [Granola](https://granola.ai/) - AI meeting notes
-- [Tl;dr](https://tldr.h얓.com/) - AI website summarizer
-- [Arc Search](https://arc.net/) - AI browser search
-
-### Note Taking
-- [Logseq](https://logseq.com/) - AI-powered outliner
-- [Heptabase](https://heptabase.com/) - Visual note-taking
-- [Mem](https://mem.ai/) - Self-organizing notes
-- [Alli AI](https://alli.ai/) - AI writing assistant
+- [Taskade](https://www.taskade.com/) - AI task management
+- [BeeHero](https://www.beehero.ai/) - AI project management
 
 ---
 
-## Data & Analytics
+## Data & Analytics | 数据分析
 
-- [ChatGPT Code Interpreter](https://openai.com/) - Data analysis
-- [Julius AI](https://julius.ai/) - AI data analysis
+- [pandas](https://pandas.pydata.org/) - Python data analysis
 - [NumPy](https://numpy.org/) - Numerical computing
-- [Pandas](https://pandas.pydata.org/) - Data analysis
-- [Matplotlib](https://matplotlib.org/) - Data visualization
-- [TensorFlow](https://tensorflow.org/) - ML framework
-- [PyTorch](https://pytorch.org/) - ML framework
-- [Scikit-learn](https://scikit-learn.org/) - ML library
-- [Keras](https://keras.io/) - Neural networks API
-- [Jupyter](https://jupyter.org/) - Interactive computing
+- [Apache Spark](https://spark.apache.org/) - Big data processing
+- [dbt](https://www.getdbt.com/) - Data transformation
+- [Metabase](https://metabase.com/) - Business intelligence
+- [Apache Superset](https://superset.apache.org/) - BI and exploration
+- [Observable](https://observablehq.com/) - Data visualization
 
-### Data Tools
-- [Dataland](https://dataland.ai/) - Data platform
-- [Scale AI](https://scale.com/) - Data labeling
-- [Labelbox](https://labelbox.com/) - Data labeling
-- [Weights & Biases](https://wandb.ai/) - ML experiment tracking
+### AI Analytics | AI 分析
+- [Hex](https://hex.tech/) - Data notebooks
+- [Mode](https://mode.com/) - Analytics platform
+- [Posit Cloud](https://posit.co/) - R & Python analytics
 
 ---
 
-## Writing & Content
+## Writing & Content | 写作与内容
 
-### AI Writing
-- [Jasper](https://jasper.ai/) - AI writing assistant
+- [Claude](https://claude.ai/) - Long-form writing assistant
+- [Jasper](https://jasper.ai/) - AI content generator
 - [Copy.ai](https://copy.ai/) - AI copywriting
-- [Writesonic](https://writesonic.com/) - AI content creation
-- [Rytr](https://rytr.me/) - AI writing assistant
-- [Anyword](https://anyword.com/) - AI writing
-- [Sudowrite](https://sudowrite.com/) - AI creative writing
-- [NovelAI](https://novelai.net/) - AI storytelling
-- [Peppertype](https://peppertype.ai/) - AI content
+- [Writesonic](https://writesonic.com/) - AI writing assistant
+- [Rytr](https://rytr.me/) - AI writing tool
+- [Sudowrite](https://sudowrite.com/) - Creative writing AI
+- [INK](https://inkforall.com/) - AI content optimization
 
-### SEO & Marketing
-- [SurferSEO](https://surferseo.com/) - AI SEO
-- [MarketMuse](https://marketmuse.com/) - AI content planning
-- [Frase](https://frase.io/) - AI content research
-- [Clearscope](https://clearscope.com/) - AI content optimization
+### Chinese Writing | 中文写作
+- [秘塔写作猫](https://xiezuocat.com/) - AI 中文写作助手
+- [讯飞写作](https://xfwriting.com/) - iFlytek AI writing
+- [反向词典](https://反向词典.cn/) - Find the right words
 
 ---
 
-## AI Art & Design
+## AI Art & Design | AI 设计与艺术
 
-- [Canva](https://canva.com/) - AI design tools
-- [Figma AI](https://figma.com/) - AI design assistant
-- [Adobe Firefly](https://firefly.adobe.com/) - Generative AI
-- [Looka](https://looka.com/) - AI logo design
-- [Brandcrowd](https://brandcrowd.com/) - AI branding
-- [Designify](https://designify.com/) - AI design automation
-- [Magician](https://magician.design/) - Figma AI plugin
-- [Uizard](https://uizard.io/) - AI UI design
-- [Galileo AI](https://galileo.ai/) - AI UI generation
-- [Microsoft Designer](https://designer.microsoft.com/) - AI design
+- [Figma](https://figma.com/) - Collaborative design with AI
+- [Adobe Firefly](https://firefly.adobe.com/) - Adobe generative AI
+- [Khroma](https://khroma.co/) - AI color palette generator
+- [Designs.ai](https://designs.ai/) - AI design tools
+- [Uizard](https://uizard.io/) - AI UI designer
+- [Galileo AI](https://ultragenerativeai.com/) - AI UI generation
+- [Framer AI](https://framer.ai/) - AI website builder
 
 ---
 
-## Education & Learning
+## Education & Learning | 教育学习
 
-- [Khan Academy Khanmigo](https://khanacademy.org/) - AI tutor
-- [Duolingo Max](https://duolingo.com/) - AI language learning
-- [Quizlet](https://quizlet.com/) - AI learning
-- [Course Hero](https://coursehero.com/) - Study resources
-- [Chegg](https://chegg.com/) - Study help
-- [Socratic by Google](https://socratic.org/) - AI homework help
-- [Bandwagon](https://bandwagon.ai/) - AI learning
+- [Khan Academy](https://khanacademy.org/) - Free education with AI
+- [Duolingo](https://duolingo.com/) - AI-powered language learning
+- [Coursera](https://coursera.org/) - Online courses with AI
+- [edX](https://edx.org/) - Online learning platform
+- [Quizlet](https://quizlet.com/) - AI-powered flashcards
+- [Wolfram Alpha](https://wolframalpha.com/) - Computational knowledge
+- [Phind](https://phind.com/) - AI search engine for developers
 
-### Research
-- [Elicit](https://elicit.org/) - AI research assistant
-- [Perplexity](https://www.perplexity.ai/) - AI search
-- [Consensus](https://consensus.app/) - AI research search
-- [SciSpace](https://scispace.com/) - AI research tool
+### AI Learning | AI 学习
+- [fast.ai](https://fast.ai/) - Deep learning made easy
+- [DeepLearning.AI](https://deeplearning.ai/) - AI education
+- [Hugging Face Course](https://huggingface.co/course) - NLP course
 
 ---
 
-## Gaming
+## Gaming | 游戏
 
 - [Inworld AI](https://inworld.ai/) - AI game characters
-- [Convai](https://convai.com/) - AI for games
-- [Character AI](https://character.ai/) - AI characters
-- [Replika](https://replika.com/) - AI companion
-- [Unity Muse](https://unity.com/) - AI game development
-- [Unreal Engine AI](https://unrealengine.com/) - Game AI
-- [Scenario](https://scenario.com/) - AI game assets
-- [Leonardo.ai](https://leonardo.ai/) - Game asset generation
-- [Assets AI](https://assets.ai/) - AI game assets
-- [Rosebud AI](https://rosebud.ai/) - AI gaming
+- [Scenario](https://scenario.com/) - AI game asset generation
+- [Latitude](https://latitude.io/) - AI game creation
+- [Artbreeder](https://artbreeder.com/) - AI image blending
+- [Waifulabs](https://waifulabs.com/) - AI anime character generator
+- [Charisma](https://charisma.ai/) - Interactive AI characters
 
 ---
 
-## Finance
+## Finance | 金融
 
-- [AlphaSense](https://alphasense.com/) - AI financial research
-- [Kensho](https://kensho.com/) - AI analytics
-- [Bloomberg Terminal AI](https://bloomberg.com/) - Financial AI
-- [Numerai](https://numerai.com/) - AI trading
-- [Koi](https://koi.ai/) - AI trading
-- [TradeIQ](https://tradeiq.ai/) - AI stock analysis
-- [Morgan Stanley AI](https://morganstanley.com/) - Financial AI
-- [ChartGPT](https://chartgpt.ai/) - AI charts
+- [AlphaSense](https://alpha-sense.com/) - AI market intelligence
+- [Kensho](https://kensho.com/) - AI analytics for finance
+- [Bloomberg GPT](https://bloomberg.com/) - Financial language model
+- [Numerai](https://numerai.com/) - AI hedge fund
+- [Kavout](https://kavout.com/) - AI stock scoring
 
-### Crypto
-- [Crypto AI](https://crypto.ai/) - Crypto AI tools
-- [ChainGPT](https://chaingpt.org/) - Blockchain AI
-- [Ocean Protocol](https://oceanprotocol.com/) - Data marketplace
+### Trading | 交易
+- [QuantConnect](https://quantconnect.com/) - Algorithmic trading
+- [Alpaca](https://alpaca.markets/) - Commission-free trading API
+- [Quantopian](https://quantopian.com/) - Python algorithmic trading
 
 ---
 
-## Healthcare
+## Healthcare | 医疗健康
 
-- [IBM Watson Health](https://ibm.com/watson-health) - Healthcare AI
-- [Google DeepMind Health](https://deepmind.google/) - Medical AI
-- [Tempus](https://tempus.com/) - AI healthcare
-- [Viz.ai](https://viz.ai/) - AI medical imaging
-- [PathAI](https://pathai.com/) - AI pathology
+- [Google Health](https://health.google.com/) - AI health research
+- [DeepMind](https://deepmind.com/) - AI for healthcare
 - [Insilico Medicine](https://insilico.com/) - AI drug discovery
-- [Recursion Pharmaceuticals](https://recursion.com/) - AI biotech
-- [Atomwise](https://atomwise.com/) - AI分子预测
+- [BenevolentAI](https://benevolent.ai/) - AI drug development
+- [PathAI](https://pathai.com/) - AI pathology
+- [Viz.ai](https://viz.ai/) - AI medical imaging
 
 ---
 
-## Security
+## Security | 安全
 
-- [Microsoft Security Copilot](https://security.microsoft.com/) - AI security
-- [CrowdStrike AI](https://crowdstrike.com/) - AI cybersecurity
-- [Palo Alto Networks AI](https://paloaltonetworks.com/) - AI security
-- [Darktrace](https://darktrace.com/) - AI threat detection
-- [SentinelOne](https://sentinelone.com/) - AI endpoint security
-- [Cylance](https://cylance.com/) - AI antivirus
+- [Darktrace](https://darktrace.com/) - AI cybersecurity
+- [CrowdStrike](https://crowdstrike.com/) - AI endpoint protection
+- [SentinelOne](https://sentinelone.com/) - AI security platform
+- [Cymulate](https://cymulate.com/) - AI security testing
 - [Vectra AI](https://vectra.ai/) - AI threat detection
-- [DeepInstinct](https://deepinstinct.com/) - AI threat prevention
 
-### Privacy
-- [OpenAI Privacy](https://openai.com/) - Privacy controls
-- [Ghostery](https://ghostery.com/) - Privacy protection
-
----
-
-## Robotics & Hardware
-
-- [Boston Dynamics](https://bostondynamics.com/) - Robotics
-- [Tesla Optimus](https://tesla.com/) - AI humanoid
-- [Figure AI](https://figure.ai/) - Humanoid robots
-- [Amazon Robotics](https://amazon.com/robotics) - Warehouse AI
-- [NVIDIA Isaac](https://nvidia.com/isaac) - Robot platform
-- [ROS](https://ros.org/) - Robot operating system
-- [Open Robotics](https://openrobotics.org/) - Open source robotics
-- [Unity Robotics](https://unity.com/robotics) - Simulation
-
-### Edge AI
-- [NVIDIA Jetson](https://nvidia.com/jetson) - Edge AI
-- [Google Coral](https://coral.ai/) - Edge ML
-- [Intel OpenVINO](https://openvino.ai/) - Edge inference
-- [AWS DeepRacer](https://aws.amazon.com/deepracer/) - AI racing
+### Security Tools | 安全工具
+- [Metasploit](https://metasploit.com/) - Penetration testing
+- [Burp Suite](https://portswigger.net/) - Web security testing
+- [OWASP ZAP](https://owasp.org/) - Security testing
 
 ---
 
-## AI Research
+## Robotics & Hardware | 机器人与硬件
 
-### Papers & Code
-- [arXiv](https://arxiv.org/) - AI papers
-- [Papers with Code](https://paperswithcode.com/) - Papers + code
-- [Hugging Face](https://huggingface.co/) - AI models & datasets
-- [GitHub AI](https://github.com/features/marketplace/category/ai) - AI repos
+- [ROS](https://www.ros.org/) - Robot Operating System
+- [NVIDIA Isaac](https://developer.nvidia.com/isaac) - Robotics platform
+- [Boston Dynamics](https://boston dynamics.com/) - Advanced robots
+- [Figure](https://figure.ai/) - AI humanoid robots
+- [Agility Robotics](https://agility.ai/) - Digit robot
 
-### Datasets
-- [LAION](https://laion.ai/) - Large-scale datasets
-- [Common Crawl](https://commoncrawl.org/) - Web data
-- [ImageNet](https://image-net.org/) - Image dataset
-- [COCO](https://cocodataset.org/) - Object detection
-- [GLUE](https://gluebenchmark.com/) - NLU benchmark
-- [SuperGLUE](https://super.gluebenchmark.com/) - NLU benchmark
-
-### Research Labs
-- [OpenAI](https://openai.com/) - AI research
-- [DeepMind](https://deepmind.google/) - AI research
-- [Anthropic](https://anthropic.com/) - AI safety
-- [Meta AI](https://ai.facebook.com/) - AI research
-- [Google AI](https://ai.google/) - AI research
-- [Microsoft Research](https://microsoft.com/research) - AI research
-- [Stanford HAI](https://hai.stanford.edu/) - Human-centered AI
+### Edge AI | 边缘计算
+- [NVIDIA Jetson](https://developer.nvidia.com/jetson) - Edge AI platform
+- [Intel OpenVINO](https://openvino.ai/) - AI inference toolkit
+- [TensorFlow Lite](https://tensorflow.org/lite) - Mobile ML
 
 ---
 
-## Open Source Models
+## AI Research | AI 研究
 
-- [LLaMA](https://github.com/facebookresearch/llama) - Meta's open LLM
-- [Mistral](https://github.com/mistralai/mistral-src) - Mistral's open models
-- [Qwen](https://github.com/QwenLM/Qwen) - Alibaba's open LLMs
-- [DeepSeek](https://github.com/deepseek-ai) - DeepSeek open models
-- [Falcon](https://github.com/falconfoundation/falcon) - TII's LLM
-- [BLOOM](https://bigscience.org/) - Open multilingual LLM
-- [MPT](https://github.com/mosaicml/llm) - MosaicML's LLM
-- [RedPajama](https://github.com/togethercomputer/RedPajama) - Open dataset
-- [OpenChatkit](https://github.com/togethercomputer/OpenChatKit) - Open chat
-- [Vicuna](https://github.com/lm-sys/FastChat) - Chat LLM
-
-### Fine-tuned Models
-- [Alpaca](https://github.com/tatsu-lab/alpaca) - Stanford Alpaca
-- [Llama 2 fine-tuning](https://github.com/facebookresearch/llama) - Meta fine-tune
-- [WizardLM](https://github.com/nickmcdowells/WizardLM) - Instruction tuning
-- [Orca](https://github.com/microsoft/Orca) - Microsoft's Orca
+- [Hugging Face](https://huggingface.co/) - ML community & models
+- [Papers with Code](https://paperswithcode.com/) - ML papers with code
+- [arXiv](https://arxiv.org/) - AI research papers
+- [AI Index](https://aiindex.stanford.edu/) - AI metrics
+- [OpenAI Research](https://openai.com/research) - OpenAI publications
+- [Google DeepMind](https://deepmind.com/research) - Research publications
+- [Anthropic Research](https://anthropic.com/research) - AI safety research
 
 ---
 
-## AI Communities
+## Open Source Models | 开源模型
 
-- [Hugging Face](https://huggingface.co/) - ML community
-- [Reddit r/MachineLearning](https://reddit.com/r/machine learning) - ML discussions
-- [Reddit r/AIArt](https://reddit.com/r/aiart) - AI art community
-- [Discord AI Communities](https://discord.com/) - AI Discord servers
-- [Twitter AI](https://twitter.com/) - AI researchers
-- [LinkedIn AI](https://linkedin.com/) - AI professionals
+### Text Models | 文本模型
+- [Llama](https://llama.meta.com/) - Meta's open source LLM
+- [Mistral](https://mistral.ai/) - Open source models
+- [Falcon](https://falconllm.tii.ae/) - TII's open source LLM
+- [MPT](https://www.mosaicml.com/) - MosaicML models
+- [RedPajama](https://together.ai/) - Open source training data
+- [Vicuna](https://lmsys.org/) - Chatbot arena winner
+- [ChatGLM](https://chatglm.cn/) - Chinese open source LLM
+- [Baichuan](https://www.baichuan-ai.com/) - Chinese LLM
 
-### Events
-- [NeurIPS](https://neurips.cc/) - AI conference
-- [ICML](https://icml.org/) - ML conference
-- [ICLR](https://iclr.cc/) - Learning representation
-- [CVPR](https://cvpr2024.thecvf.com/) - Computer vision
-- [AAAI](https://aaai.org/) - AI conference
-- [Stanford AI Summit](https://stanford.edu/) - AI summit
+### Image Models | 图像模型
+- [Stable Diffusion](https://stability.ai/) - Open source image generation
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Stable Diffusion UI
+- [ControlNet](https://github.com/lllyasviel/ControlNet) - Image control
+- [LoRA](https://github.com/microsoft/LoRA) - Low-rank adaptation
 
-### Newsletters
-- [The Batch](https://deeplearning.ai/the-batch/) - AI news
-- [Ben's Bites](https://bensbites.ai/) - AI newsletter
-- [AI Weekly](https://aiweekly.co/) - AI news
-- [Import AI](https://jack-clark.net/) - AI newsletter
-
-## AI Music & Audio Generation
-- [Suno](https://suno.ai/) - AI music creation platform
-- [Udio](https://udio.com/) - AI music generator
-- [Mubert](https://mubert.com/) - AI music for creators
-- [Boomy](https://boomy.com/) - Create music with AI
-- [AIVA](https://aiva.ai/) - AI composing assistant
-- [ElevenLabs](https://elevenlabs.io/) - AI voice cloning
-- [Murf AI](https://murf.ai/) - AI voice generator
-
-## AI Search & Research
-- [Perplexity](https://www.perplexity.ai/) - AI-powered search
-- [Arc Search](https://arc.net/) - AI browser with search
-- [You.com](https://you.com/) - AI search engine
-- [Komo](https://komo.ai/) - AI search assistant
-
-## AI Developer Tools
-- [Cursor](https://cursor.sh/) - AI-first code editor
-- [Windsurf](https://windsurf.ai/) - AI code flow
-- [Codeium](https://codeium.com/) - Free AI code completion
-- [Tabnine](https://www.tabnine.com/) - AI code assistant
-- [GitHub Copilot](https://github.com/features/copilot/) - AI pair programmer
-- [Replit AI](https://replit.com/) - AI-powered coding environment
-
-## AI Productivity Suites
-- [Notion AI](https://www.notion.so/product/ai) - AI in Notion
-- [Raycast AI](https://raycast.com/) - AI macOS assistant
-- [Craft](https://craft.do/) - AI-powered documents
-- [Mem](https://mem.ai/) - AI-powered notes
+### Multimodal | 多模态
+- [LLaVA](https://llava-vl.github.io/) - Large language & vision assistant
+- [MiniGPT-4](https://minigpt-4.github.io/) - Vision-language model
+- [Flamingo](https://deepmind.com/) - Few-shot learner
+- [GPT-4V](https://openai.com/) - Vision capabilities in GPT-4
 
 ---
 
-## Contributing
+## AI Communities | AI 社区
 
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
+- [Hugging Face](https://huggingface.co/) - ML community platform
+- [Reddit r/MachineLearning](https://reddit.com/r/MachineLearning) - ML discussions
+- [Reddit r/Artificial](https://reddit.com/r/Artificial) - AI news
+- [AI Twitter](https://twitter.com/i/communities) - AI researchers
+- [AI Discord](https://discord.gg/) - Various AI Discord servers
+- [Stack Overflow](https://stackoverflow.com/) - Developer Q&A
 
-### How to Contribute
-
-1. Fork this repository
-2. Add your AI tool in the appropriate category
-3. Ensure format: `- [Tool Name](URL) - Description`
-4. Submit a pull request
+### Chinese Communities | 中文社区
+- [知乎 AI](https://www.zhihu.com/topic/AI) - Chinese AI discussions
+- [机器之心](https://jiqizhixin.com/) - AI news in Chinese
+- [AI Watch](https://ai.watch/) - AI trends
+- [GitHub Daily](https://github.com/trending) - Trending repos
 
 ---
 
-## License
+## Contributing | 贡献
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To the extent possible under law, [jingjing737](https://github.com/jingjing737) has waived all copyright and related or neighboring rights to this work.
+欢迎提交贡献！请随时提交 Pull Request。
+
+---
+
+## License | 许可证
+
+This list is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+
+[![Stargazers over time](https://starchart.cc/jingjing737/awesome-ai-tools)](https://starchart.cc/jingjing737/awesome-ai-tools)
 
 ---
 
 <p align="center">
-  ⭐ Star us on GitHub — it helps!
+  <strong>⭐ Star this repo to support the project! | 点个 Star 支持一下！⭐</strong>
 </p>
-## AI Chatbots & Virtual Assistants
-- [ChatGPT](https://chat.openai.com/) - OpenAI's chatbot
-- [Claude](https://claude.ai/) - Anthropic's AI assistant
-- [Gemini](https://gemini.google.com/) - Google's AI chatbot
-- [Pi](https://pi.ai/) - AI personal assistant
-- [Copilot](https://copilot.microsoft.com/) - Microsoft's AI companion
-- [Character AI](https://character.ai/) - Character-based chatbots
-- [Replika](https://replika.com/) - AI companion
-- [Kuki](https://kuki.ai/) - Entertainment chatbot
-- [Chai](https://chai.app/) - AI chat platform
-
-## AI Video Editing
-- [Runway](https://runwayml.com/) - AI video editing
-- [Pika](https://pika.art/) - AI video generation
-- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - AI video
-- [Kaiber](https://kaiber.ai/) - AI video creation
-- [Synthesia](https://synthesia.io/) - AI video platform
-- [HeyGen](https://heygen.com/) - AI avatar video
-- [CapCut](https://www.capcut.com/) - AI video editor
-- [Descript](https://www.descript.com/) - AI video editing
-
-## AI Photo & Image Editing
-- [Remove.bg](https://www.remove.bg/) - Background removal
-- [Lama Cleaner](https://github.com/Sanster/LamaCleaner) - AI image editing
-- [Magic Eraser](https://magiceraser.io/) - AI object removal
-- [cleanup.pictures](https://cleanup.pictures/) - AI image cleanup
-- [Relight](https://relight.app/) - AI image relighting
-- [DeepSwapper](https://deepswapper.com/) - AI face swap
-- [Fotor](https://www.fotor.com/) - AI photo editor
-- [Photoroom](https://www.photoroom.com/) - AI background removal
-
-## AI Writing Tools
-- [Jasper](https://www.jasper.ai/) - AI writing assistant
-- [Copy.ai](https://www.copy.ai/) - AI copywriter
-- [Writesonic](https://writesonic.com/) - AI content creation
-- [Rytr](https://rytr.me/) - AI writing assistant
-- [Notion AI](https://www.notion.so/product/ai) - AI in Notion
-- [Grammarly](https://www.grammarly.com/) - AI writing checker
-- [QuillBot](https://quillbot.com/) - AI paraphrasing
-- [Wordtune](https://www.wordtune.com/) - AI rewriter
-- [Anyword](https://anyword.com/) - AI writing platform
-- [Copysmith](https://copysmith.ai/) - AI content generator
-
-## AI Translation
-- [DeepL](https://www.deepl.com/) - AI translator
-- [Google Translate](https://translate.google.com/) - Google AI translation
-- [Papago](https://papago.naver.com/) - Naver AI translator
-- [Baidu Translate](https://fanyi.baidu.com/) - Baidu translation
-- [Reverso](https://www.reverso.net/) - AI translation
-- [Smartling](https://www.smartling.com/) - AI localization
-
-## AI Data Analysis
-- [Tableau](https://www.tableau.com/) - Data visualization
-- [Power BI](https://powerbi.microsoft.com/) - Microsoft BI
-- [ThoughtSpot](https://www.thoughtspot.com/) - AI analytics
-- [DataRobot](https://www.datarobot.com/) - AutoML
-- [H2O.ai](https://www.h2o.ai/) - AI platform
-- [Alteryx](https://www.alteryx.com/) - Analytics automation
-
-## AI Automation
-- [Zapier](https://zapier.com/) - Workflow automation
-- [Make](https://www.make.com/) - Automation platform
-- [Microsoft Power Automate](https://powerautomate.microsoft.com/) - Microsoft automation
-- [IFTTT](https://ifttt.com/) - Automation service
-- [n8n](https://n8n.io/) - Workflow automation
-- [Tray.io](https://tray.io/) - Automation platform
-
-## AI Marketing
-- [HubSpot](https://www.hubspot.com/) - Marketing platform
-- [Salesforce Einstein](https://www.salesforce.com/products/einstein/) - AI CRM
-- [Marketo](https://www.marketo.com/) - Marketing automation
-- [Semrush](https://www.semrush.com/) - SEO AI tools
-- [Ahrefs](https://ahrefs.com/) - SEO AI tools
-- [Surfer SEO](https://surferseo.com/) - AI SEO
-
-## AI Customer Service
-- [Intercom](https://www.intercom.com/) - Customer service AI
-- [Zendesk](https://www.zendesk.com/) - AI customer support
-- [Freshdesk](https://www.freshdesk.com/) - AI support
-- [Drift](https://www.drift.com/) - AI chatbot
-- [Ada](https://www.ada.cx/) - AI customer service
-- [LivePerson](https://www.liveperson.com/) - AI messaging
-
-## AI Security
-- [CrowdStrike](https://www.crowdstrike.com/) - AI cybersecurity
-- [Darktrace](https://www.darktrace.com/) - AI threat detection
-- [SentinelOne](https://www.sentinelone.com/) - AI endpoint protection
-- [Palo Alto Networks](https://www.paloaltonetworks.com/) - AI security
-- [Microsoft Defender](https://www.microsoft.com/en-us/security) - AI security
-
-## AI Healthcare
-- [DeepMind](https://deepmind.google/) - Google AI healthcare
-- [IBM Watson Health](https://www.ibm.com/watson-health) - AI healthcare
-- [Google Health](https://health.google/) - AI diagnostics
-- [Babylon Health](https://www.babylonhealth.com/) - AI health
-- [Tempus](https://tempus.com/) - AI precision medicine
-
-## AI Education
-- [Duolingo](https://www.duolingo.com/) - AI language learning
-- [Khan Academy](https://www.khanacademy.org/) - AI education
-- [Coursera](https://www.coursera.org/) - AI courses
-- [Duolingo Max](https://duolingo.com/) - AI language tutor
-- [Quizlet](https://quizlet.com/) - AI learning
-- [Carnegie Learning](https://www.carnegielearning.com/) - AI tutoring
-
-## AI Robotics
-- [Boston Dynamics](https://bostondynamics.com/) - AI robots
-- [Tesla Optimus](https://www.tesla.com/optimus) - AI humanoid
-- [Figure](https://figure.ai/) - AI humanoid robots
-- [Amazon Robotics](https://www.amazonrobotics.com/) - Warehouse AI
-- [iRobot](https://www.irobot.com/) - Home robots
-
-## AI Art Platforms
-- [Artbreeder](https://artbreeder.com/) - AI art creation
-- [Starryai](https://starryai.com/) - AI art generator
-- [NightCafe](https://nightcafe.studio/) - AI art
-- [Wombo](https://wombo.ai/) - AI art creation
-- [Deep Dream Generator](https://deepdreamgenerator.com/) - AI art
-
-## AI 3D & Design
-- [DreamFusion](https://dreamfusion3d.com/) - AI 3D generation
-- [Luma AI](https://lumalabs.ai/) - AI 3D capture
-- [Meshroom](https://meshroom.org/) - 3D reconstruction
-- [Blender AI](https://www.blender.org/) - AI 3D
-- [Spline](https://spline.design/) - AI 3D design
-
-## AI Code Review
-- [Snyk](https://snyk.io/) - AI security scanning
-- [CodeClimate](https://codeclimate.com/) - AI code review
-- [SonarQube](https://www.sonarsource.com/) - Code quality
-- [DeepCode](https://deepcode.ai/) - AI code analysis
-
-## AI APIs & SDKs
-- [OpenAI API](https://platform.openai.com/) - GPT API
-- [Anthropic API](https://www.anthropic.com/) - Claude API
-- [Google AI](https://ai.google/) - Gemini API
-- [Mistral API](https://mistral.ai/) - Mistral API
-- [Cohere API](https://cohere.com/) - Cohere API
-- [Hugging Face](https://huggingface.co/) - ML models
-
-## AI Frameworks
-- [TensorFlow](https://www.tensorflow.org/) - Google ML
-- [PyTorch](https://pytorch.org/) - Meta ML
-- [JAX](https://jax.readthedocs.io/) - Google ML
-- [LangChain](https://www.langchain.com/) - LLM apps
-- [LlamaIndex](https://www.llamaindex.ai/) - Data framework
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Auto agent
-- [BabyAGI](https://github.com/yoheinakajima/babyagi) - Simple AGI
-
-## AI Databases & Vector Stores
-- [Pinecone](https://www.pinecone.io/) - Vector database
-- [Weaviate](https://weaviate.io/) - Vector search
-- [Chroma](https://www.trychroma.com/) - Vector database
-- [Milvus](https://milvus.io/) - Vector database
-- [Qdrant](https://qdrant.tech/) - Vector search
-
-## AI Hosting & Deployment
-- [Vercel AI](https://vercel.com/) - AI deployment
-- [Hugging Face Spaces](https://huggingface.co/spaces) - AI hosting
-- [Replicate](https://replicate.com/) - Model hosting
-- [RunPod](https://runpod.io/) - GPU hosting
-- [Paperspace](https://paperspace.com/) - ML hosting
-
-## AI Monitoring & Observability
-- [MLflow](https://mlflow.org/) - ML lifecycle
-- [Weights & Biases](https://wandb.ai/) - ML tracking
-- [Neptune.ai](https://neptune.ai/) - ML metadata store
-- [Dataiku](https://www.dataiku.com/) - AI platform
-
-## AI Image Generation (Extended)
-- [Ideogram](https://ideogram.ai/) - Text rendering AI
-- [Leonardo AI](https://leonardo.ai/) - Creative AI platform
-- [Playground AI](https://playground.com/) - AI art generator
-- [Scenario](https://scenario.com/) - Game asset AI
-- [SeaArt](https://seaart.ai/) - AI art creation
-- [Tensor.art](https://tensor.art/) - AI image generation
-- [Civitai](https://civitai.com/) - AI models & art
-- [LiblibAI](https://liblibai.com/) - Chinese AI art
-
-## AI Presentation & Slides
-- [Gamma](https://gamma.app/) - AI presentations
-- [Tome](https://tome.app/) - AI storytelling
-- [Beautiful.ai](https://www.beautiful.ai/) - AI slides
-- [Pitch](https://pitch.com/) - AI presentations
-- [SlidesAI](https://slidesai.io/) - AI slide generator
-- [MagicSlides](https://magicslides.app/) - AI slides
-
-## AI Meeting & Notes
-- [Otter.ai](https://otter.ai/) - Meeting transcription
-- [Fireflies.ai](https://fireflies.ai/) - Meeting AI
-- [Avoma](https://www.avoma.com/) - Meeting intelligence
-- [Fellow](https://fellow.app/) - Meeting AI
-- [Rewatch](https://rewatch.com/) - Video wiki
-- [Supernormal](https://supernormal.com/) - Meeting notes
-
-## AI Email & Communication
-- [Superhuman](https://superhuman.com/) - AI email
-- [Shortwave](https://www.shortwave.com/) - AI email
-- [SaneBox](https://www.sanebox.com/) - Email AI
-- [Mailbutler](https://www.mailbutler.io/) - Email assistant
-- [Flowrite](https://www.flowrite.com/) - AI writing
-
-## AI Social Media
-- [Buffer AI](https://buffer.com/) - AI scheduling
-- [Hootsuite](https://hootsuite.com/) - AI social
-- [Sprout Social](https://sproutsocial.com/) - AI social
-- [Later](https://later.com/) - AI scheduling
-- [Predis.ai](https://predis.ai/) - AI content
-- [Lately](https://lately.ai/) - AI content
-
-## AI SEO & Content
-- [Frase](https://www.frase.io/) - AI SEO
-- [MarketMuse](https://www.marketmuse.com/) - AI content
-- [Clearscope](https://www.clearscope.io/) - AI SEO
-- [ContentKing](https://www.contentkingapp.com/) - AI content
-- [Outranking](https://outranking.io/) - AI SEO
-
-## AI HR & Recruiting
-- [HireVue](https://www.hirevue.com/) - AI recruiting
-- [Pymetrics](https://www.pymetrics.com/) - AI hiring
-- [HiredScore](https://www.hiredscore.com/) - AI recruiting
-- [Entelo](https://www.entelo.com/) - AI sourcing
-- [SeekOut](https://seekout.com/) - AI recruiting
-
-## AI Finance & Trading
-- [Kavout](https://kavout.com/) - AI trading
-- [Trade Ideas](https://www.trade-ideas.com/) - AI trading
-- [TrendSpider](https://trendspider.com/) - AI analysis
-- [Tickeron](https://tickeron.com/) - AI trading
-- [Equbot](https://equbot.com/) - AI investing
-
-## AI Legal
-- [LegalZoom](https://www.legalzoom.com/) - AI legal
-- [DoNotPay](https://donotpay.com/) - AI lawyer
-- [Casetext](https://casetext.com/) - AI legal research
-- [Harvey](https://www.harvey.ai/) - AI legal
-- [Spellbook](https://www.spellbook.legal/) - AI legal
-
-## AI Real Estate
-- [Zillow AI](https://www.zillow.com/) - AI home value
-- [Redfin](https://www.redfin.com/) - AI real estate
-- [Compass](https://www.compass.com/) - AI real estate
-- [OJO](https://www.ojo.com/) - AI home search
-
-## AI Travel
-- [Expedia AI](https://www.expedia.com/) - AI travel
-- [Kayak](https://www.kayak.com/) - AI travel
-- [Hopper](https://www.hopper.com/) - AI booking
-- [Tripnotes](https://tripnotes.ai/) - AI travel planning
-
-## AI Food & Cooking
-- [ChefGPT](https://chefgpt.xyz/) - AI recipes
-- [Mealime](https://www.mealime.com/) - AI meal planning
-- [Whisk](https://www.whisk.com/) - AI recipes
-
-## AI Fashion
-- [Stitch Fix](https://www.stitchfix.com/) - AI styling
-- [Amazon Fashion](https://www.amazon.com/fashion) - AI recommendations
-- [Vue.ai](https://vue.ai/) - AI fashion
-
-## AI Sports
-- [Sportlogiq](https://sportlogiq.com/) - AI sports analytics
-- [Second Spectrum](https://secondspectrum.com/) - AI sports
-- [Stats Perform](https://www.statsperform.com/) - AI sports
-
-## AI Music Production
-- [Amper Music](https://www.ampermusic.com/) - AI music
-- [LANDR](https://www.landr.com/) - AI mastering
-- [Output](https://output.com/) - AI music tools
-- [Splash](https://www.splashpro.ai/) - AI music
-
-## AI Gaming Tools
-- [NVIDIA DLSS](https://www.nvidia.com/) - AI upscaling
-- [FSR](https://www.amd.com/) - AI scaling
-- [Modl.ai](https://modl.ai/) - AI game testing
-- [Inworld](https://inworld.ai/) - AI NPCs
-
-## AI Accessibility
-- [Be My Eyes](https://www.bemyeyes.com/) - AI visual assistance
-- [Microsoft Seeing AI](https://www.microsoft.com/en-us/ai/seeing-ai) - AI vision
-- [Google Lookout](https://support.google.com/accessibility/) - AI assistance
-
-## AI Climate & Environment
-- [Google Environmental Insights](https://insights.sustainability.google/) - AI climate
-- [Watershed](https://watershed.com/) - AI carbon tracking
-- [Pachama](https://pachama.com/) - AI forest monitoring
-
-## AI Agriculture
-- [John Deere AI](https://www.deere.com/) - AI farming
-- [Taranis](https://www.taranis.ag/) - AI agriculture
-- [FarmWise](https://www.farmwise.io/) - AI farming
-
-## AI Space & Astronomy
-- [NASA AI](https://www.nasa.gov/) - AI space
-- [SpaceX AI](https://www.spacex.com/) - AI rockets
-- [Maxar](https://www.maxar.com/) - AI satellite
-
-## AI News & Journalism
-- [Automated Insights](https://automatedinsights.com/) - AI writing
-- [Narrative Science](https://www.narrativescience.com/) - AI content
-- [Heliograf](https://www.washingtonpost.com/) - AI news
-
-## AI Mental Health
-- [Woebot](https://woebot.io/) - AI therapy
-- [Wysa](https://www.wysa.io/) - AI mental health
-- [Replika](https://replika.com/) - AI companion
-- [Youper](https://www.youper.com/) - AI therapy
-
-## AI Pets & Animals
-- [PetAI](https://petai.app/) - AI pet care
-- [Felik](https://felik.ai/) - AI pet device
-- [Talkii](https://talkii.com/) - AI pet communication
-
-## AI Dating & Relationships
-- [Rizz](https://rizz.app/) - AI dating assistant
-- [YourMove](https://yourmove.ai/) - AI dating
-- [Teaser AI](https://teaser.ai/) - AI dating
-
-## AI Parenting
-- [Crayon](https://crayon.ai/) - AI parenting
-- [Kin](https://kin.ai/) - AI family
-- [Nurturey](https://www.nurturey.com/) - AI parenting
-
-## AI Personal Finance
-- [Cleo](https://web.meetcleo.com/) - AI finance
-- [Empower](https://www.empower.me/) - AI finance
-- [PocketGuard](https://pocketguard.com/) - AI budgeting
-- [YNAB](https://www.youneedabudget.com/) - AI budget
-
-## AI Time Management
-- [Reclaim.ai](https://reclaim.ai/) - AI scheduling
-- [Clockwise](https://www.clockwise.com/) - AI calendar
-- [Motion](https://www.usemotion.com/) - AI planning
-- [SkedPal](https://skedpal.com/) - AI scheduling
-
-## AI Language Learning (Extended)
-- [Speak](https://www.speak.com/) - AI language
-- [Elsa](https://elsaspeak.com/) - AI English
-- [Loora](https://loora.com/) - AI English
-- [Praktika](https://praktika.ai/) - AI language
-
-## AI Research Tools
-- [Semantic Scholar](https://www.semanticscholar.org/) - AI research
-- [Elicit](https://elicit.org/) - AI research
-- [Consensus](https://consensus.app/) - AI research
-- [Scite](https://scite.ai/) - AI citations
-- [Research Rabbit](https://researchrabbit.ai/) - AI papers
-
-## AI No-Code & Low-Code
-- [Bubble](https://bubble.io/) - No-code platform
-- [Webflow](https://webflow.com/) - No-code web
-- [Glide](https://www.glideapps.com/) - No-code apps
-- [Softr](https://www.softr.io/) - No-code apps
-- [FlutterFlow](https://flutterflow.io/) - No-code mobile
-
-## AI Model Training
-- [Label Studio](https://labelstud.io/) - Data labeling
-- [Roboflow](https://roboflow.com/) - CV platform
-- [SuperAnnotate](https://superannotate.com/) - Annotation
-- [Labelbox](https://www.labelbox.com/) - Data engine
-
-## AI Edge Computing
-- [TensorFlow Lite](https://www.tensorflow.org/lite) - Mobile ML
-- [PyTorch Mobile](https://pytorch.org/mobile/) - Mobile ML
-- [ONNX Runtime](https://onnxruntime.ai/) - Edge inference
-- [TensorRT](https://developer.nvidia.com/tensorrt) - NVIDIA inference
-
-## AI Quantum Computing
-- [IBM Quantum](https://www.ibm.com/quantum) - Quantum AI
-- [Google Quantum](https://quantumai.google/) - Quantum AI
-- [Microsoft Q#](https://docs.microsoft.com/quantum/) - Quantum
-- [Amazon Braket](https://aws.amazon.com/braket/) - Quantum
-
-## AI Ethics & Governance
-- [Partnership on AI](https://partnershiponai.org/) - AI ethics
-- [AI Now Institute](https://ainowinstitute.org/) - AI research
-- [Future of Humanity](https://www.fhi.ox.ac.uk/) - AI safety
-- [Center for AI Safety](https://www.cais.ai/) - AI safety
-
-## AI Open Source Projects
-- [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - Image generation
-- [Whisper](https://github.com/openai/whisper) - Speech recognition
-- [Bark](https://github.com/suno-ai/bark) - Audio generation
-- [ChatGLM](https://github.com/THUDM/ChatGLM-6B) - Chinese LLM
-- [Qwen](https://github.com/QwenLM/Qwen) - Alibaba LLM
-- [Baichuan](https://github.com/baichuan-inc/Baichuan-13B) - Chinese LLM
-- [Yi](https://github.com/01-ai/Yi) - AI model
-- [Mistral](https://huggingface.co/mistralai) - Open LLM
-- [DeepSeek](https://github.com/deepseek-ai/DeepSeek) - AI coding
-- [CodeLlama](https://github.com/facebookresearch/codellama) - Code LLM
-
-## AI Chinese Tools
-- [文心一言](https://yiyan.baidu.com/) - Baidu AI
-- [通义千问](https://tongyi.aliyun.com/) - Alibaba AI
-- [讯飞星火](https://xinghuo.xfyun.cn/) - iFlytek AI
-- [智谱清言](https://chatglm.cn/) - Zhipu AI
-- [Kimi](https://kimi.moonshot.cn/) - Moonshot AI
-- [豆包](https://www.doubao.com/) - ByteDance AI
-- [元宝](https://yuanbao.tencent.com/) - Tencent AI
-- [商量](https://chat.sensetime.com/) - SenseTime AI
-
-## AI Model Hubs
-- [Hugging Face](https://huggingface.co/) - ML models
-- [ModelScope](https://modelscope.cn/) - Alibaba models
-- [Civitai](https://civitai.com/) - SD models
-- [LiblibAI](https://liblibai.com/) - AI art models
-
-## AI Datasets
-- [Common Crawl](https://commoncrawl.org/) - Web dataset
-- [ImageNet](https://www.image-net.org/) - Image dataset
-- [COCO](https://cocodataset.org/) - Object detection
-- [LAION](https://laion.ai/) - Image-text pairs
-
-## AI Benchmarks
-- [MMLU](https://github.com/hendrycks/test) - LLM benchmark
-- [HumanEval](https://github.com/openai/human-eval) - Code benchmark
-- [GSM8K](https://github.com/openai/grade-school-math) - Math benchmark
-
-## AI YouTube Channels
-- [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) - AI education
-- [3Blue1Brown](https://www.youtube.com/@3blue1brown) - Math & AI
-- [Two Minute Papers](https://www.youtube.com/@TwoMinutePapers) - AI papers
-- [Lex Fridman](https://www.youtube.com/@lexfridman) - AI interviews
-
-## AI Newsletters
-- [Import AI](https://jack-clark.net/) - AI newsletter
-- [The Batch](https://deeplearning.ai/the-batch/) - DeepLearning.AI
-- [TLDR AI](https://tldr.tech/ai) - Daily AI news
-
-## AI Communities
-- [r/MachineLearning](https://www.reddit.com/r/MachineLearning/) - Reddit ML
-- [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/) - Local LLMs
-- [Hacker News](https://news.ycombinator.com/) - Tech news
-
-## AI Conferences
-- [NeurIPS](https://neurips.cc/) - Neural Information Processing
-- [ICML](https://icml.cc/) - Machine Learning
-- [ICLR](https://iclr.cc/) - Learning Representations
-- [CVPR](https://cvpr.thecvf.com/) - Computer Vision
-
-## AI Books (Free)
-- [Deep Learning](https://www.deeplearningbook.org/) - Goodfellow et al.
-- [Dive into Deep Learning](https://d2l.ai/) - Interactive book
-- [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) - Jurafsky
-
-## AI Courses (Free)
-- [CS231n](http://cs231n.stanford.edu/) - Stanford CV
-- [CS224n](http://web.stanford.edu/class/cs224n/) - Stanford NLP
-- [Fast.ai](https://course.fast.ai/) - Practical Deep Learning
-- [Hugging Face Course](https://huggingface.co/learn) - NLP course
-
-## AI Prompt Engineering
-- [Learn Prompting](https://learnprompting.org/) - Free course
-- [Prompt Engineering Guide](https://www.promptingguide.ai/) - DAIR.AI
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Examples
-- [Anthropic Prompt Library](https://docs.anthropic.com/claude/prompt-library) - Claude prompts
-- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - Prompts
-- [FlowGPT](https://flowgpt.com/) - Share prompts
-- [PromptBase](https://promptbase.com/) - Prompt marketplace
-- [SnackPrompt](https://snackprompt.com/) - Prompt community
-
-## AI Agent Frameworks
-- [LangChain](https://github.com/langchain-ai/langchain) - LLM apps
-- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous agent
-- [BabyAGI](https://github.com/yoheinakajima/babyagi) - Task agent
-- [AgentGPT](https://github.com/reworkd/AgentGPT) - Web agent
-- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent
-- [CrewAI](https://github.com/joaomdmourie/crewAI) - Agent team
-- [AutoGen](https://github.com/microsoft/autogen) - Multi-agent
-- [Haystack](https://github.com/deepset-ai/haystack) - NLP framework
-- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft
-
-## AI Vector Databases
-- [Pinecone](https://www.pinecone.io/) - Vector DB
-- [Weaviate](https://weaviate.io/) - Vector DB
-- [Milvus](https://milvus.io/) - Vector DB
-- [Qdrant](https://qdrant.tech/) - Vector DB
-- [Chroma](https://www.trychroma.com/) - Embedding DB
-- [FAISS](https://github.com/facebookresearch/faiss) - Facebook
-- [LanceDB](https://lancedb.com/) - Serverless
-- [pgvector](https://github.com/pgvector/pgvector) - PostgreSQL
-
-## AI Embedding Models
-- [text-embedding-ada-002](https://openai.com/) - OpenAI
-- [E5](https://huggingface.co/intfloat/e5-large-v2) - Microsoft
-- [BGE](https://huggingface.co/BAAI/bge-large-en) - BAAI
-- [MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard) - Ranking
-
-## AI RAG Tools
-- [RAGatouille](https://github.com/bclavie/RAGatouille) - RAG framework
-- [Verba](https://github.com/weaviate/Verba) - Golden RAG
-- [Quivr](https://github.com/StanGirard/quivr) - Brain assistant
-- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) - Research
-
-## AI Fine-tuning Tools
-- [LoRA](https://github.com/microsoft/LoRA) - Low-rank adapt
-- [QLoRA](https://github.com/artidoro/qlora) - Quantized LoRA
-- [PEFT](https://github.com/huggingface/peft) - Parameter-efficient
-- [Axolotl](https://github.com/OpenAccess-AICollective/axolotl) - Fine-tune
-- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Fine-tune
-
-## AI Deployment
-- [vLLM](https://github.com/vllm-project/vllm) - Fast inference
-- [TGI](https://github.com/huggingface/text-generation-inference) - HF
-- [Ollama](https://github.com/ollama/ollama) - Local LLM
-- [LocalAI](https://github.com/go-skynet/LocalAI) - OpenAI compatible
-- [LM Studio](https://lmstudio.ai/) - GUI for LLMs
-- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA
-- [OpenLLM](https://github.com/bentoml/OpenLLM) - BentoML
-
-## AI Evaluation Tools
-- [Ragas](https://github.com/explodinggradients/ragas) - RAG eval
-- [TruLens](https://github.com/truera/trulens) - LLM eval
-- [DeepEval](https://github.com/confident-ai/deepeval) - Unit test
-- [Promptfoo](https://github.com/promptfoo/promptfoo) - Prompt eval
-- [LangSmith](https://www.langchain.com/langsmith) - LangChain
-- [Weights & Biases](https://wandb.ai/) - ML tracking
-
-## AI Image Models
-- [DALL-E 3](https://openai.com/dall-e-3) - OpenAI
-- [Midjourney](https://www.midjourney.com/) - Best quality
-- [Stable Diffusion XL](https://stability.ai/) - Open source
-- [Stable Diffusion 3](https://stability.ai/) - Latest SD
-- [Leonardo AI](https://leonardo.ai/) - Game assets
-- [Ideogram](https://ideogram.ai/) - Text in images
-- [Flux](https://blackforestlabs.ai/) - New model
-- [Krea AI](https://krea.ai/) - Real-time
-- [Playground AI](https://playground.com/) - Free
-- [NightCafe](https://creator.nightcafe.studio/) - Art generator
-- [Deep Dream Generator](https://deepdreamgenerator.com/) - Art styles
-- [Artbreeder](https://www.artbreeder.com/) - Mix images
-- [Runway Gen-2](https://runwayml.com/) - Video & image
-- [Pika Labs](https://pika.art/) - Video generation
-
-## AI Video Models
-- [Sora](https://openai.com/sora) - OpenAI
-- [Runway Gen-3](https://runwayml.com/) - Best quality
-- [Pika 2](https://pika.art/) - Fast generation
-- [Kling AI](https://klingai.com/) - Chinese
-- [Hailuo AI](https://hailuoai.com/video) - MiniMax
-- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - 3D video
-- [Stable Video Diffusion](https://stability.ai/) - Open source
-- [AnimateDiff](https://github.com/guoyww/AnimateDiff) - Animation
-- [Deforum](https://github.com/deforum-art/deforum-studio) - Art video
-
-## AI Audio Models
-- [Suno AI](https://suno.ai/) - Music generation
-- [Udio](https://www.udio.com/) - Music creation
-- [ElevenLabs](https://elevenlabs.io/) - Voice cloning
-- [OpenAI TTS](https://openai.com/) - Text to speech
-- [Azure TTS](https://azure.microsoft.com/) - Microsoft
-- [Google TTS](https://cloud.google.com/text-to-speech) - Google
-- [Coqui TTS](https://github.com/coqui-ai/TTS) - Open source
-- [Bark](https://github.com/suno-ai/bark) - Audio generation
-- [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion) - Voice conversion
-- [So-VITS-SVC](https://github.com/svc-develop-team/so-vits-svc) - Singing
-- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - Few-shot TTS
-- [Whisper](https://github.com/openai/whisper) - Speech recognition
-- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) - Fast ASR
-- [FunASR](https://github.com/alibaba-damo-academy/FunASR) - Alibaba ASR
-
-## AI 3D Models
-- [Point-E](https://github.com/openai/point-e) - OpenAI 3D
-- [Shap-E](https://github.com/openai/shap-e) - OpenAI 3D
-- [GET3D](https://github.com/nv-tlabs/GET3D) - NVIDIA
-- [Magic3D](https://deepimagine.ai/) - Text to 3D
-- [Luma AI](https://lumalabs.ai/) - 3D capture
-- [Kaedim](https://www.kaedim3d.com/) - Image to 3D
-- [Meshy](https://www.meshy.ai/) - 3D creation
-- [Tripo AI](https://tripo3d.ai/) - Fast 3D
-- [Rodin](https://hyperhuman.de/rodin) - Hyperhuman
-
-## AI Code Models
-- [GitHub Copilot](https://github.com/features/copilot) - VS Code
-- [Cursor](https://cursor.sh/) - AI editor
-- [Windsurf](https://codeium.com/windsurf) - Codeium
-- [Tabnine](https://www.tabnine.com/) - Autocomplete
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS
-- [Replit AI](https://replit.com/) - Online IDE
-- [Sourcegraph Cody](https://sourcegraph.com/cody) - Code search
-- [Continue](https://continue.dev/) - VS Code extension
-- [Aider](https://github.com/paul-gauthier/aider) - Terminal
-- [Devin](https://www.cognition.ai/devin) - AI engineer
-- [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Open source
-- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) - Agent
-
-## AI Research Tools
-- [Semantic Scholar](https://www.semanticscholar.org/) - Paper search
-- [Google Scholar](https://scholar.google.com/) - Academic
-- [arXiv](https://arxiv.org/) - Preprints
-- [Papers with Code](https://paperswithcode.com/) - ML papers
-- [Connected Papers](https://www.connectedpapers.com/) - Graph
-- [ResearchRabbit](https://www.researchrabbit.ai/) - Discovery
-- [Elicit](https://elicit.org/) - Research assistant
-- [Consensus](https://consensus.app/) - Science search
-- [Scite](https://scite.ai/) - Citation analysis
-- [Scholarcy](https://www.scholarcy.com/) - Summarizer
-- [Explainpaper](https://explainpaper.com/) - Paper explain
-
-## AI Writing Tools
-- [Jasper](https://www.jasper.ai/) - Marketing copy
-- [Copy.ai](https://www.copy.ai/) - Copywriting
-- [Writesonic](https://writesonic.com/) - Content
-- [Rytr](https://rytr.me/) - Writing assistant
-- [Anyword](https://anyword.com/) - Marketing
-- [Sudowrite](https://www.sudowrite.com/) - Fiction
-- [NovelAI](https://novelai.net/) - Story
-- [AI Dungeon](https://aidungeon.com/) - Game
-- [Grammarly](https://www.grammarly.com/) - Grammar
-- [Wordtune](https://www.wordtune.com/) - Rewrite
-- [ProWritingAid](https://prowritingaid.com/) - Writing
-- [Hemingway](https://hemingwayapp.com/) - Style
-- [Quillbot](https://quillbot.com/) - Paraphrase
-- [Notion AI](https://www.notion.so/product/ai) - Notion
-- [Mem](https://mem.ai/) - Notes
-
-## AI Presentation Tools
-- [Gamma](https://gamma.app/) - Slides
-- [Beautiful.ai](https://www.beautiful.ai/) - Design
-- [Tome](https://tome.app/) - Storytelling
-- [SlidesAI](https://www.slidesai.io/) - Google Slides
-- [Pitch](https://pitch.com/) - Team slides
-- [Canva AI](https://www.canva.com/) - Design
-- [Magicslides](https://magicslides.app/) - GPT slides
-- [Sendsteps](https://sendsteps.ai/) - PowerPoint
-
-## AI Meeting Tools
-- [Otter.ai](https://otter.ai/) - Transcription
-- [Fireflies.ai](https://fireflies.ai/) - Meeting notes
-- [Fathom](https://fathom.video/) - AI notetaker
-- [Avoma](https://www.avoma.com/) - Meeting AI
-- [Airgram](https://airgram.io/) - Transcription
-- [tl;dv](https://tldv.io/) - Video highlights
-- [Krisp](https://krisp.ai/) - Noise cancel
-- [Rewatch](https://rewatch.com/) - Video wiki
-- [Supernormal](https://supernormal.com/) - Notes
-- [Metaview](https://metaview.ai/) - Recruiting
-
-## AI Email Tools
-- [Superhuman](https://superhuman.com/) - Email client
-- [Compose AI](https://compose.ai/) - Autocomplete
-- [Lavender](https://www.lavender.ai/) - Sales email
-- [SmartWriter](https://www.smartwriter.ai/) - Personalization
-- [Regie.ai](https://www.regie.ai/) - Sales content
-- [HoppyCopy](https://www.hoppycopy.co/) - Email copy
-- [Instantly](https://instantly.ai/) - Cold email
-- [Missive](https://missiveapp.com/) - Team email
-
-## AI SEO Tools
-- [Surfer SEO](https://surferseo.com/) - Content optimization
-- [Frase](https://www.frase.io/) - SEO content
-- [MarketMuse](https://www.marketmuse.com/) - Content strategy
-- [Clearscope](https://www.clearscope.io/) - Optimization
-- [Outranking](https://www.outranking.io/) - SEO writing
-- [Scalenut](https://www.scalenut.com/) - Content
-- [NeuronWriter](https://neuronwriter.com/) - NLP SEO
-- [PageOptimizer Pro](https://pageoptimizer.pro/) - On-page
-
-## AI Marketing Tools
-- [Jasper](https://www.jasper.ai/) - Content
-- [Copy.ai](https://www.copy.ai/) - Copy
-- [HubSpot AI](https://www.hubspot.com/) - Marketing
-- [Drift](https://www.drift.com/) - Conversational
-- [Persado](https://www.persado.com/) - Messaging
-- [Phrasee](https://www.phrasee.com/) - Email copy
-- [Crayon](https://www.crayon.co/) - Competitive
-- [Pathmatics](https://www.pathmatics.com/) - Ad intel
-- [AdCreative.ai](https://adcreative.ai/) - Ad design
-- [Pencil](https://www.trypencil.com/) - Ad creative
-
-## AI Social Media Tools
-- [Buffer AI](https://buffer.com/) - Scheduling
-- [Hootsuite AI](https://hootsuite.com/) - Management
-- [Sprout Social](https://sproutsocial.com/) - Analytics
-- [Later](https://later.com/) - Visual planning
-- [Lately](https://www.lately.ai/) - Content repurpose
-- [Flick](https://www.flick.tech/) - Hashtags
-- [Predis.ai](https://predis.ai/) - Carousel
-- [OpusClip](https://opus.pro/) - Short clips
-- [Vizard.ai](https://vizard.ai/) - Video edit
-- [Munch](https://www.getmunch.com/) - Video clips
-
-## AI Customer Service
-- [Intercom Fin](https://www.intercom.com/) - Support
-- [Zendesk AI](https://www.zendesk.com/) - Ticketing
-- [Freshworks](https://www.freshworks.com/) - CRM
-- [Salesforce Einstein](https://www.salesforce.com/) - CRM
-- [Ada](https://www.ada.cx/) - Chatbot
-- [Yellow.ai](https://yellow.ai/) - Automation
-- [Klarna](https://www.klarna.com/) - Shopping
-- [Forethought](https://forethought.ai/) - Support
-- [Cognigy](https://www.cognigy.com/) - Conversational
-- [Kore.ai](https://kore.ai/) - Enterprise
-
-## AI HR Tools
-- [HireVue](https://www.hirevue.com/) - Video interview
-- [Pymetrics](https://www.pymetrics.com/) - Assessment
-- [HiredScore](https://hiredscore.com/) - Recruiting
-- [Entelo](https://www.entelo.com/) - Sourcing
-- [SeekOut](https://seekout.io/) - Talent
-- [Eightfold](https://eightfold.ai/) - Talent intelligence
-- [Paradox](https://www.paradox.ai/) - Assistant
-- [Harver](https://harver.com/) - Assessment
-- [Xor](https://xor.ai/) - Recruiting
-- [Leena.ai](https://leena.ai/) - HR support
-
-## AI Finance Tools
-- [Kensho](https://www.kensho.com/) - Analytics
-- [AlphaSense](https://www.alphasense.com/) - Search
-- [Sentieo](https://sentieo.com/) - Research
-- [Kavout](https://kavout.com/) - Investing
-- [Equbot](https://equbot.com/) - ETF
-- [Numerai](https://numer.ai/) - Hedge fund
-- [Tickeron](https://tickeron.com/) - Trading
-- [Trade Ideas](https://www.trade-ideas.com/) - Scanner
-- [TrendSpider](https://trendspider.com/) - Analysis
-- [FinChat](https://finchat.io/) - Finance AI
-
-## AI Legal Tools
-- [Harvey](https://harvey.ai/) - Legal AI
-- [Casetext](https://casetext.com/) - Research
-- [LexisNexis](https://www.lexisnexis.com/) - Legal
-- [Westlaw](https://westlaw.com/) - Research
-- [DoNotPay](https://donotpay.com/) - Consumer
-- [LegalZoom](https://www.legalzoom.com/) - Services
-- [Ironclad](https://ironcladapp.com/) - Contracts
-- [Lexion](https://lexion.ai/) - Contract AI
-- [LawGeex](https://www.lawgeex.com/) - Review
-- [Blackboiler](https://www.blackboiler.com/) - Contracts
-
-## AI Healthcare Tools
-- [PathAI](https://www.pathai.com/) - Pathology
-- [Viz.ai](https://www.viz.ai/) - Medical imaging
-- [Tempus](https://www.tempus.com/) - Precision
-- [Atomwise](https://atomwise.com/) - Drug discovery
-- [Insilico Medicine](https://insilico.com/) - Drug AI
-- [BenevolentAI](https://benevolent.ai/) - Drug discovery
-- [Exscientia](https://www.exscientia.ai/) - Drug design
-- [Recursion](https://www.recursion.com/) - Drug discovery
-- [Owkin](https://owkin.com/) - Medical AI
-- [DeepMind Health](https://deepmind.com/) - Research
-
-## AI Education Tools
-- [Khan Academy AI](https://www.khanacademy.org/) - Learning
-- [Duolingo Max](https://www.duolingo.com/) - Language
-- [Coursera AI](https://www.coursera.org/) - Courses
-- [Quizlet Q-Chat](https://quizlet.com/) - Study
-- [Gradescope](https://gradescope.com/) - Grading
-- [Cognii](https://www.cognii.com/) - Assessment
-- [Squirrel AI](https://squirrelai.com/) - Adaptive
-- [Century Tech](https://www.century.tech/) - Learning
-- [Carnegie Learning](https://www.carnegielearning.com/) - Math
-- [Eureka Labs](https://eurekalabs.ai/) - AI education
-
-## AI Design Tools
-- [Figma AI](https://www.figma.com/) - Design
-- [Canva Magic](https://www.canva.com/) - Design
-- [Adobe Firefly](https://firefly.adobe.com/) - Adobe AI
-- [Uizard](https://uizard.io/) - UI design
-- [Galileo AI](https://www.usegalileo.ai/) - UI generation
-- [Visily](https://visily.ai/) - Wireframes
-- [Magician](https://magician.design/) - Figma plugin
-- [Automator](https://automator.design/) - Figma automation
-- [Relume](https://www.relume.io/) - Sitemap
-- [Framer AI](https://www.framer.com/) - Website
-- [Durable](https://durable.co/) - Website builder
-- [10Web](https://10web.io/) - WordPress AI
-- [Divi AI](https://www.elegantthemes.com/) - WordPress
-- [Wix ADI](https://www.wix.com/) - Website builder
-- [Mixo](https://mixo.io/) - Landing page
-
-## AI Gaming Tools
-- [Inworld AI](https://inworld.ai/) - NPCs
-- [Convai](https://convai.com/) - Characters
-- [Latitude](https://latitude.io/) - Games
-- [Character Engine](https://www.hiberworld.com/) - 3D
-- [Scenario](https://www.scenario.com/) - Game assets
-- [Leonardo Game](https://leonardo.ai/) - Assets
-- [Layer](https://layer.art/) - Game art
-- [Kaiber](https://kaiber.ai/) - Video
-- [Rosebud AI](https://rosebud.ai/) - Games
-- [GPT Game](https://gpt-game.com/) - Text games
-
-## AI Music Tools
-- [Suno](https://suno.ai/) - Full songs
-- [Udio](https://www.udio.com/) - Music
-- [AIVA](https://www.aiva.ai/) - Compose
-- [Soundraw](https://soundraw.io/) - Generate
-- [Boomy](https://boomy.com/) - Create
-- [Mubert](https://mubert.com/) - Soundtrack
-- [Ecrett](https://ecrett.com/) - Game music
-- [Amper Music](https://www.ampermusic.com/) - Create
-- [Jukebox](https://openai.com/research/jukebox) - OpenAI
-- [MusicLM](https://google-research.github.io/musiclm/) - Google
-- [MusicGen](https://github.com/facebookresearch/audiocraft) - Meta
-- [Stable Audio](https://stability.ai/) - Stability
-
-## AI Translation Tools
-- [DeepL](https://www.deepl.com/) - Best quality
-- [Google Translate](https://translate.google.com/) - Free
-- [Microsoft Translator](https://www.bing.com/translator) - Free
-- [Amazon Translate](https://aws.amazon.com/translate/) - AWS
-- [Smartling](https://www.smartling.com/) - Enterprise
-- [Lokalise AI](https://lokalise.com/) - Localization
-- [Phrase](https://phrase.com/) - Translation
-- [Wordbee](https://www.wordbee.com/) - CAT tool
-- [Memsource](https://www.memsource.com/) - TMS
-- [Unbabel](https://unbabel.com/) - Human+AI
-
-## AI Data Analysis
-- [Julius AI](https://julius.ai/) - Data analyst
-- [Obviously AI](https://www.obviously.ai/) - No-code ML
-- [Akkio](https://akkio.com/) - No-code AI
-- [DataRobot](https://www.datarobot.com/) - AutoML
-- [H2O.ai](https://h2o.ai/) - Open source
-- [BigML](https://bigml.com/) - Machine learning
-- [RapidMiner](https://rapidminer.com/) - Data science
-- [KNIME](https://www.knime.com/) - Analytics
-- [Alteryx AI](https://www.alteryx.com/) - Analytics
-- [Tableau AI](https://www.tableau.com/) - Visualization
-- [Power BI Copilot](https://powerbi.microsoft.com/) - Microsoft
-- [ThoughtSpot](https://www.thoughtspot.com/) - Search
-- [Hex](https://hex.tech/) - Data workspace
-
-## AI Automation Tools
-- [Zapier AI](https://zapier.com/) - Automation
-- [Make AI](https://www.make.com/) - Integration
-- [n8n](https://n8n.io/) - Workflow
-- [Bardeen](https://www.bardeen.ai/) - Browser
-- [Magical](https://www.getmagical.com/) - Text
-- [UiPath AI](https://www.uipath.com/) - RPA
-- [Automation Anywhere](https://www.automationanywhere.com/) - RPA
-- [Workato](https://workato.com/) - Integration
-- [Tray.io](https://tray.io/) - Automation
-- [Pipedream](https://pipedream.com/) - Integration
-
-## AI Developer Tools
-- [Postman AI](https://www.postman.com/) - API
-- [Insomnia AI](https://insomnia.rest/) - API
-- [Hoppscotch](https://hoppscotch.io/) - API
-- [Linear AI](https://linear.app/) - Issues
-- [Jira Intelligence](https://www.atlassian.com/) - Jira
-- [GitHub Copilot X](https://github.com/) - GitHub
-- [GitLab Duo](https://gitlab.com/) - GitLab
-- [Bitbucket AI](https://bitbucket.org/) - Bitbucket
-- [New Relic AI](https://newrelic.com/) - Observability
-- [Datadog AI](https://www.datadoghq.com/) - Monitoring
-- [Sentry AI](https://sentry.io/) - Error tracking
-- [PagerDuty AI](https://www.pagerduty.com/) - Incident
-
-## AI Testing Tools
-- [Applitools](https://applitools.com/) - Visual testing
-- [Testim](https://www.testim.io/) - UI testing
-- [Mabl](https://www.mabl.com/) - Automated
-- [Functionize](https://www.functionize.com/) - Testing
-- [Perfecto](https://www.perfecto.io/) - Mobile
-- [Katalon](https://www.katalon.com/) - Testing
-- [Tricentis](https://www.tricentis.com/) - Enterprise
-- [Test.ai](https://test.ai/) - AI testing
-- [DeepTest](https://www.deeptest.ai/) - Testing
-- [Bugasura](https://bugasura.io/) - Bug reporting
-
-## AI Security Tools
-- [Darktrace](https://www.darktrace.com/) - Cyber AI
-- [CrowdStrike Charlotte](https://www.crowdstrike.com/) - Security
-- [SentinelOne](https://www.sentinelone.com/) - Endpoint
-- [Cynet](https://www.cynet.com/) - Security
-- [Vectra AI](https://www.vectra.ai/) - Detection
-- [ExtraHop](https://www.extrahop.com/) - Network
-- [IBM Security](https://www.ibm.com/security) - Enterprise
-- [Microsoft Security Copilot](https://www.microsoft.com/) - Security
-- [Google Mandiant](https://mandiant.com/) - Threat
-- [Recorded Future](https://www.recordedfuture.com/) - Intel
-
-## AI DevOps Tools
-- [Harness AI](https://harness.io/) - CI/CD
-- [CircleCI Insights](https://circleci.com/) - CI/CD
-- [Jenkins AI](https://www.jenkins.io/) - Automation
-- [Argo CD](https://argo-cd.readthedocs.io/) - GitOps
-- [Spacelift](https://spacelift.io/) - IaC
-- [Pulumi AI](https://www.pulumi.com/) - IaC
-- [Terraform](https://www.terraform.io/) - IaC
-- [Docker AI](https://www.docker.com/) - Containers
-- [Kubernetes AI](https://kubernetes.io/) - Orchestration
-- [Snyk](https://snyk.io/) - Security
-
-## AI Low-Code Tools
-- [Retool AI](https://retool.com/) - Internal apps
-- [Appian AI](https://appian.com/) - Low-code
-- [OutSystems](https://www.outsystems.com/) - Low-code
-- [Mendix](https://www.mendix.com/) - Low-code
-- [Power Apps](https://powerapps.microsoft.com/) - Microsoft
-- [Bubble](https://bubble.io/) - No-code
-- [Glide](https://www.glideapps.com/) - Apps
-- [Softr](https://www.softr.io/) - Apps
-- [Notion Apps](https://www.notion.so/) - Notion
-- [Airtable AI](https://airtable.com/) - Database
-
-## AI Productivity Tools
-- [Notion AI](https://www.notion.so/) - Notes
-- [Obsidian AI](https://obsidian.md/) - Knowledge
-- [Roam Research](https://roamresearch.com/) - Notes
-- [Logseq AI](https://logseq.com/) - Knowledge
-- [Mem AI](https://mem.ai/) - Notes
-- [Reflect](https://reflect.app/) - Notes
-- [Craft AI](https://www.craft.do/) - Documents
-- [Coda AI](https://coda.io/) - Documents
-- [ClickUp AI](https://clickup.com/) - Tasks
-- [Asana Intelligence](https://asana.com/) - Tasks
-- [Monday AI](https://monday.com/) - Work OS
-- [Todoist AI](https://todoist.com/) - Tasks
-- [Linear AI](https://linear.app/) - Issues
-- [Height](https://height.app/) - Tasks
-
-## AI Personal Assistants
-- [ChatGPT](https://chat.openai.com/) - OpenAI
-- [Claude](https://claude.ai/) - Anthropic
-- [Gemini](https://gemini.google.com/) - Google
-- [Copilot](https://copilot.microsoft.com/) - Microsoft
-- [Perplexity](https://www.perplexity.ai/) - Search
-- [Poe](https://poe.com/) - Multi-model
-- [Character.ai](https://character.ai/) - Characters
-- [Pi](https://pi.ai/) - Inflection
-- [HuggingChat](https://huggingface.co/chat/) - Open source
-- [Ollama](https://ollama.ai/) - Local
-- [LM Studio](https://lmstudio.ai/) - Local
-- [GPT4All](https://gpt4all.io/) - Local
-
-## AI Browser Extensions
-- [Merlin](https://www.getmerlin.in/) - Chrome
-- [Monica](https://monica.im/) - Chrome
-- [Harpa AI](https://harpa.ai/) - Chrome
-- [Sider](https://sider.ai/) - Chrome
-- [ChatGPT Sidebar](https://chatgpt-sidebar.com/) - Chrome
-- [WebChatGPT](https://webchatgpt.ai/) - Chrome
-- [AIPRM](https://www.aiprm.com/) - Prompts
-- [ChatGPT for Google](https://chatgpt4google.com/) - Search
-- [TeamSmart AI](https://teamsmart.ai/) - Team
-- [MaxAI](https://maxai.me/) - Productivity
-
-## AI Mobile Apps
-- [ChatGPT iOS](https://apps.apple.com/app/openai-chatgpt) - OpenAI
-- [Claude iOS](https://apps.apple.com/app/claude) - Anthropic
-- [Gemini Android](https://play.google.com/store/apps/details?id=com.google.android.apps.bard) - Google
-- [Perplexity Mobile](https://www.perplexity.ai/) - Search
-- [Poe Mobile](https://poe.com/) - Multi-model
-- [Character.ai Mobile](https://character.ai/) - Characters
-- [Pi Mobile](https://pi.ai/) - Inflection
-- [Replit Mobile](https://replit.com/) - Coding
-- [Cici](https://www.cici.ai/) - Chinese
-- [Xinghuo App](https://xinghuo.xfyun.cn/) - iFlytek
-
-## AI Hardware
-- [NVIDIA H100](https://www.nvidia.com/) - GPU
-- [NVIDIA A100](https://www.nvidia.com/) - GPU
-- [NVIDIA RTX 4090](https://www.nvidia.com/) - Consumer
-- [Apple M3 Max](https://www.apple.com/) - Mac
-- [Google TPU v5](https://cloud.google.com/tpu) - Google
-- [AWS Trainium](https://aws.amazon.com/) - AWS
-- [Groq LPU](https://groq.com/) - Inference
-- [Tenstorrent](https://tenstorrent.com/) - AI chip
-- [Cerebras](https://www.cerebras.net/) - Wafer
-- [Mythic](https://mythic.ai/) - Analog
-
-## AI Cloud Platforms
-- [OpenAI API](https://platform.openai.com/) - OpenAI
-- [Azure OpenAI](https://azure.microsoft.com/) - Microsoft
-- [AWS Bedrock](https://aws.amazon.com/bedrock/) - AWS
-- [Google Vertex AI](https://cloud.google.com/vertex-ai) - Google
-- [Anthropic API](https://docs.anthropic.com/) - Claude
-- [Cohere](https://cohere.com/) - NLP
-- [AI21](https://www.ai21.com/) - Jurassic
-- [Mistral API](https://mistral.ai/) - Mistral
-- [Replicate](https://replicate.com/) - Run models
-- [Together AI](https://together.ai/) - Open models
-- [Anyscale](https://www.anyscale.com/) - Ray
-- [Modal](https://modal.com/) - Serverless
-- [RunPod](https://www.runpod.io/) - GPU rental
-- [Lambda Labs](https://lambdalabs.com/) - GPU
-- [Vast.ai](https://vast.ai/) - GPU rental
-
-## AI Startup Companies
-- [OpenAI](https://openai.com/) - GPT, DALL-E
-- [Anthropic](https://www.anthropic.com/) - Claude
-- [Google DeepMind](https://deepmind.com/) - Gemini
-- [Meta AI](https://ai.meta.com/) - Llama
-- [Mistral AI](https://mistral.ai/) - Mistral
-- [Cohere](https://cohere.com/) - Enterprise NLP
-- [AI21 Labs](https://www.ai21.com/) - Jurassic
-- [Stability AI](https://stability.ai/) - Stable Diffusion
-- [Midjourney](https://www.midjourney.com/) - Image
-- [Runway](https://runwayml.com/) - Video
-- [Suno](https://suno.ai/) - Music
-- [ElevenLabs](https://elevenlabs.io/) - Voice
-- [Hugging Face](https://huggingface.co/) - ML platform
-- [Replicate](https://replicate.com/) - Model hosting
-- [LangChain](https://www.langchain.com/) - LLM apps
-- [Notion AI](https://www.notion.so/) - Productivity
-- [Jasper](https://www.jasper.ai/) - Marketing
-- [Character.ai](https://character.ai/) - Characters
-- [Perplexity](https://www.perplexity.ai/) - Search
-- [Inflection](https://inflection.ai/) - Pi
-
-## AI Chinese Companies
-- [百度文心](https://yiyan.baidu.com/) - ERNIE
-- [阿里通义](https://tongyi.aliyun.com/) - Qwen
-- [腾讯混元](https://hunyuan.tencent.com/) - Hunyuan
-- [讯飞星火](https://xinghuo.xfyun.cn/) - Spark
-- [字节豆包](https://www.doubao.com/) - Doubao
-- [智谱AI](https://www.zhipuai.cn/) - GLM
-- [百川智能](https://www.baichuan-ai.com/) - Baichuan
-- [MiniMax](https://www.minimaxi.com/) - Hailuo
-- [月之暗面](https://www.moonshot.cn/) - Kimi
-- [零一万物](https://www.lingyiwanwu.com/) - Yi
-- [商汤科技](https://www.sensetime.com/) - SenseChat
-- [昆仑万维](https://www.kunlun.com/) - Tiangong
-- [360智脑](https://ai.360.com/) - 360AI
-- [稀宇科技](https://www.minimaxi.com/) - MiniMax
-- [阶跃星辰](https://www.stepfun.com/) - Step
-
-## AI Research Labs
-- [OpenAI Research](https://openai.com/research) - GPT papers
-- [DeepMind Research](https://deepmind.com/research) - AlphaGo
-- [FAIR](https://ai.meta.com/research/) - Meta AI
-- [Google AI](https://ai.google/) - Google
-- [Microsoft Research](https://www.microsoft.com/en-us/research/) - MS
-- [IBM Research](https://research.ibm.com/) - IBM
-- [Allen AI](https://allenai.org/) - Allen Institute
-- [MILA](https://mila.quebec/) - Yoshua Bengio
-- [Stanford AI](https://ai.stanford.edu/) - Stanford
-- [MIT CSAIL](https://www.csail.mit.edu/) - MIT
-- [Berkeley AI](https://bair.berkeley.edu/) - UC Berkeley
-- [CMU AI](https://www.cmu.edu/ai/) - Carnegie Mellon
-- [Tsinghua AI](https://ai.tsinghua.edu.cn/) - 清华
-- [Peking U AI](https://www.ai.pku.edu.cn/) - 北大
-- [Shanghai AI Lab](https://www.shlab.org.cn/) - 上海AI实验室
-
-## AI Founders & Researchers
-- [Sam Altman](https://twitter.com/sama) - OpenAI CEO
-- [Ilya Sutskever](https://twitter.com/ilyasut) - OpenAI co-founder
-- [Dario Amodei](https://www.anthropic.com/) - Anthropic CEO
-- [Demis Hassabis](https://deepmind.com/) - DeepMind
-- [Yann LeCun](https://twitter.com/ylecun) - Meta AI
-- [Andrew Ng](https://www.andrewng.org/) - DeepLearning.AI
-- [Geoffrey Hinton](https://www.cs.toronto.edu/~hinton/) - AI pioneer
-- [Yoshua Bengio](https://mila.quebec/en/yoshua-bengio/) - MILA
-- [Andrej Karpathy](https://twitter.com/karpathy) - ex-OpenAI
-- [Jim Fan](https://twitter.com/DrJimFan) - NVIDIA
-- [Lex Fridman](https://lexfridman.com/) - MIT
-- [Timnit Gebru](https://timnitgebru.com/) - AI ethics
-- [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li) - Stanford
-- [Jensen Huang](https://www.nvidia.com/) - NVIDIA CEO
-- [Elon Musk](https://twitter.com/elonmusk) - xAI
-
-## AI Podcasts
-- [Lex Fridman Podcast](https://lexfridman.com/podcast) - AI interviews
-- [TWIML AI Podcast](https://twimlai.com/) - ML interviews
-- [The AI Podcast](https://nvidia.com/en-us/deep-learning-ai/ai-podcast/) - NVIDIA
-- [Machine Learning Guide](http://ocdevel.com/mlg) - ML course
-- [Practical AI](https://changelog.com/practicalai) - Changelog
-- [AI Alignment Podcast](https://alignmentforum.org/) - Alignment
-- [Eye on AI](https://www.eye-on.ai/) - Industry
-- [AI in Business](https://www.techemergence.com/) - Business
-- [SuperDataScience](https://www.superdatascience.com/podcast) - Data
-- [Data Skeptic](https://dataskeptic.com/) - Data science
-
-## AI Twitter/X Accounts
-- [@sama](https://twitter.com/sama) - Sam Altman
-- [@ylecun](https://twitter.com/ylecun) - Yann LeCun
-- [@karpathy](https://twitter.com/karpathy) - Andrej Karpathy
-- [@OpenAI](https://twitter.com/OpenAI) - OpenAI
-- [@AnthropicAI](https://twitter.com/AnthropicAI) - Anthropic
-- [@GoogleDeepMind](https://twitter.com/GoogleDeepMind) - DeepMind
-- [@MistralAI](https://twitter.com/MistralAI) - Mistral
-- [@huggingface](https://twitter.com/huggingface) - Hugging Face
-- [@goodfellow_ian](https://twitter.com/goodfellow_ian) - Ian Goodfellow
-- [@AndrewYNg](https://twitter.com/AndrewYNg) - Andrew Ng
-
-## AI Discord Servers
-- [Hugging Face](https://hf.co/join/discord) - ML community
-- [LangChain](https://discord.gg/langchain) - LLM apps
-- [Midjourney](https://discord.gg/midjourney) - Image gen
-- [Stability AI](https://discord.gg/stabilityai) - Stable Diffusion
-- [ElevenLabs](https://discord.gg/elevenlabs) - Voice
-- [Runway](https://discord.gg/runwayml) - Video
-- [AutoGPT](https://discord.gg/autogpt) - Agents
-- [LocalLLaMA](https://discord.gg/local_llama) - Local models
-- [r/ML Discord](https://discord.gg/reddit-ml) - Reddit ML
-- [Fast.ai](https://discord.gg/fastai) - Fast.ai
-
-## AI Subreddits
-- [r/MachineLearning](https://reddit.com/r/MachineLearning) - ML
-- [r/artificial](https://reddit.com/r/artificial) - AI
-- [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) - Local LLMs
-- [r/ChatGPT](https://reddit.com/r/ChatGPT) - ChatGPT
-- [r/OpenAI](https://reddit.com/r/OpenAI) - OpenAI
-- [r/StableDiffusion](https://reddit.com/r/StableDiffusion) - SD
-- [r/Midjourney](https://reddit.com/r/Midjourney) - MJ
-- [r/deeplearning](https://reddit.com/r/deeplearning) - Deep learning
-- [r/learnmachinelearning](https://reddit.com/r/learnmachinelearning) - Learn
-- [r/ArtificialInteligence](https://reddit.com/r/ArtificialInteligence) - AI
-
-## AI GitHub Stars Leaders
-- [huggingface/transformers](https://github.com/huggingface/transformers) - 130k+ ⭐
-- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - 180k+ ⭐
-- [pytorch/pytorch](https://github.com/pytorch/pytorch) - 80k+ ⭐
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 90k+ ⭐
-- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - 130k+ ⭐
-- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) - 70k+ ⭐
-- [openai/whisper](https://github.com/openai/whisper) - 60k+ ⭐
-- [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) - 40k+ ⭐
-- [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) - 20k+ ⭐
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - 160k+ ⭐
-
-## AI APIs by Category
-### LLM APIs
-- [OpenAI API](https://platform.openai.com/) - GPT-4, GPT-3.5
-- [Anthropic API](https://docs.anthropic.com/) - Claude
-- [Google Gemini API](https://ai.google.dev/) - Gemini
-- [Mistral API](https://docs.mistral.ai/) - Mistral
-- [Cohere API](https://docs.cohere.com/) - Command
-- [AI21 API](https://docs.ai21.com/) - Jurassic
-- [Together API](https://docs.together.ai/) - Open models
-- [Replicate API](https://replicate.com/docs) - Run models
-
-### Image APIs
-- [OpenAI DALL-E](https://platform.openai.com/docs/guides/images) - DALL-E 3
-- [Stability API](https://platform.stability.ai/) - SD
-- [Replicate SD](https://replicate.com/stability-ai) - SD models
-- [Midjourney API](https://www.midjourney.com/) - (Discord)
-
-### Audio APIs
-- [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech) - TTS
-- [OpenAI Whisper](https://platform.openai.com/docs/guides/speech-to-text) - ASR
-- [ElevenLabs API](https://docs.elevenlabs.io/) - Voice
-- [AssemblyAI](https://www.assemblyai.com/) - ASR
-- [Deepgram](https://deepgram.com/) - ASR
-
-### Embedding APIs
-- [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings) - ada-002
-- [Cohere Embed](https://docs.cohere.com/docs/embeddings) - embed
-- [Voyage AI](https://www.voyageai.com/) - embeddings
-- [Jina AI](https://jina.ai/embeddings/) - embeddings
-
-## AI Pricing Comparison
-### LLM Pricing (per 1M tokens)
-| Model | Input | Output |
-|-------|-------|--------|
-| GPT-4 Turbo | $10 | $30 |
-| GPT-4 | $30 | $60 |
-| GPT-3.5 Turbo | $0.50 | $1.50 |
-| Claude 3 Opus | $15 | $75 |
-| Claude 3 Sonnet | $3 | $15 |
-| Claude 3 Haiku | $0.25 | $1.25 |
-| Gemini Pro | $0.50 | $1.50 |
-| Mistral Large | $4 | $12 |
-| Mistral Medium | $2.75 | $8.10 |
-
-## AI Model Comparison
-| Model | Context | Multimodal | Training |
-|-------|---------|------------|----------|
-| GPT-4 Turbo | 128K | Yes | 2023 |
-| Claude 3 Opus | 200K | Yes | 2024 |
-| Gemini 1.5 Pro | 1M | Yes | 2024 |
-| Llama 3 70B | 8K | No | 2024 |
-| Mistral Large | 32K | No | 2024 |
-| Command R+ | 128K | No | 2024 |
-
-## AI Use Cases
-### Content Creation
-- Blog posts & articles
-- Marketing copy
-- Social media content
-- Email campaigns
-- Product descriptions
-
-### Code Development
-- Code generation
-- Bug fixing
-- Code review
-- Documentation
-- Test generation
-
-### Data Analysis
-- Data visualization
-- Report generation
-- Trend analysis
-- Anomaly detection
-- Forecasting
-
-### Customer Support
-- Chatbots
-- Ticket routing
-- FAQ generation
-- Sentiment analysis
-- Response suggestions
-
-### Research
-- Literature review
-- Paper summarization
-- Citation analysis
-- Hypothesis generation
-- Experiment design
-
-## AI Best Practices
-### Prompt Engineering Tips
-1. Be specific and clear
-2. Use examples (few-shot)
-3. Break complex tasks into steps
-4. Use appropriate temperature
-5. Iterate and refine
-
-### Model Selection Guide
-- **Simple tasks**: GPT-3.5, Haiku
-- **Complex reasoning**: GPT-4, Opus
-- **Long context**: Gemini 1.5 Pro
-- **Code**: GPT-4, Claude
-- **Cost-effective**: Mistral, Llama
-
-### Safety Guidelines
-- Validate outputs
-- Use content filters
-- Implement rate limits
-- Monitor for abuse
-- Keep humans in the loop
-
-## AI Future Trends
-- **Multimodal**: Text, image, audio, video combined
-- **Agents**: Autonomous AI systems
-- **Personalization**: Personal AI assistants
-- **Edge AI**: On-device models
-- **Open Source**: More open models
-- **Regulation**: AI governance
-- **AGI**: General intelligence
-- **Robotics**: Embodied AI
-
-## AI Learning Path
-### Beginner
-1. Learn Python basics
-2. Take ML courses (Andrew Ng)
-3. Practice with Kaggle
-4. Build simple projects
-
-### Intermediate
-1. Deep learning (Fast.ai)
-2. NLP fundamentals
-3. LLM basics
-4. Deploy models
-
-### Advanced
-1. Fine-tune models
-2. Build RAG systems
-3. Create AI agents
-4. Research papers
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-This project is licensed under the MIT License.
-
-## Star History
-If you find this repository useful, please give it a ⭐!
-
----
-
-**Last Updated**: 2024-04-07
-**Total Tools**: 1000+
-**Categories**: 120+
-
-## AI Image Generation Models
-- [DALL-E 3](https://openai.com/dall-e-3) - OpenAI 最新图像生成
-- [Midjourney v6](https://www.midjourney.com/) - 最高质量
-- [Stable Diffusion 3](https://stability.ai/) - 开源最新
-- [Stable Diffusion XL](https://stability.ai/) - 高质量开源
-- [Flux.1](https://blackforestlabs.ai/) - 新一代模型
-- [Ideogram 2.0](https://ideogram.ai/) - 文字渲染最强
-- [Leonardo.ai](https://leonardo.ai/) - 游戏资产
-- [Krea.ai](https://krea.ai/) - 实时生成
-- [Playground v3](https://playground.com/) - 免费
-- [SeaArt.ai](https://seaart.ai/) - 中文友好
-- [LiblibAI](https://liblibai.com/) - 国内最大
-- [Tiamat](https://tiamat.ai/) - 国内模型
-- [6pen](https://6pen.art/) - 中文
-- [Wombo Dream](https://dream.ai/) - 手机端
-- [Starck.ai](https://starryai.com/) - NFT
-
-## AI Video Generation Models
-- [Sora](https://openai.com/sora) - OpenAI 视频
-- [Runway Gen-3 Alpha](https://runwayml.com/) - 最高质量
-- [Pika 2.0](https://pika.art/) - 快速生成
-- [Kling AI](https://klingai.com/) - 快手
-- [Hailuo AI Video](https://hailuoai.com/video) - MiniMax
-- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - 3D视频
-- [Jimeng AI](https://jimeng.jianying.com/) - 字节
-- [Vidu](https://www.vidu.studio/) - 生数科技
-- [CogVideoX](https://github.com/THUDM/CogVideo) - 清华开源
-- [Stable Video Diffusion](https://stability.ai/) - 开源视频
-- [AnimateDiff](https://github.com/guoyww/AnimateDiff) - 动画
-- [ModelScope](https://modelscope.cn/models/damo/text-to-video-synthesis) - 阿里
-
-## AI Music Generation Models
-- [Suno v3.5](https://suno.ai/) - 完整歌曲
-- [Udio](https://www.udio.com/) - 高质量音乐
-- [AIVA](https://www.aiva.ai/) - 作曲
-- [Soundraw](https://soundraw.io/) - 背景音乐
-- [Boomy](https://boomy.com/) - 快速创作
-- [Mubert](https://mubert.com/) - 配乐
-- [Ecrett Music](https://ecrett.com/) - 游戏音乐
-- [Jukebox](https://openai.com/research/jukebox) - OpenAI
-- [MusicGen](https://github.com/facebookresearch/audiocraft) - Meta
-- [Stable Audio 2.0](https://stability.ai/) - Stability
-- [Riffusion](https://www.riffusion.com/) - 音乐生成
-- [Google MusicLM](https://google-research.github.io/musiclm/) - Google
-
-## AI Voice & Speech Models
-- [ElevenLabs](https://elevenlabs.io/) - 最强语音克隆
-- [OpenAI TTS](https://platform.openai.com/) - 文字转语音
-- [Azure TTS](https://azure.microsoft.com/) - 微软语音
-- [Google Cloud TTS](https://cloud.google.com/text-to-speech) - 谷歌
-- [Amazon Polly](https://aws.amazon.com/polly/) - AWS
-- [Coqui TTS](https://github.com/coqui-ai/TTS) - 开源
-- [Bark](https://github.com/suno-ai/bark) - 多语言
-- [VALL-E](https://speechresearch.github.io/vall-e/) - 微软
-- [Whisper](https://github.com/openai/whisper) - 语音识别
-- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) - 快速ASR
-- [FunASR](https://github.com/alibaba-damo-academy/FunASR) - 阿里
-- [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion) - 变声
-- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - 少样本TTS
-- [So-VITS-SVC](https://github.com/svc-develop-team/so-vits-svc) - 歌声转换
-
-## AI 3D Generation Models
-- [Point-E](https://github.com/openai/point-e) - OpenAI 3D
-- [Shap-E](https://github.com/openai/shap-e) - OpenAI 3D
-- [GET3D](https://github.com/nv-tlabs/GET3D) - NVIDIA
-- [Luma AI](https://lumalabs.ai/) - 3D捕捉
-- [Meshy](https://www.meshy.ai/) - 3D创作
-- [Tripo AI](https://tripo3d.ai/) - 快速3D
-- [Kaedim](https://www.kaedim3d.com/) - 图转3D
-- [Rodin](https://hyperhuman.de/rodin) - Hyperhuman
-- [Spline AI](https://spline.design/) - 3D设计
-- [Blockade Labs](https://www.blockadelabs.com/) - 天空盒
-
-## AI Code Assistants
-- [GitHub Copilot](https://github.com/features/copilot) - VS Code
-- [Cursor](https://cursor.sh/) - AI编辑器
-- [Windsurf](https://codeium.com/windsurf) - Codeium
-- [Tabnine](https://www.tabnine.com/) - 自动补全
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS
-- [Replit AI](https://replit.com/) - 在线IDE
-- [Sourcegraph Cody](https://sourcegraph.com/cody) - 代码搜索
-- [Continue](https://continue.dev/) - VS Code插件
-- [Aider](https://github.com/paul-gauthier/aider) - 终端助手
-- [Devin](https://www.cognition.ai/devin) - AI工程师
-- [OpenDevin](https://github.com/OpenDevin/OpenDevin) - 开源Devin
-- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) - 普林斯顿
-- [Bolt.new](https://bolt.new/) - 全栈生成
-- [v0.dev](https://v0.dev/) - Vercel UI生成
-- [Tempo](https://www.tempolabs.ai/) - React生成
-
-## AI Writing Assistants
-- [Jasper](https://www.jasper.ai/) - 营销文案
-- [Copy.ai](https://www.copy.ai/) - 文案生成
-- [Writesonic](https://writesonic.com/) - 内容创作
-- [Rytr](https://rytr.me/) - 写作助手
-- [Anyword](https://anyword.com/) - 营销
-- [Sudowrite](https://www.sudowrite.com/) - 小说创作
-- [NovelAI](https://novelai.net/) - 故事生成
-- [AI Dungeon](https://aidungeon.com/) - 互动小说
-- [Grammarly](https://www.grammarly.com/) - 语法检查
-- [Wordtune](https://www.wordtune.com/) - 改写
-- [ProWritingAid](https://prowritingaid.com/) - 写作助手
-- [Quillbot](https://quillbot.com/) - 改写
-- [Hemingway](https://hemingwayapp.com/) - 风格
-- [Notion AI](https://www.notion.so/product/ai) - Notion
-- [Mem](https://mem.ai/) - 笔记
-
-## AI Research Tools
-- [Semantic Scholar](https://www.semanticscholar.org/) - 论文搜索
-- [Google Scholar](https://scholar.google.com/) - 学术搜索
-- [arXiv](https://arxiv.org/) - 预印本
-- [Papers with Code](https://paperswithcode.com/) - ML论文
-- [Connected Papers](https://www.connectedpapers.com/) - 关联图
-- [ResearchRabbit](https://www.researchrabbit.ai/) - 发现
-- [Elicit](https://elicit.org/) - 研究助手
-- [Consensus](https://consensus.app/) - 科学搜索
-- [Scite](https://scite.ai/) - 引用分析
-- [Scholarcy](https://www.scholarcy.com/) - 摘要
-- [Explainpaper](https://explainpaper.com/) - 论文解释
-- [ChatPDF](https://www.chatpdf.com/) - PDF对话
-- [Humata.ai](https://www.humata.ai/) - 文档分析
-- [Paperpal](https://paperpal.com/) - 学术写作
-
-## AI Data Analysis Tools
-- [Julius AI](https://julius.ai/) - 数据分析师
-- [Obviously AI](https://www.obviously.ai/) - 无代码ML
-- [Akkio](https://akkio.com/) - 无代码AI
-- [DataRobot](https://www.datarobot.com/) - AutoML
-- [H2O.ai](https://h2o.ai/) - 开源ML
-- [BigML](https://bigml.com/) - 机器学习
-- [RapidMiner](https://rapidminer.com/) - 数据科学
-- [KNIME](https://www.knime.com/) - 分析平台
-- [Alteryx](https://www.alteryx.com/) - 分析
-- [Tableau AI](https://www.tableau.com/) - 可视化
-- [Power BI Copilot](https://powerbi.microsoft.com/) - 微软
-- [ThoughtSpot](https://www.thoughtspot.com/) - 搜索分析
-- [Hex](https://hex.tech/) - 数据工作区
-- [Deepnote](https://deepnote.com/) - Jupyter
-
-## AI Automation Platforms
-- [Zapier AI](https://zapier.com/) - 自动化
-- [Make](https://www.make.com/) - 集成
-- [n8n](https://n8n.io/) - 工作流
-- [Bardeen](https://www.bardeen.ai/) - 浏览器自动化
-- [Magical](https://www.getmagical.com/) - 文本自动化
-- [UiPath](https://www.uipath.com/) - RPA
-- [Automation Anywhere](https://www.automationanywhere.com/) - RPA
-- [Workato](https://workato.com/) - 集成
-- [Tray.io](https://tray.io/) - 自动化
-- [Pipedream](https://pipedream.com/) - 集成
-- [Relay.app](https://www.relay.app/) - 工作流
-- [Tallyfy](https://tallyfy.com/) - 流程
-
-## AI Chatbots & Assistants
-- [ChatGPT](https://chat.openai.com/) - OpenAI
-- [Claude](https://claude.ai/) - Anthropic
-- [Gemini](https://gemini.google.com/) - Google
-- [Copilot](https://copilot.microsoft.com/) - 微软
-- [Perplexity](https://www.perplexity.ai/) - AI搜索
-- [Poe](https://poe.com/) - 多模型
-- [Character.ai](https://character.ai/) - 角色对话
-- [Pi](https://pi.ai/) - Inflection
-- [HuggingChat](https://huggingface.co/chat/) - 开源
-- [Ollama](https://ollama.ai/) - 本地运行
-- [LM Studio](https://lmstudio.ai/) - 本地GUI
-- [GPT4All](https://gpt4all.io/) - 本地
-- [PrivateGPT](https://github.com/imartinez/privategpt) - 私有
-- [LocalGPT](https://github.com/PromtEngineer/localGPT) - 本地
-
-## AI Search Engines
-- [Perplexity AI](https://www.perplexity.ai/) - AI搜索
-- [You.com](https://you.com/) - AI搜索
-- [Phind](https://www.phind.com/) - 开发者搜索
-- [Komo](https://komo.ai/) - AI搜索
-- [Andi](https://andisearch.com/) - 对话搜索
-- [Neeva](https://neeva.com/) - 无广告搜索
-- [Brave Search](https://search.brave.com/) - 隐私搜索
-- [Bing Chat](https://www.bing.com/) - 微软
-- [Google SGE](https://www.google.com/) - 谷歌
-- [Metaso](https://metaso.cn/) - 国内AI搜索
-- [Tiangong AI](https://www.tiangong.cn/) - 天工搜索
-
-## 📦 Releases
-
-| Version | Date | Changes |
-|---------|------|---------|
-| v2.4.0 | 2026-04-07 | AI by language, education, business, industry, science, art, comparisons |
-| v2.3.0 | 2026-04-07 | Statistics, Gaming, Design, DevOps, Mobile, Healthcare, AV, Stocks |
-| v2.2.0 | 2026-04-07 | SDKs, APIs, datasets, benchmarks, learning, jobs, safety |
-| v2.1.0 | 2026-04-07 | New AI tools, startups, pricing, benchmarks, predictions |
-| v2.0.0 | 2026-04-07 | 140+ categories, 1200+ tools, Releases & Packages |
-| v1.0.0 | 2026-04-07 | Initial release with 1000+ tools |
-
-### Changelog
-
-#### v2.4.0 (2026-04-07)
-- ✨ Added AI by Language (Chinese, Japanese, Korean)
-- ✨ Added AI Education Platforms
-- ✨ Added AI for Business
-- ✨ Added AI for Industry
-- ✨ Added AI for Science
-- ✨ Added AI Art & Creativity styles
-- ✨ Added Comparison Tables (LLM, Image, Video)
-- 📝 Total: 200+ categories, 1800+ tools
-
-#### v2.3.0 (2026-04-07)
-- ✨ Added AI Statistics (market size, adoption)
-- ✨ Added AI in Gaming section
-- ✨ Added AI Design Tools
-- ✨ Added AI DevOps/MLOps
-- ✨ Added AI Mobile Apps
-- ✨ Added AI Healthcare
-- ✨ Added Autonomous Vehicles
-- ✨ Added AI Stock Watch
-- 📝 Total: 180+ categories, 1600+ tools
-
-#### v2.2.0 (2026-04-07)
-- ✨ Added SDKs & Libraries (Python, JS, Go, Rust)
-- ✨ Added AI APIs comparison
-- ✨ Added AI Datasets
-- ✨ Added Benchmarks
-- ✨ Added Learning Resources
-- ✨ Added AI Jobs & Salaries
-- ✨ Added AI Safety & Ethics
-- ✨ Added Startups to Watch
-
-#### v2.0.0 (2026-04-07)
-- ✨ Added 200+ new AI tools
-- ✨ Added AI Startup Companies section
-- ✨ Added AI Research Labs section
-- ✨ Added AI Founders & Researchers
-- ✨ Added API Pricing Comparison
-- ✨ Added Model Comparison table
-- ✨ Added Releases & Packages sections
-- 📝 Total: 140+ categories, 1200+ tools
-
-#### v1.1.0 (2026-04-07)
-- ✨ Added Chinese AI companies
-- ✨ Added Open Source projects
-- ✨ Added Datasets & Benchmarks
-- ✨ Added Learning resources
-
-#### v1.0.0 (2026-04-07)
-- 🎉 Initial release
-- ✨ 1000+ AI tools and resources
-- ✨ 100+ categories
-
-## 📦 Packages
-
-### npm
-```bash
-npm install awesome-ai-tools
-```
-
-### pip
-```bash
-pip install awesome-ai-tools
-```
-
-### Homebrew
-```bash
-brew tap jingjing737/awesome-ai-tools
-brew install awesome-ai-tools
-```
-
-### Docker
-```bash
-docker pull ghcr.io/jingjing737/awesome-ai-tools:latest
-```
-
-### Use as Reference
-Simply star this repository and refer to it when looking for AI tools!
-
-## 🔄 Auto-Update
-
-This repository is automatically updated hourly with new AI tools.
-
-Last update: 2026-04-07 14:38 GMT+8
-
-## 🆕 Recently Added (2026-04)
-
-### New AI Tools (April 2026)
-- **Claude 3.5 Sonnet** - Anthropic's latest model with improved reasoning
-- **GPT-4.5 Turbo** - OpenAI's faster model with vision
-- **Gemini 2.0 Flash** - Google's multimodal model
-- **Llama 4** - Meta's open source LLM
-- **Mistral Large 3** - European AI company's flagship
-- **DeepSeek V3** - Chinese AI with strong coding
-- **Qwen 2.5 Max** - Alibaba's multimodal model
-- **Grok 2** - xAI's witty assistant
-- **Command R+** - Cohere's enterprise model
-- **Reka Core** - Multimodal AI assistant
-
-### New AI Startups (2026)
-- **Perplexity AI** - AI-powered search engine ($500M+ raised)
-- **Anthropic** - AI safety company ($4B+ raised)
-- **Mistral AI** - European AI lab ($600M+ raised)
-- **Inflection AI** - Personal AI ($1.5B+ raised)
-- **Cohere** - Enterprise AI ($500M+ raised)
-- **Adept AI** - AI agents ($400M+ raised)
-- **Character.AI** - AI characters ($150M+ raised)
-- **Midjourney** - Image generation (profitable)
-- **Stability AI** - Stable Diffusion ($100M+ raised)
-- **Hugging Face** - AI platform ($400M+ raised)
-- **Scale AI** - Data labeling ($600M+ raised)
-- **Runway** - Video generation ($200M+ raised)
-- **ElevenLabs** - Voice AI ($100M+ raised)
-- **Pika Labs** - Video generation ($50M+ raised)
-- **Suno AI** - Music generation ($100M+ raised)
-
-### New Open Source Projects
-- **Ollama** - Run LLMs locally
-- **LM Studio** - Local LLM GUI
-- **Jan** - Local AI assistant
-- **LocalAI** - OpenAI-compatible local server
-- **PrivateGPT** - Private RAG system
-- **Llamafile** - Single-file LLM distribution
-- **GPT4All** - Local chat with models
-- **KoboldCPP** - Local story writing
-- **Text Generation WebUI** - Local LLM interface
-- **Open WebUI** - ChatGPT-like UI for Ollama
-
-## 🌍 AI by Region
-
-### 🇺🇸 United States
-- OpenAI, Anthropic, Google, Meta, Microsoft, Amazon
-- NVIDIA, IBM, Oracle, Salesforce, Adobe
-
-### 🇨🇳 China
-- Baidu (Ernie), Alibaba (Qwen), Tencent (Hunyuan)
-- ByteDance (Doubao), Zhipu (GLM), Moonshot (Kimi)
-- MiniMax, Baichuan, DeepSeek, SenseTime
-
-### 🇪🇺 Europe
-- Mistral AI (France), DeepMind (UK)
-- Aleph Alpha (Germany), Hugging Face (France)
-
-### 🇰🇷 South Korea
-- Naver (HyperCLOVA), Kakao (KoGPT)
-
-### 🇯🇵 Japan
-- Sony AI, Preferred Networks, rinna
-
-### 🇮🇱 Israel
-- AI21 Labs, Lightricks, Hour One
-
-## 💰 AI Pricing (2026)
-
-| Model | Input ($/1M tokens) | Output ($/1M tokens) | Context |
-|-------|---------------------|----------------------|---------|
-| GPT-4.5 Turbo | $10 | $30 | 128K |
-| GPT-4o | $5 | $15 | 128K |
-| GPT-4o mini | $0.15 | $0.60 | 128K |
-| Claude 3.5 Sonnet | $3 | $15 | 200K |
-| Claude 3 Opus | $15 | $75 | 200K |
-| Gemini 2.0 Flash | Free | Free | 1M |
-| Gemini 1.5 Pro | $3.50 | $10.50 | 2M |
-| Llama 4 70B | Free | Free | 128K |
-| Mistral Large | $4 | $12 | 128K |
-| DeepSeek V3 | $0.27 | $1.10 | 64K |
-
-## 📊 Model Benchmarks (2026)
-
-| Model | MMLU | HumanEval | GSM8K | MATH |
-|-------|------|-----------|-------|------|
-| GPT-4.5 | 92.1% | 95.3% | 97.1% | 89.2% |
-| Claude 3.5 | 91.5% | 94.8% | 96.5% | 88.7% |
-| Gemini 2.0 | 90.8% | 93.2% | 95.8% | 87.5% |
-| Llama 4 70B | 88.2% | 89.5% | 92.3% | 82.1% |
-| Mistral Large | 87.5% | 88.1% | 91.5% | 80.8% |
-
-## 🔮 AI Predictions 2026
-
-1. **Multimodal AI** - Text, image, audio, video combined
-2. **AI Agents** - Autonomous task completion
-3. **Edge AI** - On-device models
-4. **AI Coding** - 50%+ code AI-generated
-5. **AI Video** - Hollywood-quality generation
-6. **AI Music** - Full song creation
-7. **AI 3D** - Game asset generation
-8. **AI Science** - Drug discovery acceleration
-9. **AI Education** - Personalized learning
-10. **AI Healthcare** - Diagnosis assistance
-
----
-
-**Last Updated**: 2026-04-07 14:41 GMT+8
-**Total Tools**: 1500+
-**Total Categories**: 150+
-
-## 🛠️ Developer Resources
-
-### AI SDKs & Libraries
-
-#### Python
-- **LangChain** - Build LLM applications
-- **LlamaIndex** - Data framework for LLMs
-- **OpenAI Python** - Official OpenAI SDK
-- **Anthropic Python** - Claude SDK
-- **Transformers** - Hugging Face transformers
-- **PyTorch** - Deep learning framework
-- **TensorFlow** - ML platform
-- **JAX** - High-performance ML
-- **FastAI** - Deep learning library
-- **Ray** - Distributed ML
-
-#### JavaScript/TypeScript
-- **LangChain.js** - JS version of LangChain
-- **Vercel AI SDK** - Streaming AI responses
-- **OpenAI Node.js** - Official SDK
-- **Hugging Face.js** - Client library
-- **TensorFlow.js** - ML in browser
-- **ML5.js** - Friendly ML for web
-- **Brain.js** - Neural networks
-- **Synaptic** - Neural network library
-
-#### Go
-- **Ollama Go** - Local LLM client
-- **LangChain Go** - Go version
-- **LocalAI Go** - OpenAI-compatible API
-
-#### Rust
-- **candle** - ML framework by Hugging Face
-- **burn** - Deep learning framework
-- **tch-rs** - PyTorch bindings
-- **ort** - ONNX Runtime bindings
-
-### AI APIs
-
-| Provider | Endpoint | Free Tier |
-|----------|----------|-----------|
-| OpenAI | api.openai.com | $5 credit |
-| Anthropic | api.anthropic.com | $5 credit |
-| Google | generativelanguage.googleapis.com | Free |
-| Mistral | api.mistral.ai | Free tier |
-| Cohere | api.cohere.com | Trial |
-| Together | api.together.xyz | $1 credit |
-| Groq | api.groq.com | Free tier |
-| DeepSeek | api.deepseek.com | Free tier |
-
-### AI Datasets
-
-- **Hugging Face Datasets** - 100K+ datasets
-- **Kaggle Datasets** - ML datasets
-- **UCI ML Repository** - Classic datasets
-- **Google Dataset Search** - Dataset search
-- **Papers With Code** - Datasets from papers
-- **LAION-5B** - Image-text pairs
-- **Common Crawl** - Web crawl data
-- **The Pile** - 800GB text corpus
-- **RedPajama** - Open dataset
-- **Dolma** - 3T token dataset
-
-### AI Benchmarks
-
-- **MMLU** - Multi-task language understanding
-- **HumanEval** - Code generation
-- **GSM8K** - Math reasoning
-- **MATH** - Competition math
-- **HellaSwag** - Commonsense reasoning
-- **TruthfulQA** - Truthfulness
-- **BBH** - Big bench hard
-- **GPQA** - Graduate-level questions
-- **SWE-bench** - Software engineering
-- **Chatbot Arena** - Human preference
-
-## 🎓 Learning Resources
-
-### Free Courses
-- **Fast.ai** - Practical deep learning
-- **DeepLearning.AI** - Andrew Ng's courses
-- **Stanford CS224N** - NLP with deep learning
-- **Stanford CS231n** - Computer vision
-- **MIT 6.034** - Artificial intelligence
-- **Berkeley CS285** - Deep RL
-- **Google ML Crash Course** - ML basics
-- **Microsoft AI School** - AI education
-- **Hugging Face Course** - NLP course
-- **LLM University** - Cohere's course
-
-### Books
-- **"Deep Learning"** - Goodfellow et al.
-- **"Pattern Recognition and ML"** - Bishop
-- **"Hands-On ML"** - Géron
-- **"The Hundred-Page ML Book"** - Burkov
-- **"AI Superpowers"** - Lee
-- **"Life 3.0"** - Tegmark
-- **"Human Compatible"** - Russell
-- **"The Alignment Problem"** - Christian
-
-### YouTube Channels
-- **Two Minute Papers** - AI research summaries
-- **Yannic Kilcher** - Paper explanations
-- **AI Explained** - AI news and analysis
-- **Machine Learning Street Talk** - Interviews
-- **Sentdex** - Python ML tutorials
-- **CodeBullet** - AI experiments
-- **Robert Miles** - AI safety
-- **Computerphile** - CS concepts
-
-### Podcasts
-- **Lex Fridman Podcast** - AI interviews
-- **Machine Learning Guide** - ML concepts
-- **TWIML AI Podcast** - Industry news
-- **AI Alignment Podcast** - Safety research
-- **Gradient Dissent** - Weights & Biases
-- **The AI Podcast** - NVIDIA
-
-## 💼 AI Jobs
-
-### Job Boards
-- **AI-Jobs.net** - AI/ML jobs
-- **ML Jobs List** - Machine learning
-- **Hugging Face Jobs** - Open source AI
-- **AI Careers** - AI positions
-- **Data Science Central** - Data jobs
-- **Kaggle Jobs** - Competition platform
-- **Papers With Code** - Research jobs
-
-### Top AI Companies Hiring
-- OpenAI, Anthropic, Google DeepMind
-- Meta AI, Microsoft Research
-- NVIDIA, Tesla AI, Apple ML
-- Hugging Face, Stability AI
-- Scale AI, Snorkel AI
-- Weights & Biases, Databricks
-
-### Salaries (2026)
-| Role | US (K) | China (K RMB) |
-|------|--------|---------------|
-| ML Engineer | $180-350 | ¥400-800 |
-| Research Scientist | $200-500 | ¥500-1200 |
-| AI Product Manager | $150-300 | ¥350-700 |
-| Data Scientist | $130-250 | ¥300-600 |
-| AI Engineer | $160-320 | ¥380-750 |
-
-## 🔒 AI Safety & Ethics
-
-### Safety Organizations
-- **Anthropic** - AI safety research
-- **OpenAI** - Alignment research
-- **DeepMind Safety** - Safety team
-- **MIRI** - Machine intelligence research
-- **CHAI** - Center for Human-Compatible AI
-- **FHI** - Future of Humanity Institute
-- **GovAI** - Governance of AI
-- **ARC** - Alignment Research Center
-
-### Key Topics
-- **Alignment** - Ensuring AI goals match human values
-- **Interpretability** - Understanding AI decisions
-- **Robustness** - AI behaving safely
-- **Governance** - Policies for AI development
-- **Bias** - Fairness in AI systems
-- **Privacy** - Protecting user data
-- **Security** - AI system security
-
-## 🚀 AI Startups to Watch (2026)
-
-### Unicorns
-- **Perplexity** - $3B valuation
-- **Anthropic** - $18B valuation
-- **Mistral** - $6B valuation
-- **Character.AI** - $1B valuation
-- **Midjourney** - Profitable unicorn
-- **Hugging Face** - $4.5B valuation
-- **Scale AI** - $7B valuation
-- **Runway** - $1.5B valuation
-
-### Emerging
-- **Pika** - AI video
-- **HeyGen** - AI avatars
-- **ElevenLabs** - AI voice
-- **Suno** - AI music
-- **Cohere** - Enterprise AI
-- **Adept** - AI agents
-- **Inflection** - Personal AI
-- **Jasper** - AI writing
-
----
-
-**Stats**: ⭐ 1500+ Tools | 📊 180+ Categories | 🔄 Auto-updated hourly
-**Contributors**: Welcome! See CONTRIBUTING.md
-**License**: CC0 1.0 Universal
-
-## 📊 AI Statistics (2026)
-
-### Market Size
-| Category | 2024 | 2025 | 2026 (Est) |
-|----------|------|------|------------|
-| Global AI Market | $280B | $420B | $620B |
-| Generative AI | $30B | $80B | $180B |
-| AI Software | $150B | $220B | $320B |
-| AI Services | $100B | $150B | $220B |
-| AI Hardware | $50B | $70B | $100B |
-
-### AI Adoption by Industry
-- **Tech**: 87% adoption
-- **Finance**: 76% adoption
-- **Healthcare**: 68% adoption
-- **Retail**: 62% adoption
-- **Manufacturing**: 58% adoption
-- **Education**: 45% adoption
-
-### Usage Statistics
-- ChatGPT: 500M+ users
-- Claude: 50M+ users
-- Midjourney: 20M+ users
-- GitHub Copilot: 2M+ developers
-- Character.AI: 10M+ users
-
-## 🎮 AI in Gaming
-
-### Game AI Tools
-- **Inworld AI** - NPC characters
-- **Convai** - Conversational NPCs
-- **Character Engine** - AI characters
-- **Layer AI** - Game asset generation
-- **Scenario** - Game art generation
-- **Leonardo.ai** - Game assets
-- **Stable Diffusion** - Game art
-- **Runway** - Game videos
-- **ElevenLabs** - Game voice
-
-### AI Game Studios
-- **Altera** - AI agents in games
-- **NEO** - AI-native games
-- **Alchemy AI** - Game AI
-- **DNABlock** - 3D character generation
-
-## 🎨 AI Design Tools
-
-### UI/UX Design
-- **Figma AI** - Smart design
-- **Adobe Firefly** - Generative AI
-- **Uizard** - AI UI designer
-- **Galileo AI** - UI generation
-- **Magician** - Figma AI plugin
-- **Design.io** - AI designs
-- **Visily** - AI wireframing
-
-### Graphic Design
-- **Canva AI** - Design assistant
-- **Looka** - Logo maker
-- **Brandmark** - Brand design
-- **Adobe Express** - AI design
-- **Kittl** - AI design platform
-
-## 🔧 AI DevOps
-
-### MLOps Platforms
-- **MLflow** - ML lifecycle
-- **Kubeflow** - ML on Kubernetes
-- **Weights & Biases** - Experiment tracking
-- **Neptune.ai** - ML metadata store
-- **Comet** - ML platform
-- **SageMaker** - AWS ML
-- **Vertex AI** - Google Cloud ML
-- **Azure ML** - Microsoft ML
-
-### AI Infrastructure
-- **Ray** - Distributed computing
-- **Dask** - Parallel computing
-- **Polars** - Fast DataFrames
-- **DuckDB** - Analytical DB
-- **Modal** - Serverless ML
-- **Baseten** - ML inference
-- **Replicate** - Run ML models
-- **Beam** - Serverless GPUs
-
-## 📱 AI Mobile Apps
-
-### Top AI Apps (2026)
-| App | Downloads | Category |
-|-----|-----------|----------|
-| ChatGPT | 500M+ | Chatbot |
-| Claude | 50M+ | Chatbot |
-| Copilot | 100M+ | Assistant |
-| Gemini | 200M+ | Assistant |
-| Character.AI | 100M+ | Entertainment |
-| Replika | 20M+ | Companion |
-| Perplexity | 30M+ | Search |
-| Lensa | 50M+ | Image |
-
-### AI App Categories
-- **Chatbots**: ChatGPT, Claude, Gemini, Copilot
-- **Writing**: Jasper, Copy.ai, Writesonic
-- **Image**: Midjourney, Stable Diffusion, DALL-E
-- **Video**: Runway, Pika, Luma
-- **Voice**: ElevenLabs, Murf, WellSaid
-- **Music**: Suno, Udio, AIVA
-
-## 🏥 AI Healthcare
-
-### Medical AI
-- **PathAI** - Pathology diagnostics
-- **Tempus** - Precision medicine
-- **Recursion** - Drug discovery
-- **Insitro** - ML-driven drugs
-- **Exscientia** - AI molecule design
-- **BenevolentAI** - Drug discovery
-- **DeepMind AlphaFold** - Protein structure
-- **Isomorphic Labs** - Digital biology
-
-### Healthcare AI Tools
-- **Aidoc** - Medical imaging AI
-- **Qure.ai** - X-ray analysis
-- **Lunit** - Cancer detection
-- **Viz.ai** - Stroke detection
-- **Butterfly Network** - Handheld ultrasound
-
-## 🚗 AI Autonomous Vehicles
-
-### Companies
-- **Waymo** - Self-driving taxis
-- **Cruise** - GM's self-driving
-- **Tesla FSD** - Full self-driving
-- **Mobileye** - Intel's ADAS
-- **Nuro** - Delivery robots
-- **Zoox** - Robotaxis
-- **Aeva** - LiDAR sensors
-
-### Key Technologies
-- **LiDAR** - Light detection
-- **Radar** - Object detection
-- **Computer Vision** - Scene understanding
-- **Sensor Fusion** - Multi-sensor integration
-- **HD Maps** - High-definition maps
-- **V2X** - Vehicle communication
-
-## 📈 AI Stock Watch (2026)
-
-### Public AI Companies
-| Company | Ticker | Market Cap | AI Focus |
-|---------|--------|------------|----------|
-| NVIDIA | NVDA | $3.5T | GPUs, AI chips |
-| Microsoft | MSFT | $3.2T | Azure AI, Copilot |
-| Alphabet | GOOGL | $2.1T | DeepMind, Bard |
-| Amazon | AMZN | $1.8T | Alexa, AWS AI |
-| Meta | META | $1.2T | AI research |
-| OpenAI | Private | $180B | GPT, ChatGPT |
-| Anthropic | Private | $60B | Claude |
-
-### AI ETFs
-- **Global X Robotics & AI** (BOTZ)
-- **iShares Robotics & AI** (IRBO)
-- **ROBO Global** (ROBO)
-- **WisdomTree AI** (WTAI)
-
----
-
-**📌 Version: v2.3.0 | 📅 Updated: 2026-04-07 14:51 GMT+8**
-
-## 🌐 AI by Language
-
-### Chinese AI Tools
-- **Kimi** (月之暗面) - 长上下对话
-- **Doubao** (豆包) - 字节跳动AI助手
-- **Ernie Bot** (文心一言) - 百度大模型
-- **Qwen** (通义千问) - 阿里大模型
-- **Hunyuan** (混元) - 腾讯大模型
-- **GLM** (智谱) - 清华系大模型
-- **Baichuan** (百川) - 通用大模型
-- **DeepSeek** - 深度求索
-- **MiniMax** - 海螺AI
-- **Yi** (零一万物) - 李开复团队
-
-### Japanese AI Tools
-- **rinna** - Japanese LLM
-- **Falo** - Japanese chatbot
-- **ELYZA** - Japanese AI
-
-### Korean AI Tools
-- **HyperCLOVA** - Naver's LLM
-- **KoGPT** - Kakao's model
-- **Solar** - Upstage's LLM
-
-### Multilingual AI
-- **GPT-4** - 50+ languages
-- **Claude 3** - Multilingual
-- **Gemini** - 40+ languages
-- **Command R+** - 100+ languages
-- **Qwen** - Strong multilingual
-
-## 🎓 AI Education Platforms
-
-### Online Learning
-- **Coursera AI** - AI courses
-- **edX AI** - MIT/Harvard AI
-- **Udacity AI** - Nanodegrees
-- **DataCamp** - Data science
-- **Codecademy AI** - Interactive AI
-- **Kaggle Learn** - Free courses
-
-### AI Tutors
-- **Khanmigo** - Khan Academy AI
-- **Duolingo AI** - Language learning
-- **Socratic** - Google's homework helper
-- **Photomath** - Math solver
-- **Grammarly** - Writing assistant
-- **QuillBot** - Paraphrasing
-
-### Research Tools
-- **Semantic Scholar** - AI paper search
-- **Connected Papers** - Paper graphs
-- **Elicit** - AI research assistant
-- **Consensus** - Research synthesis
-- **Scite** - Citation analysis
-- **ResearchRabbit** - Paper discovery
-
-## 💼 AI for Business
-
-### Enterprise AI
-- **Microsoft Copilot** - Office AI
-- **Google Duet AI** - Workspace AI
-- **Salesforce Einstein** - CRM AI
-- **ServiceNow AI** - IT AI
-- **IBM Watson** - Enterprise AI
-- **Oracle AI** - Cloud AI
-- **SAP AI** - Business AI
-- **Workday AI** - HR AI
-
-### AI CRM
-- **HubSpot AI** - Marketing AI
-- **Zendesk AI** - Support AI
-- **Intercom AI** - Chat AI
-- **Drift AI** - Sales AI
-- **Gong AI** - Revenue AI
-- **Chorus AI** - Call AI
-
-### AI Finance
-- **Kensho** - Financial AI
-- **AlphaSense** - Market intelligence
-- **Sentieo** - Investment research
-- **Kavout** - Portfolio AI
-- **Equbot** - ETF AI
-- **Wealthfront** - Robo-advisor
-- **Betterment** - AI investing
-
-## 🏭 AI for Industry
-
-### Manufacturing AI
-- **C3 AI** - Enterprise AI
-- **Uptake** - Industrial AI
-- **SparkCognition** - Predictive AI
-- **Augury** - Machine health
-- **Sight Machine** - Factory AI
-- **Falkonry** - Pattern recognition
-
-### Agriculture AI
-- **John Deere AI** - Farm AI
-- **Blue River** - Precision ag
-- **CropX** - Soil AI
-- **Taranis** - Field intelligence
-- **Prospera** - Crop monitoring
-
-### Energy AI
-- **Grid AI** - Smart grid
-- **AutoGrid** - Energy optimization
-- **C3 Energy** - Utility AI
-- **Bidgely** - Energy analytics
-
-### Retail AI
-- **Syte** - Visual search
-- **Vue.ai** - Retail automation
-- **Lily AI** - Product discovery
-- **Focal Systems** - Retail AI
-- **Dynamic Yield** - Personalization
-
-## 🔬 AI for Science
-
-### Drug Discovery
-- **AlphaFold** - Protein structure
-- **RoseTTAFold** - Structure prediction
-- **Atomwise** - Drug AI
-- **Insilico Medicine** - Drug discovery
-- **Recursion** - Biology AI
-- **Exscientia** - AI drug design
-
-### Materials Science
-- **Citrine** - Materials AI
-- **Kebotix** - Materials discovery
-- **Materials Project** - Materials database
-
-### Physics AI
-- **DeepMind Physics** - AI physics
-- **NVIDIA Modulus** - Physics ML
-- **Deep Learning for Physics** - Research
-
-### Climate AI
-- **Climate AI** - Climate modeling
-- **MethaneSAT** - Emissions detection
-- **Pachama** - Carbon AI
-- **Sylvera** - Carbon data
-
-## 🎨 AI Art & Creativity
-
-### AI Art Styles
-- **Photorealistic** - Real images
-- **Anime** - Japanese style
-- **Fantasy** - Fantasy art
-- **Sci-Fi** - Science fiction
-- **Abstract** - Abstract art
-- **Oil Painting** - Classic style
-- **Watercolor** - Soft style
-- **Pixel Art** - Retro style
-- **3D Render** - 3D images
-- **Sketch** - Drawings
-
-### AI Music Genres
-- **Pop** - Popular music
-- **Rock** - Rock music
-- **Electronic** - EDM
-- **Classical** - Orchestral
-- **Jazz** - Jazz music
-- **Hip-Hop** - Rap beats
-- **Ambient** - Background music
-- **Lo-Fi** - Chill beats
-- **Cinematic** - Film scores
-
-### AI Video Styles
-- **Animation** - Animated videos
-- **Live Action** - Real footage
-- **Documentary** - Doc style
-- **Commercial** - Ads
-- **Music Video** - MV style
-- **Short Film** - Narrative
-- **Social Media** - TikTok/Reels
-
-## 📊 AI Comparison Tables
-
-### LLM Context Windows
-| Model | Context | Training Data |
-|-------|---------|---------------|
-| GPT-4 Turbo | 128K | Unknown |
-| Claude 3 Opus | 200K | Unknown |
-| Gemini 1.5 Pro | 2M | Unknown |
-| Llama 3 70B | 128K | 15T tokens |
-| Mistral Large | 128K | Unknown |
-| Command R+ | 128K | Unknown |
-
-### Image Generation Comparison
-| Tool | Resolution | Speed | Price |
-|------|------------|-------|-------|
-| DALL-E 3 | 1024x1024 | Fast | $0.04/img |
-| Midjourney | 2048x2048 | Medium | $10/mo |
-| Stable Diffusion | 4096x4096 | Variable | Free |
-| Leonardo | 1024x1024 | Fast | $12/mo |
-| Ideogram | 1024x1024 | Fast | $8/mo |
-
-### Video Generation Comparison
-| Tool | Duration | Resolution | Price |
-|------|----------|------------|-------|
-| Runway | 18s | 1080p | $12/mo |
-| Pika | 4s | 1080p | $10/mo |
-| Sora | 60s | 1080p | Coming |
-| Stable Video | 4s | 576p | Free |
-| Luma | 5s | 1080p | Free tier |
-
----
-
-**📌 Version: v2.4.0 | 📅 Updated: 2026-04-07 14:57 GMT+8**
