@@ -1203,3 +1203,230 @@ To the extent possible under law, [jingjing737](https://github.com/jingjing737) 
 - [Century Tech](https://www.century.tech/) - Learning
 - [Carnegie Learning](https://www.carnegielearning.com/) - Math
 - [Eureka Labs](https://eurekalabs.ai/) - AI education
+
+## AI Design Tools
+- [Figma AI](https://www.figma.com/) - Design
+- [Canva Magic](https://www.canva.com/) - Design
+- [Adobe Firefly](https://firefly.adobe.com/) - Adobe AI
+- [Uizard](https://uizard.io/) - UI design
+- [Galileo AI](https://www.usegalileo.ai/) - UI generation
+- [Visily](https://visily.ai/) - Wireframes
+- [Magician](https://magician.design/) - Figma plugin
+- [Automator](https://automator.design/) - Figma automation
+- [Relume](https://www.relume.io/) - Sitemap
+- [Framer AI](https://www.framer.com/) - Website
+- [Durable](https://durable.co/) - Website builder
+- [10Web](https://10web.io/) - WordPress AI
+- [Divi AI](https://www.elegantthemes.com/) - WordPress
+- [Wix ADI](https://www.wix.com/) - Website builder
+- [Mixo](https://mixo.io/) - Landing page
+
+## AI Gaming Tools
+- [Inworld AI](https://inworld.ai/) - NPCs
+- [Convai](https://convai.com/) - Characters
+- [Latitude](https://latitude.io/) - Games
+- [Character Engine](https://www.hiberworld.com/) - 3D
+- [Scenario](https://www.scenario.com/) - Game assets
+- [Leonardo Game](https://leonardo.ai/) - Assets
+- [Layer](https://layer.art/) - Game art
+- [Kaiber](https://kaiber.ai/) - Video
+- [Rosebud AI](https://rosebud.ai/) - Games
+- [GPT Game](https://gpt-game.com/) - Text games
+
+## AI Music Tools
+- [Suno](https://suno.ai/) - Full songs
+- [Udio](https://www.udio.com/) - Music
+- [AIVA](https://www.aiva.ai/) - Compose
+- [Soundraw](https://soundraw.io/) - Generate
+- [Boomy](https://boomy.com/) - Create
+- [Mubert](https://mubert.com/) - Soundtrack
+- [Ecrett](https://ecrett.com/) - Game music
+- [Amper Music](https://www.ampermusic.com/) - Create
+- [Jukebox](https://openai.com/research/jukebox) - OpenAI
+- [MusicLM](https://google-research.github.io/musiclm/) - Google
+- [MusicGen](https://github.com/facebookresearch/audiocraft) - Meta
+- [Stable Audio](https://stability.ai/) - Stability
+
+## AI Translation Tools
+- [DeepL](https://www.deepl.com/) - Best quality
+- [Google Translate](https://translate.google.com/) - Free
+- [Microsoft Translator](https://www.bing.com/translator) - Free
+- [Amazon Translate](https://aws.amazon.com/translate/) - AWS
+- [Smartling](https://www.smartling.com/) - Enterprise
+- [Lokalise AI](https://lokalise.com/) - Localization
+- [Phrase](https://phrase.com/) - Translation
+- [Wordbee](https://www.wordbee.com/) - CAT tool
+- [Memsource](https://www.memsource.com/) - TMS
+- [Unbabel](https://unbabel.com/) - Human+AI
+
+## AI Data Analysis
+- [Julius AI](https://julius.ai/) - Data analyst
+- [Obviously AI](https://www.obviously.ai/) - No-code ML
+- [Akkio](https://akkio.com/) - No-code AI
+- [DataRobot](https://www.datarobot.com/) - AutoML
+- [H2O.ai](https://h2o.ai/) - Open source
+- [BigML](https://bigml.com/) - Machine learning
+- [RapidMiner](https://rapidminer.com/) - Data science
+- [KNIME](https://www.knime.com/) - Analytics
+- [Alteryx AI](https://www.alteryx.com/) - Analytics
+- [Tableau AI](https://www.tableau.com/) - Visualization
+- [Power BI Copilot](https://powerbi.microsoft.com/) - Microsoft
+- [ThoughtSpot](https://www.thoughtspot.com/) - Search
+- [Hex](https://hex.tech/) - Data workspace
+
+## AI Automation Tools
+- [Zapier AI](https://zapier.com/) - Automation
+- [Make AI](https://www.make.com/) - Integration
+- [n8n](https://n8n.io/) - Workflow
+- [Bardeen](https://www.bardeen.ai/) - Browser
+- [Magical](https://www.getmagical.com/) - Text
+- [UiPath AI](https://www.uipath.com/) - RPA
+- [Automation Anywhere](https://www.automationanywhere.com/) - RPA
+- [Workato](https://workato.com/) - Integration
+- [Tray.io](https://tray.io/) - Automation
+- [Pipedream](https://pipedream.com/) - Integration
+
+## AI Developer Tools
+- [Postman AI](https://www.postman.com/) - API
+- [Insomnia AI](https://insomnia.rest/) - API
+- [Hoppscotch](https://hoppscotch.io/) - API
+- [Linear AI](https://linear.app/) - Issues
+- [Jira Intelligence](https://www.atlassian.com/) - Jira
+- [GitHub Copilot X](https://github.com/) - GitHub
+- [GitLab Duo](https://gitlab.com/) - GitLab
+- [Bitbucket AI](https://bitbucket.org/) - Bitbucket
+- [New Relic AI](https://newrelic.com/) - Observability
+- [Datadog AI](https://www.datadoghq.com/) - Monitoring
+- [Sentry AI](https://sentry.io/) - Error tracking
+- [PagerDuty AI](https://www.pagerduty.com/) - Incident
+
+## AI Testing Tools
+- [Applitools](https://applitools.com/) - Visual testing
+- [Testim](https://www.testim.io/) - UI testing
+- [Mabl](https://www.mabl.com/) - Automated
+- [Functionize](https://www.functionize.com/) - Testing
+- [Perfecto](https://www.perfecto.io/) - Mobile
+- [Katalon](https://www.katalon.com/) - Testing
+- [Tricentis](https://www.tricentis.com/) - Enterprise
+- [Test.ai](https://test.ai/) - AI testing
+- [DeepTest](https://www.deeptest.ai/) - Testing
+- [Bugasura](https://bugasura.io/) - Bug reporting
+
+## AI Security Tools
+- [Darktrace](https://www.darktrace.com/) - Cyber AI
+- [CrowdStrike Charlotte](https://www.crowdstrike.com/) - Security
+- [SentinelOne](https://www.sentinelone.com/) - Endpoint
+- [Cynet](https://www.cynet.com/) - Security
+- [Vectra AI](https://www.vectra.ai/) - Detection
+- [ExtraHop](https://www.extrahop.com/) - Network
+- [IBM Security](https://www.ibm.com/security) - Enterprise
+- [Microsoft Security Copilot](https://www.microsoft.com/) - Security
+- [Google Mandiant](https://mandiant.com/) - Threat
+- [Recorded Future](https://www.recordedfuture.com/) - Intel
+
+## AI DevOps Tools
+- [Harness AI](https://harness.io/) - CI/CD
+- [CircleCI Insights](https://circleci.com/) - CI/CD
+- [Jenkins AI](https://www.jenkins.io/) - Automation
+- [Argo CD](https://argo-cd.readthedocs.io/) - GitOps
+- [Spacelift](https://spacelift.io/) - IaC
+- [Pulumi AI](https://www.pulumi.com/) - IaC
+- [Terraform](https://www.terraform.io/) - IaC
+- [Docker AI](https://www.docker.com/) - Containers
+- [Kubernetes AI](https://kubernetes.io/) - Orchestration
+- [Snyk](https://snyk.io/) - Security
+
+## AI Low-Code Tools
+- [Retool AI](https://retool.com/) - Internal apps
+- [Appian AI](https://appian.com/) - Low-code
+- [OutSystems](https://www.outsystems.com/) - Low-code
+- [Mendix](https://www.mendix.com/) - Low-code
+- [Power Apps](https://powerapps.microsoft.com/) - Microsoft
+- [Bubble](https://bubble.io/) - No-code
+- [Glide](https://www.glideapps.com/) - Apps
+- [Softr](https://www.softr.io/) - Apps
+- [Notion Apps](https://www.notion.so/) - Notion
+- [Airtable AI](https://airtable.com/) - Database
+
+## AI Productivity Tools
+- [Notion AI](https://www.notion.so/) - Notes
+- [Obsidian AI](https://obsidian.md/) - Knowledge
+- [Roam Research](https://roamresearch.com/) - Notes
+- [Logseq AI](https://logseq.com/) - Knowledge
+- [Mem AI](https://mem.ai/) - Notes
+- [Reflect](https://reflect.app/) - Notes
+- [Craft AI](https://www.craft.do/) - Documents
+- [Coda AI](https://coda.io/) - Documents
+- [ClickUp AI](https://clickup.com/) - Tasks
+- [Asana Intelligence](https://asana.com/) - Tasks
+- [Monday AI](https://monday.com/) - Work OS
+- [Todoist AI](https://todoist.com/) - Tasks
+- [Linear AI](https://linear.app/) - Issues
+- [Height](https://height.app/) - Tasks
+
+## AI Personal Assistants
+- [ChatGPT](https://chat.openai.com/) - OpenAI
+- [Claude](https://claude.ai/) - Anthropic
+- [Gemini](https://gemini.google.com/) - Google
+- [Copilot](https://copilot.microsoft.com/) - Microsoft
+- [Perplexity](https://www.perplexity.ai/) - Search
+- [Poe](https://poe.com/) - Multi-model
+- [Character.ai](https://character.ai/) - Characters
+- [Pi](https://pi.ai/) - Inflection
+- [HuggingChat](https://huggingface.co/chat/) - Open source
+- [Ollama](https://ollama.ai/) - Local
+- [LM Studio](https://lmstudio.ai/) - Local
+- [GPT4All](https://gpt4all.io/) - Local
+
+## AI Browser Extensions
+- [Merlin](https://www.getmerlin.in/) - Chrome
+- [Monica](https://monica.im/) - Chrome
+- [Harpa AI](https://harpa.ai/) - Chrome
+- [Sider](https://sider.ai/) - Chrome
+- [ChatGPT Sidebar](https://chatgpt-sidebar.com/) - Chrome
+- [WebChatGPT](https://webchatgpt.ai/) - Chrome
+- [AIPRM](https://www.aiprm.com/) - Prompts
+- [ChatGPT for Google](https://chatgpt4google.com/) - Search
+- [TeamSmart AI](https://teamsmart.ai/) - Team
+- [MaxAI](https://maxai.me/) - Productivity
+
+## AI Mobile Apps
+- [ChatGPT iOS](https://apps.apple.com/app/openai-chatgpt) - OpenAI
+- [Claude iOS](https://apps.apple.com/app/claude) - Anthropic
+- [Gemini Android](https://play.google.com/store/apps/details?id=com.google.android.apps.bard) - Google
+- [Perplexity Mobile](https://www.perplexity.ai/) - Search
+- [Poe Mobile](https://poe.com/) - Multi-model
+- [Character.ai Mobile](https://character.ai/) - Characters
+- [Pi Mobile](https://pi.ai/) - Inflection
+- [Replit Mobile](https://replit.com/) - Coding
+- [Cici](https://www.cici.ai/) - Chinese
+- [Xinghuo App](https://xinghuo.xfyun.cn/) - iFlytek
+
+## AI Hardware
+- [NVIDIA H100](https://www.nvidia.com/) - GPU
+- [NVIDIA A100](https://www.nvidia.com/) - GPU
+- [NVIDIA RTX 4090](https://www.nvidia.com/) - Consumer
+- [Apple M3 Max](https://www.apple.com/) - Mac
+- [Google TPU v5](https://cloud.google.com/tpu) - Google
+- [AWS Trainium](https://aws.amazon.com/) - AWS
+- [Groq LPU](https://groq.com/) - Inference
+- [Tenstorrent](https://tenstorrent.com/) - AI chip
+- [Cerebras](https://www.cerebras.net/) - Wafer
+- [Mythic](https://mythic.ai/) - Analog
+
+## AI Cloud Platforms
+- [OpenAI API](https://platform.openai.com/) - OpenAI
+- [Azure OpenAI](https://azure.microsoft.com/) - Microsoft
+- [AWS Bedrock](https://aws.amazon.com/bedrock/) - AWS
+- [Google Vertex AI](https://cloud.google.com/vertex-ai) - Google
+- [Anthropic API](https://docs.anthropic.com/) - Claude
+- [Cohere](https://cohere.com/) - NLP
+- [AI21](https://www.ai21.com/) - Jurassic
+- [Mistral API](https://mistral.ai/) - Mistral
+- [Replicate](https://replicate.com/) - Run models
+- [Together AI](https://together.ai/) - Open models
+- [Anyscale](https://www.anyscale.com/) - Ray
+- [Modal](https://modal.com/) - Serverless
+- [RunPod](https://www.runpod.io/) - GPU rental
+- [Lambda Labs](https://lambdalabs.com/) - GPU
+- [Vast.ai](https://vast.ai/) - GPU rental
