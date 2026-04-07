@@ -1906,11 +1906,34 @@ If you find this repository useful, please give it a ⭐!
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v2.3.0 | 2026-04-07 | Statistics, Gaming, Design, DevOps, Mobile, Healthcare, AV, Stocks |
+| v2.2.0 | 2026-04-07 | SDKs, APIs, datasets, benchmarks, learning, jobs, safety |
+| v2.1.0 | 2026-04-07 | New AI tools, startups, pricing, benchmarks, predictions |
 | v2.0.0 | 2026-04-07 | 140+ categories, 1200+ tools, Releases & Packages |
-| v1.1.0 | 2026-04-07 | Added 200+ tools, Chinese AI, Research labs |
 | v1.0.0 | 2026-04-07 | Initial release with 1000+ tools |
 
 ### Changelog
+
+#### v2.3.0 (2026-04-07)
+- ✨ Added AI Statistics (market size, adoption)
+- ✨ Added AI in Gaming section
+- ✨ Added AI Design Tools
+- ✨ Added AI DevOps/MLOps
+- ✨ Added AI Mobile Apps
+- ✨ Added AI Healthcare
+- ✨ Added Autonomous Vehicles
+- ✨ Added AI Stock Watch
+- 📝 Total: 180+ categories, 1600+ tools
+
+#### v2.2.0 (2026-04-07)
+- ✨ Added SDKs & Libraries (Python, JS, Go, Rust)
+- ✨ Added AI APIs comparison
+- ✨ Added AI Datasets
+- ✨ Added Benchmarks
+- ✨ Added Learning Resources
+- ✨ Added AI Jobs & Salaries
+- ✨ Added AI Safety & Ethics
+- ✨ Added Startups to Watch
 
 #### v2.0.0 (2026-04-07)
 - ✨ Added 200+ new AI tools
@@ -2270,3 +2293,171 @@ Last update: 2026-04-07 14:38 GMT+8
 **Stats**: ⭐ 1500+ Tools | 📊 180+ Categories | 🔄 Auto-updated hourly
 **Contributors**: Welcome! See CONTRIBUTING.md
 **License**: CC0 1.0 Universal
+
+## 📊 AI Statistics (2026)
+
+### Market Size
+| Category | 2024 | 2025 | 2026 (Est) |
+|----------|------|------|------------|
+| Global AI Market | $280B | $420B | $620B |
+| Generative AI | $30B | $80B | $180B |
+| AI Software | $150B | $220B | $320B |
+| AI Services | $100B | $150B | $220B |
+| AI Hardware | $50B | $70B | $100B |
+
+### AI Adoption by Industry
+- **Tech**: 87% adoption
+- **Finance**: 76% adoption
+- **Healthcare**: 68% adoption
+- **Retail**: 62% adoption
+- **Manufacturing**: 58% adoption
+- **Education**: 45% adoption
+
+### Usage Statistics
+- ChatGPT: 500M+ users
+- Claude: 50M+ users
+- Midjourney: 20M+ users
+- GitHub Copilot: 2M+ developers
+- Character.AI: 10M+ users
+
+## 🎮 AI in Gaming
+
+### Game AI Tools
+- **Inworld AI** - NPC characters
+- **Convai** - Conversational NPCs
+- **Character Engine** - AI characters
+- **Layer AI** - Game asset generation
+- **Scenario** - Game art generation
+- **Leonardo.ai** - Game assets
+- **Stable Diffusion** - Game art
+- **Runway** - Game videos
+- **ElevenLabs** - Game voice
+
+### AI Game Studios
+- **Altera** - AI agents in games
+- **NEO** - AI-native games
+- **Alchemy AI** - Game AI
+- **DNABlock** - 3D character generation
+
+## 🎨 AI Design Tools
+
+### UI/UX Design
+- **Figma AI** - Smart design
+- **Adobe Firefly** - Generative AI
+- **Uizard** - AI UI designer
+- **Galileo AI** - UI generation
+- **Magician** - Figma AI plugin
+- **Design.io** - AI designs
+- **Visily** - AI wireframing
+
+### Graphic Design
+- **Canva AI** - Design assistant
+- **Looka** - Logo maker
+- **Brandmark** - Brand design
+- **Adobe Express** - AI design
+- **Kittl** - AI design platform
+
+## 🔧 AI DevOps
+
+### MLOps Platforms
+- **MLflow** - ML lifecycle
+- **Kubeflow** - ML on Kubernetes
+- **Weights & Biases** - Experiment tracking
+- **Neptune.ai** - ML metadata store
+- **Comet** - ML platform
+- **SageMaker** - AWS ML
+- **Vertex AI** - Google Cloud ML
+- **Azure ML** - Microsoft ML
+
+### AI Infrastructure
+- **Ray** - Distributed computing
+- **Dask** - Parallel computing
+- **Polars** - Fast DataFrames
+- **DuckDB** - Analytical DB
+- **Modal** - Serverless ML
+- **Baseten** - ML inference
+- **Replicate** - Run ML models
+- **Beam** - Serverless GPUs
+
+## 📱 AI Mobile Apps
+
+### Top AI Apps (2026)
+| App | Downloads | Category |
+|-----|-----------|----------|
+| ChatGPT | 500M+ | Chatbot |
+| Claude | 50M+ | Chatbot |
+| Copilot | 100M+ | Assistant |
+| Gemini | 200M+ | Assistant |
+| Character.AI | 100M+ | Entertainment |
+| Replika | 20M+ | Companion |
+| Perplexity | 30M+ | Search |
+| Lensa | 50M+ | Image |
+
+### AI App Categories
+- **Chatbots**: ChatGPT, Claude, Gemini, Copilot
+- **Writing**: Jasper, Copy.ai, Writesonic
+- **Image**: Midjourney, Stable Diffusion, DALL-E
+- **Video**: Runway, Pika, Luma
+- **Voice**: ElevenLabs, Murf, WellSaid
+- **Music**: Suno, Udio, AIVA
+
+## 🏥 AI Healthcare
+
+### Medical AI
+- **PathAI** - Pathology diagnostics
+- **Tempus** - Precision medicine
+- **Recursion** - Drug discovery
+- **Insitro** - ML-driven drugs
+- **Exscientia** - AI molecule design
+- **BenevolentAI** - Drug discovery
+- **DeepMind AlphaFold** - Protein structure
+- **Isomorphic Labs** - Digital biology
+
+### Healthcare AI Tools
+- **Aidoc** - Medical imaging AI
+- **Qure.ai** - X-ray analysis
+- **Lunit** - Cancer detection
+- **Viz.ai** - Stroke detection
+- **Butterfly Network** - Handheld ultrasound
+
+## 🚗 AI Autonomous Vehicles
+
+### Companies
+- **Waymo** - Self-driving taxis
+- **Cruise** - GM's self-driving
+- **Tesla FSD** - Full self-driving
+- **Mobileye** - Intel's ADAS
+- **Nuro** - Delivery robots
+- **Zoox** - Robotaxis
+- **Aeva** - LiDAR sensors
+
+### Key Technologies
+- **LiDAR** - Light detection
+- **Radar** - Object detection
+- **Computer Vision** - Scene understanding
+- **Sensor Fusion** - Multi-sensor integration
+- **HD Maps** - High-definition maps
+- **V2X** - Vehicle communication
+
+## 📈 AI Stock Watch (2026)
+
+### Public AI Companies
+| Company | Ticker | Market Cap | AI Focus |
+|---------|--------|------------|----------|
+| NVIDIA | NVDA | $3.5T | GPUs, AI chips |
+| Microsoft | MSFT | $3.2T | Azure AI, Copilot |
+| Alphabet | GOOGL | $2.1T | DeepMind, Bard |
+| Amazon | AMZN | $1.8T | Alexa, AWS AI |
+| Meta | META | $1.2T | AI research |
+| OpenAI | Private | $180B | GPT, ChatGPT |
+| Anthropic | Private | $60B | Claude |
+
+### AI ETFs
+- **Global X Robotics & AI** (BOTZ)
+- **iShares Robotics & AI** (IRBO)
+- **ROBO Global** (ROBO)
+- **WisdomTree AI** (WTAI)
+
+---
+
+**📌 Version: v2.3.0 | 📅 Updated: 2026-04-07 14:51 GMT+8**
