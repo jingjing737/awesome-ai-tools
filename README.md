@@ -1719,3 +1719,185 @@ If you find this repository useful, please give it a ⭐!
 **Last Updated**: 2024-04-07
 **Total Tools**: 1000+
 **Categories**: 120+
+
+## AI Image Generation Models
+- [DALL-E 3](https://openai.com/dall-e-3) - OpenAI 最新图像生成
+- [Midjourney v6](https://www.midjourney.com/) - 最高质量
+- [Stable Diffusion 3](https://stability.ai/) - 开源最新
+- [Stable Diffusion XL](https://stability.ai/) - 高质量开源
+- [Flux.1](https://blackforestlabs.ai/) - 新一代模型
+- [Ideogram 2.0](https://ideogram.ai/) - 文字渲染最强
+- [Leonardo.ai](https://leonardo.ai/) - 游戏资产
+- [Krea.ai](https://krea.ai/) - 实时生成
+- [Playground v3](https://playground.com/) - 免费
+- [SeaArt.ai](https://seaart.ai/) - 中文友好
+- [LiblibAI](https://liblibai.com/) - 国内最大
+- [Tiamat](https://tiamat.ai/) - 国内模型
+- [6pen](https://6pen.art/) - 中文
+- [Wombo Dream](https://dream.ai/) - 手机端
+- [Starck.ai](https://starryai.com/) - NFT
+
+## AI Video Generation Models
+- [Sora](https://openai.com/sora) - OpenAI 视频
+- [Runway Gen-3 Alpha](https://runwayml.com/) - 最高质量
+- [Pika 2.0](https://pika.art/) - 快速生成
+- [Kling AI](https://klingai.com/) - 快手
+- [Hailuo AI Video](https://hailuoai.com/video) - MiniMax
+- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - 3D视频
+- [Jimeng AI](https://jimeng.jianying.com/) - 字节
+- [Vidu](https://www.vidu.studio/) - 生数科技
+- [CogVideoX](https://github.com/THUDM/CogVideo) - 清华开源
+- [Stable Video Diffusion](https://stability.ai/) - 开源视频
+- [AnimateDiff](https://github.com/guoyww/AnimateDiff) - 动画
+- [ModelScope](https://modelscope.cn/models/damo/text-to-video-synthesis) - 阿里
+
+## AI Music Generation Models
+- [Suno v3.5](https://suno.ai/) - 完整歌曲
+- [Udio](https://www.udio.com/) - 高质量音乐
+- [AIVA](https://www.aiva.ai/) - 作曲
+- [Soundraw](https://soundraw.io/) - 背景音乐
+- [Boomy](https://boomy.com/) - 快速创作
+- [Mubert](https://mubert.com/) - 配乐
+- [Ecrett Music](https://ecrett.com/) - 游戏音乐
+- [Jukebox](https://openai.com/research/jukebox) - OpenAI
+- [MusicGen](https://github.com/facebookresearch/audiocraft) - Meta
+- [Stable Audio 2.0](https://stability.ai/) - Stability
+- [Riffusion](https://www.riffusion.com/) - 音乐生成
+- [Google MusicLM](https://google-research.github.io/musiclm/) - Google
+
+## AI Voice & Speech Models
+- [ElevenLabs](https://elevenlabs.io/) - 最强语音克隆
+- [OpenAI TTS](https://platform.openai.com/) - 文字转语音
+- [Azure TTS](https://azure.microsoft.com/) - 微软语音
+- [Google Cloud TTS](https://cloud.google.com/text-to-speech) - 谷歌
+- [Amazon Polly](https://aws.amazon.com/polly/) - AWS
+- [Coqui TTS](https://github.com/coqui-ai/TTS) - 开源
+- [Bark](https://github.com/suno-ai/bark) - 多语言
+- [VALL-E](https://speechresearch.github.io/vall-e/) - 微软
+- [Whisper](https://github.com/openai/whisper) - 语音识别
+- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) - 快速ASR
+- [FunASR](https://github.com/alibaba-damo-academy/FunASR) - 阿里
+- [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion) - 变声
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - 少样本TTS
+- [So-VITS-SVC](https://github.com/svc-develop-team/so-vits-svc) - 歌声转换
+
+## AI 3D Generation Models
+- [Point-E](https://github.com/openai/point-e) - OpenAI 3D
+- [Shap-E](https://github.com/openai/shap-e) - OpenAI 3D
+- [GET3D](https://github.com/nv-tlabs/GET3D) - NVIDIA
+- [Luma AI](https://lumalabs.ai/) - 3D捕捉
+- [Meshy](https://www.meshy.ai/) - 3D创作
+- [Tripo AI](https://tripo3d.ai/) - 快速3D
+- [Kaedim](https://www.kaedim3d.com/) - 图转3D
+- [Rodin](https://hyperhuman.de/rodin) - Hyperhuman
+- [Spline AI](https://spline.design/) - 3D设计
+- [Blockade Labs](https://www.blockadelabs.com/) - 天空盒
+
+## AI Code Assistants
+- [GitHub Copilot](https://github.com/features/copilot) - VS Code
+- [Cursor](https://cursor.sh/) - AI编辑器
+- [Windsurf](https://codeium.com/windsurf) - Codeium
+- [Tabnine](https://www.tabnine.com/) - 自动补全
+- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS
+- [Replit AI](https://replit.com/) - 在线IDE
+- [Sourcegraph Cody](https://sourcegraph.com/cody) - 代码搜索
+- [Continue](https://continue.dev/) - VS Code插件
+- [Aider](https://github.com/paul-gauthier/aider) - 终端助手
+- [Devin](https://www.cognition.ai/devin) - AI工程师
+- [OpenDevin](https://github.com/OpenDevin/OpenDevin) - 开源Devin
+- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) - 普林斯顿
+- [Bolt.new](https://bolt.new/) - 全栈生成
+- [v0.dev](https://v0.dev/) - Vercel UI生成
+- [Tempo](https://www.tempolabs.ai/) - React生成
+
+## AI Writing Assistants
+- [Jasper](https://www.jasper.ai/) - 营销文案
+- [Copy.ai](https://www.copy.ai/) - 文案生成
+- [Writesonic](https://writesonic.com/) - 内容创作
+- [Rytr](https://rytr.me/) - 写作助手
+- [Anyword](https://anyword.com/) - 营销
+- [Sudowrite](https://www.sudowrite.com/) - 小说创作
+- [NovelAI](https://novelai.net/) - 故事生成
+- [AI Dungeon](https://aidungeon.com/) - 互动小说
+- [Grammarly](https://www.grammarly.com/) - 语法检查
+- [Wordtune](https://www.wordtune.com/) - 改写
+- [ProWritingAid](https://prowritingaid.com/) - 写作助手
+- [Quillbot](https://quillbot.com/) - 改写
+- [Hemingway](https://hemingwayapp.com/) - 风格
+- [Notion AI](https://www.notion.so/product/ai) - Notion
+- [Mem](https://mem.ai/) - 笔记
+
+## AI Research Tools
+- [Semantic Scholar](https://www.semanticscholar.org/) - 论文搜索
+- [Google Scholar](https://scholar.google.com/) - 学术搜索
+- [arXiv](https://arxiv.org/) - 预印本
+- [Papers with Code](https://paperswithcode.com/) - ML论文
+- [Connected Papers](https://www.connectedpapers.com/) - 关联图
+- [ResearchRabbit](https://www.researchrabbit.ai/) - 发现
+- [Elicit](https://elicit.org/) - 研究助手
+- [Consensus](https://consensus.app/) - 科学搜索
+- [Scite](https://scite.ai/) - 引用分析
+- [Scholarcy](https://www.scholarcy.com/) - 摘要
+- [Explainpaper](https://explainpaper.com/) - 论文解释
+- [ChatPDF](https://www.chatpdf.com/) - PDF对话
+- [Humata.ai](https://www.humata.ai/) - 文档分析
+- [Paperpal](https://paperpal.com/) - 学术写作
+
+## AI Data Analysis Tools
+- [Julius AI](https://julius.ai/) - 数据分析师
+- [Obviously AI](https://www.obviously.ai/) - 无代码ML
+- [Akkio](https://akkio.com/) - 无代码AI
+- [DataRobot](https://www.datarobot.com/) - AutoML
+- [H2O.ai](https://h2o.ai/) - 开源ML
+- [BigML](https://bigml.com/) - 机器学习
+- [RapidMiner](https://rapidminer.com/) - 数据科学
+- [KNIME](https://www.knime.com/) - 分析平台
+- [Alteryx](https://www.alteryx.com/) - 分析
+- [Tableau AI](https://www.tableau.com/) - 可视化
+- [Power BI Copilot](https://powerbi.microsoft.com/) - 微软
+- [ThoughtSpot](https://www.thoughtspot.com/) - 搜索分析
+- [Hex](https://hex.tech/) - 数据工作区
+- [Deepnote](https://deepnote.com/) - Jupyter
+
+## AI Automation Platforms
+- [Zapier AI](https://zapier.com/) - 自动化
+- [Make](https://www.make.com/) - 集成
+- [n8n](https://n8n.io/) - 工作流
+- [Bardeen](https://www.bardeen.ai/) - 浏览器自动化
+- [Magical](https://www.getmagical.com/) - 文本自动化
+- [UiPath](https://www.uipath.com/) - RPA
+- [Automation Anywhere](https://www.automationanywhere.com/) - RPA
+- [Workato](https://workato.com/) - 集成
+- [Tray.io](https://tray.io/) - 自动化
+- [Pipedream](https://pipedream.com/) - 集成
+- [Relay.app](https://www.relay.app/) - 工作流
+- [Tallyfy](https://tallyfy.com/) - 流程
+
+## AI Chatbots & Assistants
+- [ChatGPT](https://chat.openai.com/) - OpenAI
+- [Claude](https://claude.ai/) - Anthropic
+- [Gemini](https://gemini.google.com/) - Google
+- [Copilot](https://copilot.microsoft.com/) - 微软
+- [Perplexity](https://www.perplexity.ai/) - AI搜索
+- [Poe](https://poe.com/) - 多模型
+- [Character.ai](https://character.ai/) - 角色对话
+- [Pi](https://pi.ai/) - Inflection
+- [HuggingChat](https://huggingface.co/chat/) - 开源
+- [Ollama](https://ollama.ai/) - 本地运行
+- [LM Studio](https://lmstudio.ai/) - 本地GUI
+- [GPT4All](https://gpt4all.io/) - 本地
+- [PrivateGPT](https://github.com/imartinez/privategpt) - 私有
+- [LocalGPT](https://github.com/PromtEngineer/localGPT) - 本地
+
+## AI Search Engines
+- [Perplexity AI](https://www.perplexity.ai/) - AI搜索
+- [You.com](https://you.com/) - AI搜索
+- [Phind](https://www.phind.com/) - 开发者搜索
+- [Komo](https://komo.ai/) - AI搜索
+- [Andi](https://andisearch.com/) - 对话搜索
+- [Neeva](https://neeva.com/) - 无广告搜索
+- [Brave Search](https://search.brave.com/) - 隐私搜索
+- [Bing Chat](https://www.bing.com/) - 微软
+- [Google SGE](https://www.google.com/) - 谷歌
+- [Metaso](https://metaso.cn/) - 国内AI搜索
+- [Tiangong AI](https://www.tiangong.cn/) - 天工搜索
