@@ -1901,3 +1901,66 @@ If you find this repository useful, please give it a ⭐!
 - [Google SGE](https://www.google.com/) - 谷歌
 - [Metaso](https://metaso.cn/) - 国内AI搜索
 - [Tiangong AI](https://www.tiangong.cn/) - 天工搜索
+
+## 📦 Releases
+
+| Version | Date | Changes |
+|---------|------|---------|
+| v2.0.0 | 2026-04-07 | 140+ categories, 1200+ tools, Releases & Packages |
+| v1.1.0 | 2026-04-07 | Added 200+ tools, Chinese AI, Research labs |
+| v1.0.0 | 2026-04-07 | Initial release with 1000+ tools |
+
+### Changelog
+
+#### v2.0.0 (2026-04-07)
+- ✨ Added 200+ new AI tools
+- ✨ Added AI Startup Companies section
+- ✨ Added AI Research Labs section
+- ✨ Added AI Founders & Researchers
+- ✨ Added API Pricing Comparison
+- ✨ Added Model Comparison table
+- ✨ Added Releases & Packages sections
+- 📝 Total: 140+ categories, 1200+ tools
+
+#### v1.1.0 (2026-04-07)
+- ✨ Added Chinese AI companies
+- ✨ Added Open Source projects
+- ✨ Added Datasets & Benchmarks
+- ✨ Added Learning resources
+
+#### v1.0.0 (2026-04-07)
+- 🎉 Initial release
+- ✨ 1000+ AI tools and resources
+- ✨ 100+ categories
+
+## 📦 Packages
+
+### npm
+```bash
+npm install awesome-ai-tools
+```
+
+### pip
+```bash
+pip install awesome-ai-tools
+```
+
+### Homebrew
+```bash
+brew tap jingjing737/awesome-ai-tools
+brew install awesome-ai-tools
+```
+
+### Docker
+```bash
+docker pull ghcr.io/jingjing737/awesome-ai-tools:latest
+```
+
+### Use as Reference
+Simply star this repository and refer to it when looking for AI tools!
+
+## 🔄 Auto-Update
+
+This repository is automatically updated hourly with new AI tools.
+
+Last update: 2026-04-07 14:38 GMT+8
