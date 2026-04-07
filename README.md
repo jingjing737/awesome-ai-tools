@@ -1906,6 +1906,7 @@ If you find this repository useful, please give it a ⭐!
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v2.4.0 | 2026-04-07 | AI by language, education, business, industry, science, art, comparisons |
 | v2.3.0 | 2026-04-07 | Statistics, Gaming, Design, DevOps, Mobile, Healthcare, AV, Stocks |
 | v2.2.0 | 2026-04-07 | SDKs, APIs, datasets, benchmarks, learning, jobs, safety |
 | v2.1.0 | 2026-04-07 | New AI tools, startups, pricing, benchmarks, predictions |
@@ -1913,6 +1914,16 @@ If you find this repository useful, please give it a ⭐!
 | v1.0.0 | 2026-04-07 | Initial release with 1000+ tools |
 
 ### Changelog
+
+#### v2.4.0 (2026-04-07)
+- ✨ Added AI by Language (Chinese, Japanese, Korean)
+- ✨ Added AI Education Platforms
+- ✨ Added AI for Business
+- ✨ Added AI for Industry
+- ✨ Added AI for Science
+- ✨ Added AI Art & Creativity styles
+- ✨ Added Comparison Tables (LLM, Image, Video)
+- 📝 Total: 200+ categories, 1800+ tools
 
 #### v2.3.0 (2026-04-07)
 - ✨ Added AI Statistics (market size, adoption)
@@ -2461,3 +2472,213 @@ Last update: 2026-04-07 14:38 GMT+8
 ---
 
 **📌 Version: v2.3.0 | 📅 Updated: 2026-04-07 14:51 GMT+8**
+
+## 🌐 AI by Language
+
+### Chinese AI Tools
+- **Kimi** (月之暗面) - 长上下对话
+- **Doubao** (豆包) - 字节跳动AI助手
+- **Ernie Bot** (文心一言) - 百度大模型
+- **Qwen** (通义千问) - 阿里大模型
+- **Hunyuan** (混元) - 腾讯大模型
+- **GLM** (智谱) - 清华系大模型
+- **Baichuan** (百川) - 通用大模型
+- **DeepSeek** - 深度求索
+- **MiniMax** - 海螺AI
+- **Yi** (零一万物) - 李开复团队
+
+### Japanese AI Tools
+- **rinna** - Japanese LLM
+- **Falo** - Japanese chatbot
+- **ELYZA** - Japanese AI
+
+### Korean AI Tools
+- **HyperCLOVA** - Naver's LLM
+- **KoGPT** - Kakao's model
+- **Solar** - Upstage's LLM
+
+### Multilingual AI
+- **GPT-4** - 50+ languages
+- **Claude 3** - Multilingual
+- **Gemini** - 40+ languages
+- **Command R+** - 100+ languages
+- **Qwen** - Strong multilingual
+
+## 🎓 AI Education Platforms
+
+### Online Learning
+- **Coursera AI** - AI courses
+- **edX AI** - MIT/Harvard AI
+- **Udacity AI** - Nanodegrees
+- **DataCamp** - Data science
+- **Codecademy AI** - Interactive AI
+- **Kaggle Learn** - Free courses
+
+### AI Tutors
+- **Khanmigo** - Khan Academy AI
+- **Duolingo AI** - Language learning
+- **Socratic** - Google's homework helper
+- **Photomath** - Math solver
+- **Grammarly** - Writing assistant
+- **QuillBot** - Paraphrasing
+
+### Research Tools
+- **Semantic Scholar** - AI paper search
+- **Connected Papers** - Paper graphs
+- **Elicit** - AI research assistant
+- **Consensus** - Research synthesis
+- **Scite** - Citation analysis
+- **ResearchRabbit** - Paper discovery
+
+## 💼 AI for Business
+
+### Enterprise AI
+- **Microsoft Copilot** - Office AI
+- **Google Duet AI** - Workspace AI
+- **Salesforce Einstein** - CRM AI
+- **ServiceNow AI** - IT AI
+- **IBM Watson** - Enterprise AI
+- **Oracle AI** - Cloud AI
+- **SAP AI** - Business AI
+- **Workday AI** - HR AI
+
+### AI CRM
+- **HubSpot AI** - Marketing AI
+- **Zendesk AI** - Support AI
+- **Intercom AI** - Chat AI
+- **Drift AI** - Sales AI
+- **Gong AI** - Revenue AI
+- **Chorus AI** - Call AI
+
+### AI Finance
+- **Kensho** - Financial AI
+- **AlphaSense** - Market intelligence
+- **Sentieo** - Investment research
+- **Kavout** - Portfolio AI
+- **Equbot** - ETF AI
+- **Wealthfront** - Robo-advisor
+- **Betterment** - AI investing
+
+## 🏭 AI for Industry
+
+### Manufacturing AI
+- **C3 AI** - Enterprise AI
+- **Uptake** - Industrial AI
+- **SparkCognition** - Predictive AI
+- **Augury** - Machine health
+- **Sight Machine** - Factory AI
+- **Falkonry** - Pattern recognition
+
+### Agriculture AI
+- **John Deere AI** - Farm AI
+- **Blue River** - Precision ag
+- **CropX** - Soil AI
+- **Taranis** - Field intelligence
+- **Prospera** - Crop monitoring
+
+### Energy AI
+- **Grid AI** - Smart grid
+- **AutoGrid** - Energy optimization
+- **C3 Energy** - Utility AI
+- **Bidgely** - Energy analytics
+
+### Retail AI
+- **Syte** - Visual search
+- **Vue.ai** - Retail automation
+- **Lily AI** - Product discovery
+- **Focal Systems** - Retail AI
+- **Dynamic Yield** - Personalization
+
+## 🔬 AI for Science
+
+### Drug Discovery
+- **AlphaFold** - Protein structure
+- **RoseTTAFold** - Structure prediction
+- **Atomwise** - Drug AI
+- **Insilico Medicine** - Drug discovery
+- **Recursion** - Biology AI
+- **Exscientia** - AI drug design
+
+### Materials Science
+- **Citrine** - Materials AI
+- **Kebotix** - Materials discovery
+- **Materials Project** - Materials database
+
+### Physics AI
+- **DeepMind Physics** - AI physics
+- **NVIDIA Modulus** - Physics ML
+- **Deep Learning for Physics** - Research
+
+### Climate AI
+- **Climate AI** - Climate modeling
+- **MethaneSAT** - Emissions detection
+- **Pachama** - Carbon AI
+- **Sylvera** - Carbon data
+
+## 🎨 AI Art & Creativity
+
+### AI Art Styles
+- **Photorealistic** - Real images
+- **Anime** - Japanese style
+- **Fantasy** - Fantasy art
+- **Sci-Fi** - Science fiction
+- **Abstract** - Abstract art
+- **Oil Painting** - Classic style
+- **Watercolor** - Soft style
+- **Pixel Art** - Retro style
+- **3D Render** - 3D images
+- **Sketch** - Drawings
+
+### AI Music Genres
+- **Pop** - Popular music
+- **Rock** - Rock music
+- **Electronic** - EDM
+- **Classical** - Orchestral
+- **Jazz** - Jazz music
+- **Hip-Hop** - Rap beats
+- **Ambient** - Background music
+- **Lo-Fi** - Chill beats
+- **Cinematic** - Film scores
+
+### AI Video Styles
+- **Animation** - Animated videos
+- **Live Action** - Real footage
+- **Documentary** - Doc style
+- **Commercial** - Ads
+- **Music Video** - MV style
+- **Short Film** - Narrative
+- **Social Media** - TikTok/Reels
+
+## 📊 AI Comparison Tables
+
+### LLM Context Windows
+| Model | Context | Training Data |
+|-------|---------|---------------|
+| GPT-4 Turbo | 128K | Unknown |
+| Claude 3 Opus | 200K | Unknown |
+| Gemini 1.5 Pro | 2M | Unknown |
+| Llama 3 70B | 128K | 15T tokens |
+| Mistral Large | 128K | Unknown |
+| Command R+ | 128K | Unknown |
+
+### Image Generation Comparison
+| Tool | Resolution | Speed | Price |
+|------|------------|-------|-------|
+| DALL-E 3 | 1024x1024 | Fast | $0.04/img |
+| Midjourney | 2048x2048 | Medium | $10/mo |
+| Stable Diffusion | 4096x4096 | Variable | Free |
+| Leonardo | 1024x1024 | Fast | $12/mo |
+| Ideogram | 1024x1024 | Fast | $8/mo |
+
+### Video Generation Comparison
+| Tool | Duration | Resolution | Price |
+|------|----------|------------|-------|
+| Runway | 18s | 1080p | $12/mo |
+| Pika | 4s | 1080p | $10/mo |
+| Sora | 60s | 1080p | Coming |
+| Stable Video | 4s | 576p | Free |
+| Luma | 5s | 1080p | Free tier |
+
+---
+
+**📌 Version: v2.4.0 | 📅 Updated: 2026-04-07 14:57 GMT+8**
