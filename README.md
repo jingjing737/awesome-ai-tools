@@ -1430,3 +1430,292 @@ To the extent possible under law, [jingjing737](https://github.com/jingjing737) 
 - [RunPod](https://www.runpod.io/) - GPU rental
 - [Lambda Labs](https://lambdalabs.com/) - GPU
 - [Vast.ai](https://vast.ai/) - GPU rental
+
+## AI Startup Companies
+- [OpenAI](https://openai.com/) - GPT, DALL-E
+- [Anthropic](https://www.anthropic.com/) - Claude
+- [Google DeepMind](https://deepmind.com/) - Gemini
+- [Meta AI](https://ai.meta.com/) - Llama
+- [Mistral AI](https://mistral.ai/) - Mistral
+- [Cohere](https://cohere.com/) - Enterprise NLP
+- [AI21 Labs](https://www.ai21.com/) - Jurassic
+- [Stability AI](https://stability.ai/) - Stable Diffusion
+- [Midjourney](https://www.midjourney.com/) - Image
+- [Runway](https://runwayml.com/) - Video
+- [Suno](https://suno.ai/) - Music
+- [ElevenLabs](https://elevenlabs.io/) - Voice
+- [Hugging Face](https://huggingface.co/) - ML platform
+- [Replicate](https://replicate.com/) - Model hosting
+- [LangChain](https://www.langchain.com/) - LLM apps
+- [Notion AI](https://www.notion.so/) - Productivity
+- [Jasper](https://www.jasper.ai/) - Marketing
+- [Character.ai](https://character.ai/) - Characters
+- [Perplexity](https://www.perplexity.ai/) - Search
+- [Inflection](https://inflection.ai/) - Pi
+
+## AI Chinese Companies
+- [百度文心](https://yiyan.baidu.com/) - ERNIE
+- [阿里通义](https://tongyi.aliyun.com/) - Qwen
+- [腾讯混元](https://hunyuan.tencent.com/) - Hunyuan
+- [讯飞星火](https://xinghuo.xfyun.cn/) - Spark
+- [字节豆包](https://www.doubao.com/) - Doubao
+- [智谱AI](https://www.zhipuai.cn/) - GLM
+- [百川智能](https://www.baichuan-ai.com/) - Baichuan
+- [MiniMax](https://www.minimaxi.com/) - Hailuo
+- [月之暗面](https://www.moonshot.cn/) - Kimi
+- [零一万物](https://www.lingyiwanwu.com/) - Yi
+- [商汤科技](https://www.sensetime.com/) - SenseChat
+- [昆仑万维](https://www.kunlun.com/) - Tiangong
+- [360智脑](https://ai.360.com/) - 360AI
+- [稀宇科技](https://www.minimaxi.com/) - MiniMax
+- [阶跃星辰](https://www.stepfun.com/) - Step
+
+## AI Research Labs
+- [OpenAI Research](https://openai.com/research) - GPT papers
+- [DeepMind Research](https://deepmind.com/research) - AlphaGo
+- [FAIR](https://ai.meta.com/research/) - Meta AI
+- [Google AI](https://ai.google/) - Google
+- [Microsoft Research](https://www.microsoft.com/en-us/research/) - MS
+- [IBM Research](https://research.ibm.com/) - IBM
+- [Allen AI](https://allenai.org/) - Allen Institute
+- [MILA](https://mila.quebec/) - Yoshua Bengio
+- [Stanford AI](https://ai.stanford.edu/) - Stanford
+- [MIT CSAIL](https://www.csail.mit.edu/) - MIT
+- [Berkeley AI](https://bair.berkeley.edu/) - UC Berkeley
+- [CMU AI](https://www.cmu.edu/ai/) - Carnegie Mellon
+- [Tsinghua AI](https://ai.tsinghua.edu.cn/) - 清华
+- [Peking U AI](https://www.ai.pku.edu.cn/) - 北大
+- [Shanghai AI Lab](https://www.shlab.org.cn/) - 上海AI实验室
+
+## AI Founders & Researchers
+- [Sam Altman](https://twitter.com/sama) - OpenAI CEO
+- [Ilya Sutskever](https://twitter.com/ilyasut) - OpenAI co-founder
+- [Dario Amodei](https://www.anthropic.com/) - Anthropic CEO
+- [Demis Hassabis](https://deepmind.com/) - DeepMind
+- [Yann LeCun](https://twitter.com/ylecun) - Meta AI
+- [Andrew Ng](https://www.andrewng.org/) - DeepLearning.AI
+- [Geoffrey Hinton](https://www.cs.toronto.edu/~hinton/) - AI pioneer
+- [Yoshua Bengio](https://mila.quebec/en/yoshua-bengio/) - MILA
+- [Andrej Karpathy](https://twitter.com/karpathy) - ex-OpenAI
+- [Jim Fan](https://twitter.com/DrJimFan) - NVIDIA
+- [Lex Fridman](https://lexfridman.com/) - MIT
+- [Timnit Gebru](https://timnitgebru.com/) - AI ethics
+- [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li) - Stanford
+- [Jensen Huang](https://www.nvidia.com/) - NVIDIA CEO
+- [Elon Musk](https://twitter.com/elonmusk) - xAI
+
+## AI Podcasts
+- [Lex Fridman Podcast](https://lexfridman.com/podcast) - AI interviews
+- [TWIML AI Podcast](https://twimlai.com/) - ML interviews
+- [The AI Podcast](https://nvidia.com/en-us/deep-learning-ai/ai-podcast/) - NVIDIA
+- [Machine Learning Guide](http://ocdevel.com/mlg) - ML course
+- [Practical AI](https://changelog.com/practicalai) - Changelog
+- [AI Alignment Podcast](https://alignmentforum.org/) - Alignment
+- [Eye on AI](https://www.eye-on.ai/) - Industry
+- [AI in Business](https://www.techemergence.com/) - Business
+- [SuperDataScience](https://www.superdatascience.com/podcast) - Data
+- [Data Skeptic](https://dataskeptic.com/) - Data science
+
+## AI Twitter/X Accounts
+- [@sama](https://twitter.com/sama) - Sam Altman
+- [@ylecun](https://twitter.com/ylecun) - Yann LeCun
+- [@karpathy](https://twitter.com/karpathy) - Andrej Karpathy
+- [@OpenAI](https://twitter.com/OpenAI) - OpenAI
+- [@AnthropicAI](https://twitter.com/AnthropicAI) - Anthropic
+- [@GoogleDeepMind](https://twitter.com/GoogleDeepMind) - DeepMind
+- [@MistralAI](https://twitter.com/MistralAI) - Mistral
+- [@huggingface](https://twitter.com/huggingface) - Hugging Face
+- [@goodfellow_ian](https://twitter.com/goodfellow_ian) - Ian Goodfellow
+- [@AndrewYNg](https://twitter.com/AndrewYNg) - Andrew Ng
+
+## AI Discord Servers
+- [Hugging Face](https://hf.co/join/discord) - ML community
+- [LangChain](https://discord.gg/langchain) - LLM apps
+- [Midjourney](https://discord.gg/midjourney) - Image gen
+- [Stability AI](https://discord.gg/stabilityai) - Stable Diffusion
+- [ElevenLabs](https://discord.gg/elevenlabs) - Voice
+- [Runway](https://discord.gg/runwayml) - Video
+- [AutoGPT](https://discord.gg/autogpt) - Agents
+- [LocalLLaMA](https://discord.gg/local_llama) - Local models
+- [r/ML Discord](https://discord.gg/reddit-ml) - Reddit ML
+- [Fast.ai](https://discord.gg/fastai) - Fast.ai
+
+## AI Subreddits
+- [r/MachineLearning](https://reddit.com/r/MachineLearning) - ML
+- [r/artificial](https://reddit.com/r/artificial) - AI
+- [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) - Local LLMs
+- [r/ChatGPT](https://reddit.com/r/ChatGPT) - ChatGPT
+- [r/OpenAI](https://reddit.com/r/OpenAI) - OpenAI
+- [r/StableDiffusion](https://reddit.com/r/StableDiffusion) - SD
+- [r/Midjourney](https://reddit.com/r/Midjourney) - MJ
+- [r/deeplearning](https://reddit.com/r/deeplearning) - Deep learning
+- [r/learnmachinelearning](https://reddit.com/r/learnmachinelearning) - Learn
+- [r/ArtificialInteligence](https://reddit.com/r/ArtificialInteligence) - AI
+
+## AI GitHub Stars Leaders
+- [huggingface/transformers](https://github.com/huggingface/transformers) - 130k+ ⭐
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) - 180k+ ⭐
+- [pytorch/pytorch](https://github.com/pytorch/pytorch) - 80k+ ⭐
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) - 90k+ ⭐
+- [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - 130k+ ⭐
+- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) - 70k+ ⭐
+- [openai/whisper](https://github.com/openai/whisper) - 60k+ ⭐
+- [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) - 40k+ ⭐
+- [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) - 20k+ ⭐
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - 160k+ ⭐
+
+## AI APIs by Category
+### LLM APIs
+- [OpenAI API](https://platform.openai.com/) - GPT-4, GPT-3.5
+- [Anthropic API](https://docs.anthropic.com/) - Claude
+- [Google Gemini API](https://ai.google.dev/) - Gemini
+- [Mistral API](https://docs.mistral.ai/) - Mistral
+- [Cohere API](https://docs.cohere.com/) - Command
+- [AI21 API](https://docs.ai21.com/) - Jurassic
+- [Together API](https://docs.together.ai/) - Open models
+- [Replicate API](https://replicate.com/docs) - Run models
+
+### Image APIs
+- [OpenAI DALL-E](https://platform.openai.com/docs/guides/images) - DALL-E 3
+- [Stability API](https://platform.stability.ai/) - SD
+- [Replicate SD](https://replicate.com/stability-ai) - SD models
+- [Midjourney API](https://www.midjourney.com/) - (Discord)
+
+### Audio APIs
+- [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech) - TTS
+- [OpenAI Whisper](https://platform.openai.com/docs/guides/speech-to-text) - ASR
+- [ElevenLabs API](https://docs.elevenlabs.io/) - Voice
+- [AssemblyAI](https://www.assemblyai.com/) - ASR
+- [Deepgram](https://deepgram.com/) - ASR
+
+### Embedding APIs
+- [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings) - ada-002
+- [Cohere Embed](https://docs.cohere.com/docs/embeddings) - embed
+- [Voyage AI](https://www.voyageai.com/) - embeddings
+- [Jina AI](https://jina.ai/embeddings/) - embeddings
+
+## AI Pricing Comparison
+### LLM Pricing (per 1M tokens)
+| Model | Input | Output |
+|-------|-------|--------|
+| GPT-4 Turbo | $10 | $30 |
+| GPT-4 | $30 | $60 |
+| GPT-3.5 Turbo | $0.50 | $1.50 |
+| Claude 3 Opus | $15 | $75 |
+| Claude 3 Sonnet | $3 | $15 |
+| Claude 3 Haiku | $0.25 | $1.25 |
+| Gemini Pro | $0.50 | $1.50 |
+| Mistral Large | $4 | $12 |
+| Mistral Medium | $2.75 | $8.10 |
+
+## AI Model Comparison
+| Model | Context | Multimodal | Training |
+|-------|---------|------------|----------|
+| GPT-4 Turbo | 128K | Yes | 2023 |
+| Claude 3 Opus | 200K | Yes | 2024 |
+| Gemini 1.5 Pro | 1M | Yes | 2024 |
+| Llama 3 70B | 8K | No | 2024 |
+| Mistral Large | 32K | No | 2024 |
+| Command R+ | 128K | No | 2024 |
+
+## AI Use Cases
+### Content Creation
+- Blog posts & articles
+- Marketing copy
+- Social media content
+- Email campaigns
+- Product descriptions
+
+### Code Development
+- Code generation
+- Bug fixing
+- Code review
+- Documentation
+- Test generation
+
+### Data Analysis
+- Data visualization
+- Report generation
+- Trend analysis
+- Anomaly detection
+- Forecasting
+
+### Customer Support
+- Chatbots
+- Ticket routing
+- FAQ generation
+- Sentiment analysis
+- Response suggestions
+
+### Research
+- Literature review
+- Paper summarization
+- Citation analysis
+- Hypothesis generation
+- Experiment design
+
+## AI Best Practices
+### Prompt Engineering Tips
+1. Be specific and clear
+2. Use examples (few-shot)
+3. Break complex tasks into steps
+4. Use appropriate temperature
+5. Iterate and refine
+
+### Model Selection Guide
+- **Simple tasks**: GPT-3.5, Haiku
+- **Complex reasoning**: GPT-4, Opus
+- **Long context**: Gemini 1.5 Pro
+- **Code**: GPT-4, Claude
+- **Cost-effective**: Mistral, Llama
+
+### Safety Guidelines
+- Validate outputs
+- Use content filters
+- Implement rate limits
+- Monitor for abuse
+- Keep humans in the loop
+
+## AI Future Trends
+- **Multimodal**: Text, image, audio, video combined
+- **Agents**: Autonomous AI systems
+- **Personalization**: Personal AI assistants
+- **Edge AI**: On-device models
+- **Open Source**: More open models
+- **Regulation**: AI governance
+- **AGI**: General intelligence
+- **Robotics**: Embodied AI
+
+## AI Learning Path
+### Beginner
+1. Learn Python basics
+2. Take ML courses (Andrew Ng)
+3. Practice with Kaggle
+4. Build simple projects
+
+### Intermediate
+1. Deep learning (Fast.ai)
+2. NLP fundamentals
+3. LLM basics
+4. Deploy models
+
+### Advanced
+1. Fine-tune models
+2. Build RAG systems
+3. Create AI agents
+4. Research papers
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License.
+
+## Star History
+If you find this repository useful, please give it a ⭐!
+
+---
+
+**Last Updated**: 2024-04-07
+**Total Tools**: 1000+
+**Categories**: 120+
