@@ -2075,3 +2075,198 @@ Last update: 2026-04-07 14:38 GMT+8
 **Last Updated**: 2026-04-07 14:41 GMT+8
 **Total Tools**: 1500+
 **Total Categories**: 150+
+
+## 🛠️ Developer Resources
+
+### AI SDKs & Libraries
+
+#### Python
+- **LangChain** - Build LLM applications
+- **LlamaIndex** - Data framework for LLMs
+- **OpenAI Python** - Official OpenAI SDK
+- **Anthropic Python** - Claude SDK
+- **Transformers** - Hugging Face transformers
+- **PyTorch** - Deep learning framework
+- **TensorFlow** - ML platform
+- **JAX** - High-performance ML
+- **FastAI** - Deep learning library
+- **Ray** - Distributed ML
+
+#### JavaScript/TypeScript
+- **LangChain.js** - JS version of LangChain
+- **Vercel AI SDK** - Streaming AI responses
+- **OpenAI Node.js** - Official SDK
+- **Hugging Face.js** - Client library
+- **TensorFlow.js** - ML in browser
+- **ML5.js** - Friendly ML for web
+- **Brain.js** - Neural networks
+- **Synaptic** - Neural network library
+
+#### Go
+- **Ollama Go** - Local LLM client
+- **LangChain Go** - Go version
+- **LocalAI Go** - OpenAI-compatible API
+
+#### Rust
+- **candle** - ML framework by Hugging Face
+- **burn** - Deep learning framework
+- **tch-rs** - PyTorch bindings
+- **ort** - ONNX Runtime bindings
+
+### AI APIs
+
+| Provider | Endpoint | Free Tier |
+|----------|----------|-----------|
+| OpenAI | api.openai.com | $5 credit |
+| Anthropic | api.anthropic.com | $5 credit |
+| Google | generativelanguage.googleapis.com | Free |
+| Mistral | api.mistral.ai | Free tier |
+| Cohere | api.cohere.com | Trial |
+| Together | api.together.xyz | $1 credit |
+| Groq | api.groq.com | Free tier |
+| DeepSeek | api.deepseek.com | Free tier |
+
+### AI Datasets
+
+- **Hugging Face Datasets** - 100K+ datasets
+- **Kaggle Datasets** - ML datasets
+- **UCI ML Repository** - Classic datasets
+- **Google Dataset Search** - Dataset search
+- **Papers With Code** - Datasets from papers
+- **LAION-5B** - Image-text pairs
+- **Common Crawl** - Web crawl data
+- **The Pile** - 800GB text corpus
+- **RedPajama** - Open dataset
+- **Dolma** - 3T token dataset
+
+### AI Benchmarks
+
+- **MMLU** - Multi-task language understanding
+- **HumanEval** - Code generation
+- **GSM8K** - Math reasoning
+- **MATH** - Competition math
+- **HellaSwag** - Commonsense reasoning
+- **TruthfulQA** - Truthfulness
+- **BBH** - Big bench hard
+- **GPQA** - Graduate-level questions
+- **SWE-bench** - Software engineering
+- **Chatbot Arena** - Human preference
+
+## 🎓 Learning Resources
+
+### Free Courses
+- **Fast.ai** - Practical deep learning
+- **DeepLearning.AI** - Andrew Ng's courses
+- **Stanford CS224N** - NLP with deep learning
+- **Stanford CS231n** - Computer vision
+- **MIT 6.034** - Artificial intelligence
+- **Berkeley CS285** - Deep RL
+- **Google ML Crash Course** - ML basics
+- **Microsoft AI School** - AI education
+- **Hugging Face Course** - NLP course
+- **LLM University** - Cohere's course
+
+### Books
+- **"Deep Learning"** - Goodfellow et al.
+- **"Pattern Recognition and ML"** - Bishop
+- **"Hands-On ML"** - Géron
+- **"The Hundred-Page ML Book"** - Burkov
+- **"AI Superpowers"** - Lee
+- **"Life 3.0"** - Tegmark
+- **"Human Compatible"** - Russell
+- **"The Alignment Problem"** - Christian
+
+### YouTube Channels
+- **Two Minute Papers** - AI research summaries
+- **Yannic Kilcher** - Paper explanations
+- **AI Explained** - AI news and analysis
+- **Machine Learning Street Talk** - Interviews
+- **Sentdex** - Python ML tutorials
+- **CodeBullet** - AI experiments
+- **Robert Miles** - AI safety
+- **Computerphile** - CS concepts
+
+### Podcasts
+- **Lex Fridman Podcast** - AI interviews
+- **Machine Learning Guide** - ML concepts
+- **TWIML AI Podcast** - Industry news
+- **AI Alignment Podcast** - Safety research
+- **Gradient Dissent** - Weights & Biases
+- **The AI Podcast** - NVIDIA
+
+## 💼 AI Jobs
+
+### Job Boards
+- **AI-Jobs.net** - AI/ML jobs
+- **ML Jobs List** - Machine learning
+- **Hugging Face Jobs** - Open source AI
+- **AI Careers** - AI positions
+- **Data Science Central** - Data jobs
+- **Kaggle Jobs** - Competition platform
+- **Papers With Code** - Research jobs
+
+### Top AI Companies Hiring
+- OpenAI, Anthropic, Google DeepMind
+- Meta AI, Microsoft Research
+- NVIDIA, Tesla AI, Apple ML
+- Hugging Face, Stability AI
+- Scale AI, Snorkel AI
+- Weights & Biases, Databricks
+
+### Salaries (2026)
+| Role | US (K) | China (K RMB) |
+|------|--------|---------------|
+| ML Engineer | $180-350 | ¥400-800 |
+| Research Scientist | $200-500 | ¥500-1200 |
+| AI Product Manager | $150-300 | ¥350-700 |
+| Data Scientist | $130-250 | ¥300-600 |
+| AI Engineer | $160-320 | ¥380-750 |
+
+## 🔒 AI Safety & Ethics
+
+### Safety Organizations
+- **Anthropic** - AI safety research
+- **OpenAI** - Alignment research
+- **DeepMind Safety** - Safety team
+- **MIRI** - Machine intelligence research
+- **CHAI** - Center for Human-Compatible AI
+- **FHI** - Future of Humanity Institute
+- **GovAI** - Governance of AI
+- **ARC** - Alignment Research Center
+
+### Key Topics
+- **Alignment** - Ensuring AI goals match human values
+- **Interpretability** - Understanding AI decisions
+- **Robustness** - AI behaving safely
+- **Governance** - Policies for AI development
+- **Bias** - Fairness in AI systems
+- **Privacy** - Protecting user data
+- **Security** - AI system security
+
+## 🚀 AI Startups to Watch (2026)
+
+### Unicorns
+- **Perplexity** - $3B valuation
+- **Anthropic** - $18B valuation
+- **Mistral** - $6B valuation
+- **Character.AI** - $1B valuation
+- **Midjourney** - Profitable unicorn
+- **Hugging Face** - $4.5B valuation
+- **Scale AI** - $7B valuation
+- **Runway** - $1.5B valuation
+
+### Emerging
+- **Pika** - AI video
+- **HeyGen** - AI avatars
+- **ElevenLabs** - AI voice
+- **Suno** - AI music
+- **Cohere** - Enterprise AI
+- **Adept** - AI agents
+- **Inflection** - Personal AI
+- **Jasper** - AI writing
+
+---
+
+**Stats**: ⭐ 1500+ Tools | 📊 180+ Categories | 🔄 Auto-updated hourly
+**Contributors**: Welcome! See CONTRIBUTING.md
+**License**: CC0 1.0 Universal
