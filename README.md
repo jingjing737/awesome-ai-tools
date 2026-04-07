@@ -967,3 +967,239 @@ To the extent possible under law, [jingjing737](https://github.com/jingjing737) 
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Prompt eval
 - [LangSmith](https://www.langchain.com/langsmith) - LangChain
 - [Weights & Biases](https://wandb.ai/) - ML tracking
+
+## AI Image Models
+- [DALL-E 3](https://openai.com/dall-e-3) - OpenAI
+- [Midjourney](https://www.midjourney.com/) - Best quality
+- [Stable Diffusion XL](https://stability.ai/) - Open source
+- [Stable Diffusion 3](https://stability.ai/) - Latest SD
+- [Leonardo AI](https://leonardo.ai/) - Game assets
+- [Ideogram](https://ideogram.ai/) - Text in images
+- [Flux](https://blackforestlabs.ai/) - New model
+- [Krea AI](https://krea.ai/) - Real-time
+- [Playground AI](https://playground.com/) - Free
+- [NightCafe](https://creator.nightcafe.studio/) - Art generator
+- [Deep Dream Generator](https://deepdreamgenerator.com/) - Art styles
+- [Artbreeder](https://www.artbreeder.com/) - Mix images
+- [Runway Gen-2](https://runwayml.com/) - Video & image
+- [Pika Labs](https://pika.art/) - Video generation
+
+## AI Video Models
+- [Sora](https://openai.com/sora) - OpenAI
+- [Runway Gen-3](https://runwayml.com/) - Best quality
+- [Pika 2](https://pika.art/) - Fast generation
+- [Kling AI](https://klingai.com/) - Chinese
+- [Hailuo AI](https://hailuoai.com/video) - MiniMax
+- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - 3D video
+- [Stable Video Diffusion](https://stability.ai/) - Open source
+- [AnimateDiff](https://github.com/guoyww/AnimateDiff) - Animation
+- [Deforum](https://github.com/deforum-art/deforum-studio) - Art video
+
+## AI Audio Models
+- [Suno AI](https://suno.ai/) - Music generation
+- [Udio](https://www.udio.com/) - Music creation
+- [ElevenLabs](https://elevenlabs.io/) - Voice cloning
+- [OpenAI TTS](https://openai.com/) - Text to speech
+- [Azure TTS](https://azure.microsoft.com/) - Microsoft
+- [Google TTS](https://cloud.google.com/text-to-speech) - Google
+- [Coqui TTS](https://github.com/coqui-ai/TTS) - Open source
+- [Bark](https://github.com/suno-ai/bark) - Audio generation
+- [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion) - Voice conversion
+- [So-VITS-SVC](https://github.com/svc-develop-team/so-vits-svc) - Singing
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - Few-shot TTS
+- [Whisper](https://github.com/openai/whisper) - Speech recognition
+- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) - Fast ASR
+- [FunASR](https://github.com/alibaba-damo-academy/FunASR) - Alibaba ASR
+
+## AI 3D Models
+- [Point-E](https://github.com/openai/point-e) - OpenAI 3D
+- [Shap-E](https://github.com/openai/shap-e) - OpenAI 3D
+- [GET3D](https://github.com/nv-tlabs/GET3D) - NVIDIA
+- [Magic3D](https://deepimagine.ai/) - Text to 3D
+- [Luma AI](https://lumalabs.ai/) - 3D capture
+- [Kaedim](https://www.kaedim3d.com/) - Image to 3D
+- [Meshy](https://www.meshy.ai/) - 3D creation
+- [Tripo AI](https://tripo3d.ai/) - Fast 3D
+- [Rodin](https://hyperhuman.de/rodin) - Hyperhuman
+
+## AI Code Models
+- [GitHub Copilot](https://github.com/features/copilot) - VS Code
+- [Cursor](https://cursor.sh/) - AI editor
+- [Windsurf](https://codeium.com/windsurf) - Codeium
+- [Tabnine](https://www.tabnine.com/) - Autocomplete
+- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS
+- [Replit AI](https://replit.com/) - Online IDE
+- [Sourcegraph Cody](https://sourcegraph.com/cody) - Code search
+- [Continue](https://continue.dev/) - VS Code extension
+- [Aider](https://github.com/paul-gauthier/aider) - Terminal
+- [Devin](https://www.cognition.ai/devin) - AI engineer
+- [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Open source
+- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) - Agent
+
+## AI Research Tools
+- [Semantic Scholar](https://www.semanticscholar.org/) - Paper search
+- [Google Scholar](https://scholar.google.com/) - Academic
+- [arXiv](https://arxiv.org/) - Preprints
+- [Papers with Code](https://paperswithcode.com/) - ML papers
+- [Connected Papers](https://www.connectedpapers.com/) - Graph
+- [ResearchRabbit](https://www.researchrabbit.ai/) - Discovery
+- [Elicit](https://elicit.org/) - Research assistant
+- [Consensus](https://consensus.app/) - Science search
+- [Scite](https://scite.ai/) - Citation analysis
+- [Scholarcy](https://www.scholarcy.com/) - Summarizer
+- [Explainpaper](https://explainpaper.com/) - Paper explain
+
+## AI Writing Tools
+- [Jasper](https://www.jasper.ai/) - Marketing copy
+- [Copy.ai](https://www.copy.ai/) - Copywriting
+- [Writesonic](https://writesonic.com/) - Content
+- [Rytr](https://rytr.me/) - Writing assistant
+- [Anyword](https://anyword.com/) - Marketing
+- [Sudowrite](https://www.sudowrite.com/) - Fiction
+- [NovelAI](https://novelai.net/) - Story
+- [AI Dungeon](https://aidungeon.com/) - Game
+- [Grammarly](https://www.grammarly.com/) - Grammar
+- [Wordtune](https://www.wordtune.com/) - Rewrite
+- [ProWritingAid](https://prowritingaid.com/) - Writing
+- [Hemingway](https://hemingwayapp.com/) - Style
+- [Quillbot](https://quillbot.com/) - Paraphrase
+- [Notion AI](https://www.notion.so/product/ai) - Notion
+- [Mem](https://mem.ai/) - Notes
+
+## AI Presentation Tools
+- [Gamma](https://gamma.app/) - Slides
+- [Beautiful.ai](https://www.beautiful.ai/) - Design
+- [Tome](https://tome.app/) - Storytelling
+- [SlidesAI](https://www.slidesai.io/) - Google Slides
+- [Pitch](https://pitch.com/) - Team slides
+- [Canva AI](https://www.canva.com/) - Design
+- [Magicslides](https://magicslides.app/) - GPT slides
+- [Sendsteps](https://sendsteps.ai/) - PowerPoint
+
+## AI Meeting Tools
+- [Otter.ai](https://otter.ai/) - Transcription
+- [Fireflies.ai](https://fireflies.ai/) - Meeting notes
+- [Fathom](https://fathom.video/) - AI notetaker
+- [Avoma](https://www.avoma.com/) - Meeting AI
+- [Airgram](https://airgram.io/) - Transcription
+- [tl;dv](https://tldv.io/) - Video highlights
+- [Krisp](https://krisp.ai/) - Noise cancel
+- [Rewatch](https://rewatch.com/) - Video wiki
+- [Supernormal](https://supernormal.com/) - Notes
+- [Metaview](https://metaview.ai/) - Recruiting
+
+## AI Email Tools
+- [Superhuman](https://superhuman.com/) - Email client
+- [Compose AI](https://compose.ai/) - Autocomplete
+- [Lavender](https://www.lavender.ai/) - Sales email
+- [SmartWriter](https://www.smartwriter.ai/) - Personalization
+- [Regie.ai](https://www.regie.ai/) - Sales content
+- [HoppyCopy](https://www.hoppycopy.co/) - Email copy
+- [Instantly](https://instantly.ai/) - Cold email
+- [Missive](https://missiveapp.com/) - Team email
+
+## AI SEO Tools
+- [Surfer SEO](https://surferseo.com/) - Content optimization
+- [Frase](https://www.frase.io/) - SEO content
+- [MarketMuse](https://www.marketmuse.com/) - Content strategy
+- [Clearscope](https://www.clearscope.io/) - Optimization
+- [Outranking](https://www.outranking.io/) - SEO writing
+- [Scalenut](https://www.scalenut.com/) - Content
+- [NeuronWriter](https://neuronwriter.com/) - NLP SEO
+- [PageOptimizer Pro](https://pageoptimizer.pro/) - On-page
+
+## AI Marketing Tools
+- [Jasper](https://www.jasper.ai/) - Content
+- [Copy.ai](https://www.copy.ai/) - Copy
+- [HubSpot AI](https://www.hubspot.com/) - Marketing
+- [Drift](https://www.drift.com/) - Conversational
+- [Persado](https://www.persado.com/) - Messaging
+- [Phrasee](https://www.phrasee.com/) - Email copy
+- [Crayon](https://www.crayon.co/) - Competitive
+- [Pathmatics](https://www.pathmatics.com/) - Ad intel
+- [AdCreative.ai](https://adcreative.ai/) - Ad design
+- [Pencil](https://www.trypencil.com/) - Ad creative
+
+## AI Social Media Tools
+- [Buffer AI](https://buffer.com/) - Scheduling
+- [Hootsuite AI](https://hootsuite.com/) - Management
+- [Sprout Social](https://sproutsocial.com/) - Analytics
+- [Later](https://later.com/) - Visual planning
+- [Lately](https://www.lately.ai/) - Content repurpose
+- [Flick](https://www.flick.tech/) - Hashtags
+- [Predis.ai](https://predis.ai/) - Carousel
+- [OpusClip](https://opus.pro/) - Short clips
+- [Vizard.ai](https://vizard.ai/) - Video edit
+- [Munch](https://www.getmunch.com/) - Video clips
+
+## AI Customer Service
+- [Intercom Fin](https://www.intercom.com/) - Support
+- [Zendesk AI](https://www.zendesk.com/) - Ticketing
+- [Freshworks](https://www.freshworks.com/) - CRM
+- [Salesforce Einstein](https://www.salesforce.com/) - CRM
+- [Ada](https://www.ada.cx/) - Chatbot
+- [Yellow.ai](https://yellow.ai/) - Automation
+- [Klarna](https://www.klarna.com/) - Shopping
+- [Forethought](https://forethought.ai/) - Support
+- [Cognigy](https://www.cognigy.com/) - Conversational
+- [Kore.ai](https://kore.ai/) - Enterprise
+
+## AI HR Tools
+- [HireVue](https://www.hirevue.com/) - Video interview
+- [Pymetrics](https://www.pymetrics.com/) - Assessment
+- [HiredScore](https://hiredscore.com/) - Recruiting
+- [Entelo](https://www.entelo.com/) - Sourcing
+- [SeekOut](https://seekout.io/) - Talent
+- [Eightfold](https://eightfold.ai/) - Talent intelligence
+- [Paradox](https://www.paradox.ai/) - Assistant
+- [Harver](https://harver.com/) - Assessment
+- [Xor](https://xor.ai/) - Recruiting
+- [Leena.ai](https://leena.ai/) - HR support
+
+## AI Finance Tools
+- [Kensho](https://www.kensho.com/) - Analytics
+- [AlphaSense](https://www.alphasense.com/) - Search
+- [Sentieo](https://sentieo.com/) - Research
+- [Kavout](https://kavout.com/) - Investing
+- [Equbot](https://equbot.com/) - ETF
+- [Numerai](https://numer.ai/) - Hedge fund
+- [Tickeron](https://tickeron.com/) - Trading
+- [Trade Ideas](https://www.trade-ideas.com/) - Scanner
+- [TrendSpider](https://trendspider.com/) - Analysis
+- [FinChat](https://finchat.io/) - Finance AI
+
+## AI Legal Tools
+- [Harvey](https://harvey.ai/) - Legal AI
+- [Casetext](https://casetext.com/) - Research
+- [LexisNexis](https://www.lexisnexis.com/) - Legal
+- [Westlaw](https://westlaw.com/) - Research
+- [DoNotPay](https://donotpay.com/) - Consumer
+- [LegalZoom](https://www.legalzoom.com/) - Services
+- [Ironclad](https://ironcladapp.com/) - Contracts
+- [Lexion](https://lexion.ai/) - Contract AI
+- [LawGeex](https://www.lawgeex.com/) - Review
+- [Blackboiler](https://www.blackboiler.com/) - Contracts
+
+## AI Healthcare Tools
+- [PathAI](https://www.pathai.com/) - Pathology
+- [Viz.ai](https://www.viz.ai/) - Medical imaging
+- [Tempus](https://www.tempus.com/) - Precision
+- [Atomwise](https://atomwise.com/) - Drug discovery
+- [Insilico Medicine](https://insilico.com/) - Drug AI
+- [BenevolentAI](https://benevolent.ai/) - Drug discovery
+- [Exscientia](https://www.exscientia.ai/) - Drug design
+- [Recursion](https://www.recursion.com/) - Drug discovery
+- [Owkin](https://owkin.com/) - Medical AI
+- [DeepMind Health](https://deepmind.com/) - Research
+
+## AI Education Tools
+- [Khan Academy AI](https://www.khanacademy.org/) - Learning
+- [Duolingo Max](https://www.duolingo.com/) - Language
+- [Coursera AI](https://www.coursera.org/) - Courses
+- [Quizlet Q-Chat](https://quizlet.com/) - Study
+- [Gradescope](https://gradescope.com/) - Grading
+- [Cognii](https://www.cognii.com/) - Assessment
+- [Squirrel AI](https://squirrelai.com/) - Adaptive
+- [Century Tech](https://www.century.tech/) - Learning
+- [Carnegie Learning](https://www.carnegielearning.com/) - Math
+- [Eureka Labs](https://eurekalabs.ai/) - AI education
