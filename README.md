@@ -899,3 +899,71 @@ To the extent possible under law, [jingjing737](https://github.com/jingjing737) 
 - [CS224n](http://web.stanford.edu/class/cs224n/) - Stanford NLP
 - [Fast.ai](https://course.fast.ai/) - Practical Deep Learning
 - [Hugging Face Course](https://huggingface.co/learn) - NLP course
+
+## AI Prompt Engineering
+- [Learn Prompting](https://learnprompting.org/) - Free course
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) - DAIR.AI
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Examples
+- [Anthropic Prompt Library](https://docs.anthropic.com/claude/prompt-library) - Claude prompts
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) - Prompts
+- [FlowGPT](https://flowgpt.com/) - Share prompts
+- [PromptBase](https://promptbase.com/) - Prompt marketplace
+- [SnackPrompt](https://snackprompt.com/) - Prompt community
+
+## AI Agent Frameworks
+- [LangChain](https://github.com/langchain-ai/langchain) - LLM apps
+- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous agent
+- [BabyAGI](https://github.com/yoheinakajima/babyagi) - Task agent
+- [AgentGPT](https://github.com/reworkd/AgentGPT) - Web agent
+- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent
+- [CrewAI](https://github.com/joaomdmourie/crewAI) - Agent team
+- [AutoGen](https://github.com/microsoft/autogen) - Multi-agent
+- [Haystack](https://github.com/deepset-ai/haystack) - NLP framework
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft
+
+## AI Vector Databases
+- [Pinecone](https://www.pinecone.io/) - Vector DB
+- [Weaviate](https://weaviate.io/) - Vector DB
+- [Milvus](https://milvus.io/) - Vector DB
+- [Qdrant](https://qdrant.tech/) - Vector DB
+- [Chroma](https://www.trychroma.com/) - Embedding DB
+- [FAISS](https://github.com/facebookresearch/faiss) - Facebook
+- [LanceDB](https://lancedb.com/) - Serverless
+- [pgvector](https://github.com/pgvector/pgvector) - PostgreSQL
+
+## AI Embedding Models
+- [text-embedding-ada-002](https://openai.com/) - OpenAI
+- [E5](https://huggingface.co/intfloat/e5-large-v2) - Microsoft
+- [BGE](https://huggingface.co/BAAI/bge-large-en) - BAAI
+- [MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard) - Ranking
+
+## AI RAG Tools
+- [RAGatouille](https://github.com/bclavie/RAGatouille) - RAG framework
+- [Verba](https://github.com/weaviate/Verba) - Golden RAG
+- [Quivr](https://github.com/StanGirard/quivr) - Brain assistant
+- [GPT Researcher](https://github.com/assafelovic/gpt-researcher) - Research
+
+## AI Fine-tuning Tools
+- [LoRA](https://github.com/microsoft/LoRA) - Low-rank adapt
+- [QLoRA](https://github.com/artidoro/qlora) - Quantized LoRA
+- [PEFT](https://github.com/huggingface/peft) - Parameter-efficient
+- [Axolotl](https://github.com/OpenAccess-AICollective/axolotl) - Fine-tune
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Fine-tune
+
+## AI Deployment
+- [vLLM](https://github.com/vllm-project/vllm) - Fast inference
+- [TGI](https://github.com/huggingface/text-generation-inference) - HF
+- [Ollama](https://github.com/ollama/ollama) - Local LLM
+- [LocalAI](https://github.com/go-skynet/LocalAI) - OpenAI compatible
+- [LM Studio](https://lmstudio.ai/) - GUI for LLMs
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - NVIDIA
+- [OpenLLM](https://github.com/bentoml/OpenLLM) - BentoML
+
+## AI Evaluation Tools
+- [Ragas](https://github.com/explodinggradients/ragas) - RAG eval
+- [TruLens](https://github.com/truera/trulens) - LLM eval
+- [DeepEval](https://github.com/confident-ai/deepeval) - Unit test
+- [Promptfoo](https://github.com/promptfoo/promptfoo) - Prompt eval
+- [LangSmith](https://www.langchain.com/langsmith) - LangChain
+- [Weights & Biases](https://wandb.ai/) - ML tracking
