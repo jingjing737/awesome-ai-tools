@@ -449,3 +449,171 @@ To the extent possible under law, [jingjing737](https://github.com/jingjing737) 
 <p align="center">
   ⭐ Star us on GitHub — it helps!
 </p>
+## AI Chatbots & Virtual Assistants
+- [ChatGPT](https://chat.openai.com/) - OpenAI's chatbot
+- [Claude](https://claude.ai/) - Anthropic's AI assistant
+- [Gemini](https://gemini.google.com/) - Google's AI chatbot
+- [Pi](https://pi.ai/) - AI personal assistant
+- [Copilot](https://copilot.microsoft.com/) - Microsoft's AI companion
+- [Character AI](https://character.ai/) - Character-based chatbots
+- [Replika](https://replika.com/) - AI companion
+- [Kuki](https://kuki.ai/) - Entertainment chatbot
+- [Chai](https://chai.app/) - AI chat platform
+
+## AI Video Editing
+- [Runway](https://runwayml.com/) - AI video editing
+- [Pika](https://pika.art/) - AI video generation
+- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - AI video
+- [Kaiber](https://kaiber.ai/) - AI video creation
+- [Synthesia](https://synthesia.io/) - AI video platform
+- [HeyGen](https://heygen.com/) - AI avatar video
+- [CapCut](https://www.capcut.com/) - AI video editor
+- [Descript](https://www.descript.com/) - AI video editing
+
+## AI Photo & Image Editing
+- [Remove.bg](https://www.remove.bg/) - Background removal
+- [Lama Cleaner](https://github.com/Sanster/LamaCleaner) - AI image editing
+- [Magic Eraser](https://magiceraser.io/) - AI object removal
+- [cleanup.pictures](https://cleanup.pictures/) - AI image cleanup
+- [Relight](https://relight.app/) - AI image relighting
+- [DeepSwapper](https://deepswapper.com/) - AI face swap
+- [Fotor](https://www.fotor.com/) - AI photo editor
+- [Photoroom](https://www.photoroom.com/) - AI background removal
+
+## AI Writing Tools
+- [Jasper](https://www.jasper.ai/) - AI writing assistant
+- [Copy.ai](https://www.copy.ai/) - AI copywriter
+- [Writesonic](https://writesonic.com/) - AI content creation
+- [Rytr](https://rytr.me/) - AI writing assistant
+- [Notion AI](https://www.notion.so/product/ai) - AI in Notion
+- [Grammarly](https://www.grammarly.com/) - AI writing checker
+- [QuillBot](https://quillbot.com/) - AI paraphrasing
+- [Wordtune](https://www.wordtune.com/) - AI rewriter
+- [Anyword](https://anyword.com/) - AI writing platform
+- [Copysmith](https://copysmith.ai/) - AI content generator
+
+## AI Translation
+- [DeepL](https://www.deepl.com/) - AI translator
+- [Google Translate](https://translate.google.com/) - Google AI translation
+- [Papago](https://papago.naver.com/) - Naver AI translator
+- [Baidu Translate](https://fanyi.baidu.com/) - Baidu translation
+- [Reverso](https://www.reverso.net/) - AI translation
+- [Smartling](https://www.smartling.com/) - AI localization
+
+## AI Data Analysis
+- [Tableau](https://www.tableau.com/) - Data visualization
+- [Power BI](https://powerbi.microsoft.com/) - Microsoft BI
+- [ThoughtSpot](https://www.thoughtspot.com/) - AI analytics
+- [DataRobot](https://www.datarobot.com/) - AutoML
+- [H2O.ai](https://www.h2o.ai/) - AI platform
+- [Alteryx](https://www.alteryx.com/) - Analytics automation
+
+## AI Automation
+- [Zapier](https://zapier.com/) - Workflow automation
+- [Make](https://www.make.com/) - Automation platform
+- [Microsoft Power Automate](https://powerautomate.microsoft.com/) - Microsoft automation
+- [IFTTT](https://ifttt.com/) - Automation service
+- [n8n](https://n8n.io/) - Workflow automation
+- [Tray.io](https://tray.io/) - Automation platform
+
+## AI Marketing
+- [HubSpot](https://www.hubspot.com/) - Marketing platform
+- [Salesforce Einstein](https://www.salesforce.com/products/einstein/) - AI CRM
+- [Marketo](https://www.marketo.com/) - Marketing automation
+- [Semrush](https://www.semrush.com/) - SEO AI tools
+- [Ahrefs](https://ahrefs.com/) - SEO AI tools
+- [Surfer SEO](https://surferseo.com/) - AI SEO
+
+## AI Customer Service
+- [Intercom](https://www.intercom.com/) - Customer service AI
+- [Zendesk](https://www.zendesk.com/) - AI customer support
+- [Freshdesk](https://www.freshdesk.com/) - AI support
+- [Drift](https://www.drift.com/) - AI chatbot
+- [Ada](https://www.ada.cx/) - AI customer service
+- [LivePerson](https://www.liveperson.com/) - AI messaging
+
+## AI Security
+- [CrowdStrike](https://www.crowdstrike.com/) - AI cybersecurity
+- [Darktrace](https://www.darktrace.com/) - AI threat detection
+- [SentinelOne](https://www.sentinelone.com/) - AI endpoint protection
+- [Palo Alto Networks](https://www.paloaltonetworks.com/) - AI security
+- [Microsoft Defender](https://www.microsoft.com/en-us/security) - AI security
+
+## AI Healthcare
+- [DeepMind](https://deepmind.google/) - Google AI healthcare
+- [IBM Watson Health](https://www.ibm.com/watson-health) - AI healthcare
+- [Google Health](https://health.google/) - AI diagnostics
+- [Babylon Health](https://www.babylonhealth.com/) - AI health
+- [Tempus](https://tempus.com/) - AI precision medicine
+
+## AI Education
+- [Duolingo](https://www.duolingo.com/) - AI language learning
+- [Khan Academy](https://www.khanacademy.org/) - AI education
+- [Coursera](https://www.coursera.org/) - AI courses
+- [Duolingo Max](https://duolingo.com/) - AI language tutor
+- [Quizlet](https://quizlet.com/) - AI learning
+- [Carnegie Learning](https://www.carnegielearning.com/) - AI tutoring
+
+## AI Robotics
+- [Boston Dynamics](https://bostondynamics.com/) - AI robots
+- [Tesla Optimus](https://www.tesla.com/optimus) - AI humanoid
+- [Figure](https://figure.ai/) - AI humanoid robots
+- [Amazon Robotics](https://www.amazonrobotics.com/) - Warehouse AI
+- [iRobot](https://www.irobot.com/) - Home robots
+
+## AI Art Platforms
+- [Artbreeder](https://artbreeder.com/) - AI art creation
+- [Starryai](https://starryai.com/) - AI art generator
+- [NightCafe](https://nightcafe.studio/) - AI art
+- [Wombo](https://wombo.ai/) - AI art creation
+- [Deep Dream Generator](https://deepdreamgenerator.com/) - AI art
+
+## AI 3D & Design
+- [DreamFusion](https://dreamfusion3d.com/) - AI 3D generation
+- [Luma AI](https://lumalabs.ai/) - AI 3D capture
+- [Meshroom](https://meshroom.org/) - 3D reconstruction
+- [Blender AI](https://www.blender.org/) - AI 3D
+- [Spline](https://spline.design/) - AI 3D design
+
+## AI Code Review
+- [Snyk](https://snyk.io/) - AI security scanning
+- [CodeClimate](https://codeclimate.com/) - AI code review
+- [SonarQube](https://www.sonarsource.com/) - Code quality
+- [DeepCode](https://deepcode.ai/) - AI code analysis
+
+## AI APIs & SDKs
+- [OpenAI API](https://platform.openai.com/) - GPT API
+- [Anthropic API](https://www.anthropic.com/) - Claude API
+- [Google AI](https://ai.google/) - Gemini API
+- [Mistral API](https://mistral.ai/) - Mistral API
+- [Cohere API](https://cohere.com/) - Cohere API
+- [Hugging Face](https://huggingface.co/) - ML models
+
+## AI Frameworks
+- [TensorFlow](https://www.tensorflow.org/) - Google ML
+- [PyTorch](https://pytorch.org/) - Meta ML
+- [JAX](https://jax.readthedocs.io/) - Google ML
+- [LangChain](https://www.langchain.com/) - LLM apps
+- [LlamaIndex](https://www.llamaindex.ai/) - Data framework
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Auto agent
+- [BabyAGI](https://github.com/yoheinakajima/babyagi) - Simple AGI
+
+## AI Databases & Vector Stores
+- [Pinecone](https://www.pinecone.io/) - Vector database
+- [Weaviate](https://weaviate.io/) - Vector search
+- [Chroma](https://www.trychroma.com/) - Vector database
+- [Milvus](https://milvus.io/) - Vector database
+- [Qdrant](https://qdrant.tech/) - Vector search
+
+## AI Hosting & Deployment
+- [Vercel AI](https://vercel.com/) - AI deployment
+- [Hugging Face Spaces](https://huggingface.co/spaces) - AI hosting
+- [Replicate](https://replicate.com/) - Model hosting
+- [RunPod](https://runpod.io/) - GPU hosting
+- [Paperspace](https://paperspace.com/) - ML hosting
+
+## AI Monitoring & Observability
+- [MLflow](https://mlflow.org/) - ML lifecycle
+- [Weights & Biases](https://wandb.ai/) - ML tracking
+- [Neptune.ai](https://neptune.ai/) - ML metadata store
+- [Dataiku](https://www.dataiku.com/) - AI platform
