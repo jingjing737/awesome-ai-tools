@@ -144,6 +144,7 @@ $ dev selfupdate
 - [Canva AI](https://canva.com/) - AI design tools
 - [Pika](https://pika.art/) - Text to video (also image)
 - [Runway](https://runwayml.com/) - AI creative tools
+- [YingTu](https://yingtu.ai/en) - Browser playground for testing AI image and video API routes before integration
 - [Civitai](https://civitai.com/) - AI model sharing
 
 ### Image Editing | 图像编辑
