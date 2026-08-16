@@ -184,6 +184,7 @@ $ dev selfupdate
 - [HeyGen](https://heygen.com/) - AI video generation
 - [InVideo](https://invideo.io/) - AI video creation
 - [Veed.io](https://veed.io/) - Online video editor with AI
+- [videos.social](https://videos.social/?utm_source=jingjing737-awesome-ai-tools&utm_medium=directory&utm_campaign=listing-wave-d) - Turns blogs, PDFs, and prompts into editable faceless videos
 
 ### Video Editing | 视频编辑
 - [CapCut](https://capcut.com/) - AI video editor
