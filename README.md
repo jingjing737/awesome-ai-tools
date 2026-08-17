@@ -219,6 +219,7 @@ $ dev selfupdate
 - [n8n](https://n8n.io/) - Workflow automation with AI
 - [Zapier](https://zapier.com/) - Connect AI to 5000+ apps
 - [Make](https://make.com/) - Scenario automation
+- [Agent QA](https://github.com/vostride/agent-qa) - Source-available harness for authoring, running, and triaging natural-language web and mobile application tests
 
 ### Agent Platforms | 代理平台
 - [OpenAI Assistants](https://platform.openai.com/docs/assistants) - OpenAI agents
